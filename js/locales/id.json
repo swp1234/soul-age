@@ -1,0 +1,153 @@
+{
+    "meta": {
+        "title": "Tes Usia Jiwa | DopaBrain",
+        "description": "Temukan usia sejati jiwamu! Jawab 12 pertanyaan mendalam untuk mengetahui berapa kehidupan yang telah dijalani jiwamu."
+    },
+    "a11y": {
+        "skip": "Langsung ke konten"
+    },
+    "app": {
+        "title": "Tes Usia Jiwa",
+        "subtitle": "Berapa usia jiwamu?",
+        "description": "Jawab 12 pertanyaan mendalam untuk menemukan usia sejati jiwamu. Apakah kamu jiwa baru atau makhluk transenden kuno?",
+        "start": "Temukan Usia Jiwaku"
+    },
+    "quiz": {
+        "progress": "{current} / {total}"
+    },
+    "questions": {
+        "q1": {
+            "text": "Apa yang menarikmu ke tempat baru?",
+            "a": "Kegembiraan dan petualangan",
+            "b": "Bertemu orang baru dan menyesuaikan diri",
+            "c": "Memahami budaya lokal secara mendalam",
+            "d": "Merasakan perasaan aneh pernah ke sana sebelumnya"
+        },
+        "q2": {
+            "text": "Bagaimana kamu menangani konflik?",
+            "a": "Lawan atau lari \u2014 naluri murni",
+            "b": "Mencoba menang dengan mengikuti aturan",
+            "c": "Mencari kompromi yang mempertimbangkan semua pihak",
+            "d": "Mengamati diam-diam, tahu akan selesai sendiri"
+        },
+        "q3": {
+            "text": "Apa yang paling penting dalam hidup?",
+            "a": "Bersenang-senang dan pengalaman baru",
+            "b": "Membangun karier yang sukses",
+            "c": "Hubungan mendalam dan pertumbuhan pribadi",
+            "d": "Kedamaian batin dan memahami alam semesta"
+        },
+        "q4": {
+            "text": "Seorang anak bertanya 'Mengapa kita ada?'",
+            "a": "Untuk bersenang-senang!",
+            "b": "Untuk membuat sesuatu dari diri kita",
+            "c": "Untuk belajar dan mencintai",
+            "d": "Itulah misteri yang indah, bukan?"
+        },
+        "q5": {
+            "text": "Era mana yang paling membuatmu terpesona?",
+            "a": "Masa depan \u2014 teknologi dan kemajuan",
+            "b": "Masa kini \u2014 memaksimalkan saat ini",
+            "c": "Renaisans \u2014 seni dan kebangkitan",
+            "d": "Peradaban kuno \u2014 kebijaksanaan abadi"
+        },
+        "q6": {
+            "text": "Bagaimana perasaanmu tentang kematian?",
+            "a": "Aku tidak memikirkannya",
+            "b": "Itu memotivasiku untuk mencapai lebih",
+            "c": "Itu transisi alami",
+            "d": "Rasanya seperti pulang ke rumah"
+        },
+        "q7": {
+            "text": "Musik apa yang menggerakkanmu?",
+            "a": "Lagu-lagu ceria penuh energi",
+            "b": "Hit populer yang dikenal semua orang",
+            "c": "Komposisi kompleks dengan kedalaman emosional",
+            "d": "Instrumen kuno, suara alam, keheningan"
+        },
+        "q8": {
+            "text": "Saat bertemu orang baru, yang pertama kamu perhatikan...",
+            "a": "Seberapa menyenangkan mereka",
+            "b": "Status sosial atau penampilan mereka",
+            "c": "Energi emosional dan keaslian mereka",
+            "d": "Mata mereka \u2014 jendela jiwa"
+        },
+        "q9": {
+            "text": "Akhir pekan idealmu seperti...",
+            "a": "Pesta, petualangan, rencana spontan",
+            "b": "Produktif \u2014 tujuan, gym, networking",
+            "c": "Waktu berkualitas dengan teman dekat, refleksi",
+            "d": "Kesendirian di alam, meditasi, memandang bintang"
+        },
+        "q10": {
+            "text": "Bagaimana perasaanmu tentang aturan dan otoritas?",
+            "a": "Aturan membosankan, aku lakukan sesukaku",
+            "b": "Aturan menciptakan ketertiban dan kesuksesan",
+            "c": "Aku mengikuti kompas moral sendiri",
+            "d": "Aturan adalah konstruksi manusia; kebenaran ada di dalam"
+        },
+        "q11": {
+            "text": "Kamu bermimpi jelas. Kamu berpikir...",
+            "a": "Aneh! Lanjutkan saja",
+            "b": "Apa artinya untuk tujuanku?",
+            "c": "Ini menunjukkan sesuatu tentang dunia batinku",
+            "d": "Jiwaku mengingat kehidupan lain"
+        },
+        "q12": {
+            "text": "Bagaimana hubunganmu dengan waktu?",
+            "a": "YOLO \u2014 hidup untuk saat ini",
+            "b": "Waktu adalah uang \u2014 gunakan dengan bijak",
+            "c": "Waktu itu siklis \u2014 apa yang pergi akan kembali",
+            "d": "Waktu adalah ilusi \u2014 semua momen ada sekaligus"
+        }
+    },
+    "tiers": {
+        "infant": {
+            "name": "Jiwa Bayi",
+            "emoji": "\uD83D\uDC76",
+            "age": "~500 tahun",
+            "desc": "Jiwamu segar dan baru! Kamu mengalami hidup dengan kegembiraan dan keajaiban murni. Semua adalah petualangan, dan kamu terjun ke dunia dengan rasa ingin tahu yang tak kenal takut."
+        },
+        "young": {
+            "name": "Jiwa Muda",
+            "emoji": "\u26A1",
+            "age": "~3.000 tahun",
+            "desc": "Jiwamu ambisius dan bersemangat. Kamu di sini untuk membuktikan diri dan meninggalkan jejakmu di dunia. Kesuksesan, pencapaian, dan pengakuan membakar semangatmu."
+        },
+        "mature": {
+            "name": "Jiwa Dewasa",
+            "emoji": "\uD83C\uDF3F",
+            "age": "~10.000 tahun",
+            "desc": "Jiwamu telah menjalani banyak kehidupan. Kamu mencari koneksi mendalam, memahami emosi kompleks, dan menghargai pertumbuhan pribadi di atas kesuksesan materi."
+        },
+        "old": {
+            "name": "Jiwa Tua",
+            "emoji": "\uD83E\uDD89",
+            "age": "~35.000 tahun",
+            "desc": "Jiwamu membawa kebijaksanaan kuno. Kamu melihat gambaran besar, menghargai kedamaian di atas ambisi, dan sering merasa tidak sepenuhnya memiliki dunia modern ini."
+        },
+        "transcendent": {
+            "name": "Jiwa Transenden",
+            "emoji": "\u2728",
+            "age": "~100.000+ tahun",
+            "desc": "Jiwamu mendekati akhir perjalanan duniawinya. Kamu berada di antara dunia, melihat menembus ilusi, dan memancarkan ketenangan yang bisa dirasakan orang lain."
+        }
+    },
+    "result": {
+        "title": "Usia Jiwamu",
+        "years": "tahun",
+        "timeline": "Garis Waktu Usia Jiwa",
+        "you": "KAMU",
+        "retake": "Ulangi Tes"
+    },
+    "share": {
+        "title": "Bagikan Usia Jiwamu",
+        "text": "Jiwaku berusia {age} tahun! Aku \"{tier}\" \uD83D\uDD2E Temukan usia jiwamu:",
+        "twitter": "Bagikan di X",
+        "copyUrl": "Salin Link",
+        "copied": "Tersalin!"
+    },
+    "nav": {
+        "back": "DopaBrain Beranda"
+    }
+}

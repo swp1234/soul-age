@@ -1,0 +1,153 @@
+{
+    "meta": {
+        "title": "Test de Edad del Alma | DopaBrain",
+        "description": "\u00a1Descubre la verdadera edad de tu alma! Responde 12 preguntas profundas para saber cu\u00e1ntas vidas ha vivido tu alma."
+    },
+    "a11y": {
+        "skip": "Saltar al contenido"
+    },
+    "app": {
+        "title": "Test de Edad del Alma",
+        "subtitle": "\u00bfQu\u00e9 edad tiene tu alma?",
+        "description": "Responde 12 preguntas profundas para descubrir la verdadera edad de tu alma. \u00bfEres un alma nueva o un ser trascendente antiguo?",
+        "start": "Descubrir la Edad de mi Alma"
+    },
+    "quiz": {
+        "progress": "{current} / {total}"
+    },
+    "questions": {
+        "q1": {
+            "text": "\u00bfQu\u00e9 te atrae de un lugar nuevo?",
+            "a": "La emoci\u00f3n y la aventura",
+            "b": "Conocer gente nueva y encajar",
+            "c": "Comprender profundamente la cultura local",
+            "d": "Sentir una extra\u00f1a sensaci\u00f3n de haber estado all\u00ed antes"
+        },
+        "q2": {
+            "text": "\u00bfC\u00f3mo manejas los conflictos?",
+            "a": "Luchar o huir \u2014 puro instinto",
+            "b": "Intentar ganar siguiendo las reglas",
+            "c": "Buscar un compromiso que considere todas las partes",
+            "d": "Observar en silencio, sabiendo que se resolver\u00e1 solo"
+        },
+        "q3": {
+            "text": "\u00bfQu\u00e9 es lo m\u00e1s importante en la vida?",
+            "a": "Divertirse y vivir nuevas experiencias",
+            "b": "Construir una carrera exitosa",
+            "c": "Relaciones profundas y crecimiento personal",
+            "d": "Paz interior y comprender el universo"
+        },
+        "q4": {
+            "text": "Un ni\u00f1o pregunta '\u00bfPor qu\u00e9 existimos?'",
+            "a": "\u00a1Para divertirse!",
+            "b": "Para hacer algo de nosotros mismos",
+            "c": "Para aprender y amar",
+            "d": "Ese es el hermoso misterio, \u00bfno?"
+        },
+        "q5": {
+            "text": "\u00bfQu\u00e9 \u00e9poca te fascina m\u00e1s?",
+            "a": "El futuro \u2014 tecnolog\u00eda y progreso",
+            "b": "El presente \u2014 aprovechar el ahora",
+            "c": "El Renacimiento \u2014 arte y despertar",
+            "d": "Civilizaciones antiguas \u2014 sabidur\u00eda atemporal"
+        },
+        "q6": {
+            "text": "\u00bfC\u00f3mo te sientes sobre la muerte?",
+            "a": "No pienso en ello",
+            "b": "Me motiva a lograr m\u00e1s",
+            "c": "Es una transici\u00f3n natural",
+            "d": "Se siente como volver a casa"
+        },
+        "q7": {
+            "text": "\u00bfQu\u00e9 tipo de m\u00fasica te conmueve?",
+            "a": "Canciones alegres y llenas de energ\u00eda",
+            "b": "\u00c9xitos populares que todos conocen",
+            "c": "Composiciones complejas con profundidad emocional",
+            "d": "Instrumentos antiguos, sonidos de la naturaleza, silencio"
+        },
+        "q8": {
+            "text": "Al conocer a alguien nuevo, lo primero que notas es...",
+            "a": "Lo divertido que parece",
+            "b": "Su estatus social o apariencia",
+            "c": "Su energ\u00eda emocional y autenticidad",
+            "d": "Sus ojos \u2014 la ventana del alma"
+        },
+        "q9": {
+            "text": "Tu fin de semana ideal se ve as\u00ed...",
+            "a": "Fiesta, aventura, planes espont\u00e1neos",
+            "b": "Productivo \u2014 metas, gimnasio, networking",
+            "c": "Tiempo de calidad con amigos cercanos, reflexi\u00f3n",
+            "d": "Soledad en la naturaleza, meditaci\u00f3n, observar estrellas"
+        },
+        "q10": {
+            "text": "\u00bfC\u00f3mo te sientes sobre las reglas y la autoridad?",
+            "a": "Las reglas son aburridas, hago lo que quiero",
+            "b": "Las reglas crean orden y \u00e9xito",
+            "c": "Sigo mi propia br\u00fajula moral",
+            "d": "Las reglas son construcciones humanas; la verdad es interna"
+        },
+        "q11": {
+            "text": "Tienes un sue\u00f1o v\u00edvido. Piensas...",
+            "a": "\u00a1Qu\u00e9 raro! Sigamos adelante",
+            "b": "Me pregunto qu\u00e9 significa para mis metas",
+            "c": "Me est\u00e1 mostrando algo sobre mi mundo interior",
+            "d": "Mi alma est\u00e1 recordando otras vidas"
+        },
+        "q12": {
+            "text": "\u00bfCu\u00e1l es tu relaci\u00f3n con el tiempo?",
+            "a": "YOLO \u2014 vive el momento",
+            "b": "El tiempo es oro \u2014 \u00fasalo sabiamente",
+            "c": "El tiempo es c\u00edclico \u2014 lo que va, vuelve",
+            "d": "El tiempo es una ilusi\u00f3n \u2014 todos los momentos existen a la vez"
+        }
+    },
+    "tiers": {
+        "infant": {
+            "name": "Alma Infantil",
+            "emoji": "\uD83D\uDC76",
+            "age": "~500 a\u00f1os",
+            "desc": "\u00a1Tu alma es fresca y nueva! Experimentas la vida con pura emoci\u00f3n y asombro. Todo es una aventura y te lanzas al mundo con una curiosidad intrep\u00edda."
+        },
+        "young": {
+            "name": "Alma Joven",
+            "emoji": "\u26A1",
+            "age": "~3,000 a\u00f1os",
+            "desc": "Tu alma es ambiciosa y decidida. Est\u00e1s aqu\u00ed para demostrar tu valor y dejar tu marca en el mundo. El \u00e9xito, los logros y el reconocimiento alimentan tu fuego."
+        },
+        "mature": {
+            "name": "Alma Madura",
+            "emoji": "\uD83C\uDF3F",
+            "age": "~10,000 a\u00f1os",
+            "desc": "Tu alma ha vivido muchas vidas. Buscas conexiones profundas, comprendes emociones complejas y valoras el crecimiento personal sobre el \u00e9xito material."
+        },
+        "old": {
+            "name": "Alma Vieja",
+            "emoji": "\uD83E\uDD89",
+            "age": "~35,000 a\u00f1os",
+            "desc": "Tu alma lleva sabidur\u00eda antigua. Ves el panorama general, valoras la paz sobre la ambici\u00f3n y a menudo sientes que no perteneces del todo a este mundo moderno."
+        },
+        "transcendent": {
+            "name": "Alma Trascendente",
+            "emoji": "\u2728",
+            "age": "~100,000+ a\u00f1os",
+            "desc": "Tu alma est\u00e1 cerca del final de su viaje terrenal. Existes entre mundos, ves a trav\u00e9s de las ilusiones y irradias una calma que otros pueden sentir."
+        }
+    },
+    "result": {
+        "title": "La Edad de tu Alma",
+        "years": "a\u00f1os",
+        "timeline": "L\u00ednea de Tiempo del Alma",
+        "you": "T\u00da",
+        "retake": "Repetir Test"
+    },
+    "share": {
+        "title": "Comparte la Edad de tu Alma",
+        "text": "\u00a1Mi alma tiene {age} a\u00f1os! Soy un \"{tier}\" \uD83D\uDD2E Descubre la edad de tu alma:",
+        "twitter": "Compartir en X",
+        "copyUrl": "Copiar Enlace",
+        "copied": "\u00a1Copiado!"
+    },
+    "nav": {
+        "back": "DopaBrain Inicio"
+    }
+}

@@ -1,0 +1,153 @@
+{
+    "meta": {
+        "title": "Soul Age Test | DopaBrain",
+        "description": "Discover your soul's true age! Answer 12 deep questions to find out how many lifetimes your soul has lived."
+    },
+    "a11y": {
+        "skip": "Skip to content"
+    },
+    "app": {
+        "title": "Soul Age Test",
+        "subtitle": "How old is your soul?",
+        "description": "Answer 12 deep questions to discover your soul's true age. Are you a fresh new soul or an ancient transcendent being?",
+        "start": "Discover My Soul Age"
+    },
+    "quiz": {
+        "progress": "{current} / {total}"
+    },
+    "questions": {
+        "q1": {
+            "text": "What draws you to a new place?",
+            "a": "The excitement and adventure",
+            "b": "Meeting new people and fitting in",
+            "c": "Understanding the local culture deeply",
+            "d": "Feeling a strange sense of having been there before"
+        },
+        "q2": {
+            "text": "How do you handle conflict?",
+            "a": "Fight or flight \u2014 pure instinct",
+            "b": "Try to win by following the rules",
+            "c": "Seek a compromise that considers all sides",
+            "d": "Observe silently, knowing it will resolve itself"
+        },
+        "q3": {
+            "text": "What matters most in life?",
+            "a": "Having fun and new experiences",
+            "b": "Building a successful career",
+            "c": "Deep relationships and personal growth",
+            "d": "Inner peace and understanding the universe"
+        },
+        "q4": {
+            "text": "A child asks 'Why do we exist?'",
+            "a": "To have fun!",
+            "b": "To make something of ourselves",
+            "c": "To learn and love",
+            "d": "That's the beautiful mystery, isn't it?"
+        },
+        "q5": {
+            "text": "Which era fascinates you most?",
+            "a": "The future \u2014 technology and progress",
+            "b": "The present \u2014 making the most of now",
+            "c": "The Renaissance \u2014 art and awakening",
+            "d": "Ancient civilizations \u2014 timeless wisdom"
+        },
+        "q6": {
+            "text": "How do you feel about death?",
+            "a": "I don't think about it",
+            "b": "It motivates me to achieve more",
+            "c": "It's a natural transition",
+            "d": "It feels like going home"
+        },
+        "q7": {
+            "text": "What kind of music moves you?",
+            "a": "Upbeat, high-energy anthems",
+            "b": "Popular hits everyone knows",
+            "c": "Complex compositions with emotional depth",
+            "d": "Ancient instruments, nature sounds, silence"
+        },
+        "q8": {
+            "text": "When meeting someone new, you first notice...",
+            "a": "How fun they seem",
+            "b": "Their social status or appearance",
+            "c": "Their emotional energy and authenticity",
+            "d": "Their eyes \u2014 the window to their soul"
+        },
+        "q9": {
+            "text": "Your ideal weekend looks like...",
+            "a": "Party, adventure, spontaneous plans",
+            "b": "Productive \u2014 goals, gym, networking",
+            "c": "Quality time with close friends, reflection",
+            "d": "Solitude in nature, meditation, stargazing"
+        },
+        "q10": {
+            "text": "How do you feel about rules and authority?",
+            "a": "Rules are boring, I do what I want",
+            "b": "Rules create order and success",
+            "c": "I follow my own moral compass",
+            "d": "Rules are human constructs; truth is internal"
+        },
+        "q11": {
+            "text": "You have a vivid dream. You think...",
+            "a": "That was weird! Moving on",
+            "b": "I wonder what it means for my goals",
+            "c": "It's showing me something about my inner world",
+            "d": "My soul is remembering other lifetimes"
+        },
+        "q12": {
+            "text": "What's your relationship with time?",
+            "a": "YOLO \u2014 live for the moment",
+            "b": "Time is money \u2014 use it wisely",
+            "c": "Time is cyclical \u2014 what goes around comes around",
+            "d": "Time is an illusion \u2014 all moments exist at once"
+        }
+    },
+    "tiers": {
+        "infant": {
+            "name": "Infant Soul",
+            "emoji": "\uD83D\uDC76",
+            "age": "~500 years",
+            "desc": "Your soul is fresh and new! You experience life with pure excitement and wonder. Everything is an adventure, and you dive into the world with fearless curiosity."
+        },
+        "young": {
+            "name": "Young Soul",
+            "emoji": "\u26A1",
+            "age": "~3,000 years",
+            "desc": "Your soul is ambitious and driven. You're here to prove yourself and make your mark on the world. Success, achievement, and recognition fuel your fire."
+        },
+        "mature": {
+            "name": "Mature Soul",
+            "emoji": "\uD83C\uDF3F",
+            "age": "~10,000 years",
+            "desc": "Your soul has lived many lives. You seek deep connections, understand complex emotions, and value personal growth over material success."
+        },
+        "old": {
+            "name": "Old Soul",
+            "emoji": "\uD83E\uDD89",
+            "age": "~35,000 years",
+            "desc": "Your soul carries ancient wisdom. You see the bigger picture, value peace over ambition, and often feel like you don't quite belong in this modern world."
+        },
+        "transcendent": {
+            "name": "Transcendent Soul",
+            "emoji": "\u2728",
+            "age": "~100,000+ years",
+            "desc": "Your soul is nearing the end of its earthly journey. You exist between worlds, seeing through illusions, and radiating a calm that others can feel."
+        }
+    },
+    "result": {
+        "title": "Your Soul Age",
+        "years": "years old",
+        "timeline": "Soul Age Timeline",
+        "you": "YOU",
+        "retake": "Retake Test"
+    },
+    "share": {
+        "title": "Share Your Soul Age",
+        "text": "My soul is {age} years old! I'm a \"{tier}\" \uD83D\uDD2E Discover your soul's age:",
+        "twitter": "Share on X",
+        "copyUrl": "Copy Link",
+        "copied": "Copied!"
+    },
+    "nav": {
+        "back": "DopaBrain Home"
+    }
+}

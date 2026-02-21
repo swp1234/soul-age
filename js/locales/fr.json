@@ -1,0 +1,153 @@
+{
+    "meta": {
+        "title": "Test d'\u00c2ge de l'\u00c2me | DopaBrain",
+        "description": "D\u00e9couvrez le v\u00e9ritable \u00e2ge de votre \u00e2me ! R\u00e9pondez \u00e0 12 questions profondes pour savoir combien de vies votre \u00e2me a v\u00e9cues."
+    },
+    "a11y": {
+        "skip": "Aller au contenu"
+    },
+    "app": {
+        "title": "Test d'\u00c2ge de l'\u00c2me",
+        "subtitle": "Quel \u00e2ge a votre \u00e2me ?",
+        "description": "R\u00e9pondez \u00e0 12 questions profondes pour d\u00e9couvrir le v\u00e9ritable \u00e2ge de votre \u00e2me. \u00cates-vous une \u00e2me nouvelle ou un \u00eatre transcendant ancien ?",
+        "start": "D\u00e9couvrir l'\u00e2ge de mon \u00e2me"
+    },
+    "quiz": {
+        "progress": "{current} / {total}"
+    },
+    "questions": {
+        "q1": {
+            "text": "Qu'est-ce qui vous attire dans un nouveau lieu ?",
+            "a": "L'excitation et l'aventure",
+            "b": "Rencontrer de nouvelles personnes et s'int\u00e9grer",
+            "c": "Comprendre la culture locale en profondeur",
+            "d": "Ressentir une \u00e9trange sensation d'y \u00eatre d\u00e9j\u00e0 venu"
+        },
+        "q2": {
+            "text": "Comment g\u00e9rez-vous les conflits ?",
+            "a": "Combattre ou fuir \u2014 pur instinct",
+            "b": "Essayer de gagner en suivant les r\u00e8gles",
+            "c": "Chercher un compromis qui consid\u00e8re toutes les parties",
+            "d": "Observer en silence, sachant que \u00e7a se r\u00e9soudra"
+        },
+        "q3": {
+            "text": "Qu'est-ce qui compte le plus dans la vie ?",
+            "a": "S'amuser et vivre de nouvelles exp\u00e9riences",
+            "b": "Construire une carri\u00e8re r\u00e9ussie",
+            "c": "Des relations profondes et la croissance personnelle",
+            "d": "La paix int\u00e9rieure et comprendre l'univers"
+        },
+        "q4": {
+            "text": "Un enfant demande 'Pourquoi existons-nous ?'",
+            "a": "Pour s'amuser !",
+            "b": "Pour faire quelque chose de nous-m\u00eames",
+            "c": "Pour apprendre et aimer",
+            "d": "C'est le beau myst\u00e8re, non ?"
+        },
+        "q5": {
+            "text": "Quelle \u00e9poque vous fascine le plus ?",
+            "a": "Le futur \u2014 technologie et progr\u00e8s",
+            "b": "Le pr\u00e9sent \u2014 profiter du moment",
+            "c": "La Renaissance \u2014 art et \u00e9veil",
+            "d": "Les civilisations anciennes \u2014 sagesse intemporelle"
+        },
+        "q6": {
+            "text": "Comment vous sentez-vous face \u00e0 la mort ?",
+            "a": "Je n'y pense pas",
+            "b": "\u00c7a me motive \u00e0 accomplir davantage",
+            "c": "C'est une transition naturelle",
+            "d": "On dirait rentrer chez soi"
+        },
+        "q7": {
+            "text": "Quel type de musique vous touche ?",
+            "a": "Des chansons entra\u00eenantes pleines d'\u00e9nergie",
+            "b": "Des tubes populaires que tout le monde conna\u00eet",
+            "c": "Des compositions complexes avec profondeur \u00e9motionnelle",
+            "d": "Instruments anciens, sons de la nature, silence"
+        },
+        "q8": {
+            "text": "En rencontrant quelqu'un de nouveau, vous remarquez d'abord...",
+            "a": "\u00c0 quel point ils semblent amusants",
+            "b": "Leur statut social ou apparence",
+            "c": "Leur \u00e9nergie \u00e9motionnelle et authenticit\u00e9",
+            "d": "Leurs yeux \u2014 la fen\u00eatre de l'\u00e2me"
+        },
+        "q9": {
+            "text": "Votre week-end id\u00e9al ressemble \u00e0...",
+            "a": "F\u00eate, aventure, plans spontan\u00e9s",
+            "b": "Productif \u2014 objectifs, sport, r\u00e9seautage",
+            "c": "Temps de qualit\u00e9 avec des amis proches, r\u00e9flexion",
+            "d": "Solitude dans la nature, m\u00e9ditation, observer les \u00e9toiles"
+        },
+        "q10": {
+            "text": "Comment voyez-vous les r\u00e8gles et l'autorit\u00e9 ?",
+            "a": "Les r\u00e8gles sont ennuyeuses, je fais ce que je veux",
+            "b": "Les r\u00e8gles cr\u00e9ent l'ordre et le succ\u00e8s",
+            "c": "Je suis ma propre boussole morale",
+            "d": "Les r\u00e8gles sont des constructions humaines ; la v\u00e9rit\u00e9 est int\u00e9rieure"
+        },
+        "q11": {
+            "text": "Vous faites un r\u00eave tr\u00e8s r\u00e9aliste. Vous pensez...",
+            "a": "C'\u00e9tait bizarre ! Passons",
+            "b": "Je me demande ce que \u00e7a signifie pour mes objectifs",
+            "c": "Il me montre quelque chose sur mon monde int\u00e9rieur",
+            "d": "Mon \u00e2me se souvient d'autres vies"
+        },
+        "q12": {
+            "text": "Quelle est votre relation avec le temps ?",
+            "a": "YOLO \u2014 vivre l'instant",
+            "b": "Le temps c'est de l'argent \u2014 utilisez-le sagement",
+            "c": "Le temps est cyclique \u2014 ce qui part revient",
+            "d": "Le temps est une illusion \u2014 tous les moments existent simultan\u00e9ment"
+        }
+    },
+    "tiers": {
+        "infant": {
+            "name": "\u00c2me Enfant",
+            "emoji": "\uD83D\uDC76",
+            "age": "~500 ans",
+            "desc": "Votre \u00e2me est fra\u00eeche et nouvelle ! Vous vivez la vie avec une pure excitation et \u00e9merveillement. Tout est une aventure, et vous plongez dans le monde avec une curiosit\u00e9 intr\u00e9pide."
+        },
+        "young": {
+            "name": "\u00c2me Jeune",
+            "emoji": "\u26A1",
+            "age": "~3 000 ans",
+            "desc": "Votre \u00e2me est ambitieuse et d\u00e9termin\u00e9e. Vous \u00eates ici pour prouver votre valeur et laisser votre marque dans le monde. Le succ\u00e8s, les accomplissements et la reconnaissance alimentent votre feu."
+        },
+        "mature": {
+            "name": "\u00c2me Mature",
+            "emoji": "\uD83C\uDF3F",
+            "age": "~10 000 ans",
+            "desc": "Votre \u00e2me a v\u00e9cu de nombreuses vies. Vous recherchez des connexions profondes, comprenez des \u00e9motions complexes et valorisez la croissance personnelle plus que le succ\u00e8s mat\u00e9riel."
+        },
+        "old": {
+            "name": "\u00c2me Ancienne",
+            "emoji": "\uD83E\uDD89",
+            "age": "~35 000 ans",
+            "desc": "Votre \u00e2me porte une sagesse ancestrale. Vous voyez la vue d'ensemble, valorisez la paix plus que l'ambition et sentez souvent que vous n'appartenez pas tout \u00e0 fait \u00e0 ce monde moderne."
+        },
+        "transcendent": {
+            "name": "\u00c2me Transcendante",
+            "emoji": "\u2728",
+            "age": "~100 000+ ans",
+            "desc": "Votre \u00e2me approche de la fin de son voyage terrestre. Vous existez entre les mondes, voyez \u00e0 travers les illusions et irradiez un calme que les autres peuvent ressentir."
+        }
+    },
+    "result": {
+        "title": "L'\u00e2ge de votre \u00e2me",
+        "years": "ans",
+        "timeline": "Chronologie de l'\u00e2ge de l'\u00e2me",
+        "you": "VOUS",
+        "retake": "Refaire le test"
+    },
+    "share": {
+        "title": "Partagez l'\u00e2ge de votre \u00e2me",
+        "text": "Mon \u00e2me a {age} ans ! Je suis une \u00ab{tier}\u00bb \uD83D\uDD2E D\u00e9couvrez l'\u00e2ge de votre \u00e2me :",
+        "twitter": "Partager sur X",
+        "copyUrl": "Copier le lien",
+        "copied": "Copi\u00e9 !"
+    },
+    "nav": {
+        "back": "DopaBrain Accueil"
+    }
+}
