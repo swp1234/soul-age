@@ -1,16 +1,16 @@
 {
     "meta": {
-        "title": "Tes Usia Jiwa | DopaBrain",
-        "description": "Temukan usia sejati jiwamu! Jawab 12 pertanyaan mendalam untuk mengetahui berapa kehidupan yang telah dijalani jiwamu."
+        "title": "Berapa Umur Jiwamu? Tes Gratis | DopaBrain",
+        "description": "Temukan usia sejati jiwamu dengan 12 pertanyaan spiritual mendalam! Tes gratis, hasil instan."
     },
     "a11y": {
         "skip": "Langsung ke konten"
     },
     "app": {
-        "title": "Tes Usia Jiwa",
+        "title": "Berapa Umur Jiwamu? - Tes Usia Jiwa",
         "subtitle": "Berapa usia jiwamu?",
         "description": "Jawab 12 pertanyaan mendalam untuk menemukan usia sejati jiwamu. Apakah kamu jiwa baru atau makhluk transenden kuno?",
-        "start": "Temukan Usia Jiwaku"
+        "start": "Temukan Usia Jiwaku - Gratis"
     },
     "quiz": {
         "progress": "{current} / {total}"
@@ -25,7 +25,7 @@
         },
         "q2": {
             "text": "Bagaimana kamu menangani konflik?",
-            "a": "Lawan atau lari \u2014 naluri murni",
+            "a": "Lawan atau lari — naluri murni",
             "b": "Mencoba menang dengan mengikuti aturan",
             "c": "Mencari kompromi yang mempertimbangkan semua pihak",
             "d": "Mengamati diam-diam, tahu akan selesai sendiri"
@@ -46,10 +46,10 @@
         },
         "q5": {
             "text": "Era mana yang paling membuatmu terpesona?",
-            "a": "Masa depan \u2014 teknologi dan kemajuan",
-            "b": "Masa kini \u2014 memaksimalkan saat ini",
-            "c": "Renaisans \u2014 seni dan kebangkitan",
-            "d": "Peradaban kuno \u2014 kebijaksanaan abadi"
+            "a": "Masa depan — teknologi dan kemajuan",
+            "b": "Masa kini — memaksimalkan saat ini",
+            "c": "Renaisans — seni dan kebangkitan",
+            "d": "Peradaban kuno — kebijaksanaan abadi"
         },
         "q6": {
             "text": "Bagaimana perasaanmu tentang kematian?",
@@ -70,12 +70,12 @@
             "a": "Seberapa menyenangkan mereka",
             "b": "Status sosial atau penampilan mereka",
             "c": "Energi emosional dan keaslian mereka",
-            "d": "Mata mereka \u2014 jendela jiwa"
+            "d": "Mata mereka — jendela jiwa"
         },
         "q9": {
             "text": "Akhir pekan idealmu seperti...",
             "a": "Pesta, petualangan, rencana spontan",
-            "b": "Produktif \u2014 tujuan, gym, networking",
+            "b": "Produktif — tujuan, gym, networking",
             "c": "Waktu berkualitas dengan teman dekat, refleksi",
             "d": "Kesendirian di alam, meditasi, memandang bintang"
         },
@@ -95,40 +95,40 @@
         },
         "q12": {
             "text": "Bagaimana hubunganmu dengan waktu?",
-            "a": "YOLO \u2014 hidup untuk saat ini",
-            "b": "Waktu adalah uang \u2014 gunakan dengan bijak",
-            "c": "Waktu itu siklis \u2014 apa yang pergi akan kembali",
-            "d": "Waktu adalah ilusi \u2014 semua momen ada sekaligus"
+            "a": "YOLO — hidup untuk saat ini",
+            "b": "Waktu adalah uang — gunakan dengan bijak",
+            "c": "Waktu itu siklis — apa yang pergi akan kembali",
+            "d": "Waktu adalah ilusi — semua momen ada sekaligus"
         }
     },
     "tiers": {
         "infant": {
             "name": "Jiwa Bayi",
-            "emoji": "\uD83D\uDC76",
+            "emoji": "👶",
             "age": "~500 tahun",
             "desc": "Jiwamu segar dan baru! Kamu mengalami hidup dengan kegembiraan dan keajaiban murni. Semua adalah petualangan, dan kamu terjun ke dunia dengan rasa ingin tahu yang tak kenal takut."
         },
         "young": {
             "name": "Jiwa Muda",
-            "emoji": "\u26A1",
+            "emoji": "⚡",
             "age": "~3.000 tahun",
             "desc": "Jiwamu ambisius dan bersemangat. Kamu di sini untuk membuktikan diri dan meninggalkan jejakmu di dunia. Kesuksesan, pencapaian, dan pengakuan membakar semangatmu."
         },
         "mature": {
             "name": "Jiwa Dewasa",
-            "emoji": "\uD83C\uDF3F",
+            "emoji": "🌿",
             "age": "~10.000 tahun",
             "desc": "Jiwamu telah menjalani banyak kehidupan. Kamu mencari koneksi mendalam, memahami emosi kompleks, dan menghargai pertumbuhan pribadi di atas kesuksesan materi."
         },
         "old": {
             "name": "Jiwa Tua",
-            "emoji": "\uD83E\uDD89",
+            "emoji": "🦉",
             "age": "~35.000 tahun",
             "desc": "Jiwamu membawa kebijaksanaan kuno. Kamu melihat gambaran besar, menghargai kedamaian di atas ambisi, dan sering merasa tidak sepenuhnya memiliki dunia modern ini."
         },
         "transcendent": {
             "name": "Jiwa Transenden",
-            "emoji": "\u2728",
+            "emoji": "✨",
             "age": "~100.000+ tahun",
             "desc": "Jiwamu mendekati akhir perjalanan duniawinya. Kamu berada di antara dunia, melihat menembus ilusi, dan memancarkan ketenangan yang bisa dirasakan orang lain."
         }
@@ -150,12 +150,26 @@
     },
     "share": {
         "title": "Bagikan Usia Jiwamu",
-        "text": "Jiwaku berusia {age} tahun! Aku \"{tier}\" \uD83D\uDD2E Temukan usia jiwamu:",
+        "text": "Jiwaku berusia {age} tahun! Aku \"{tier}\" 🔮 Temukan usia jiwamu:",
         "twitter": "Bagikan di X",
         "copyUrl": "Salin Link",
         "copied": "Tersalin!"
     },
     "nav": {
         "back": "DopaBrain Beranda"
+    },
+    "engage": {
+        "result1": "Jiwa Bayi -- ~500 tahun, Keajaiban Murni",
+        "result2": "Jiwa Muda -- ~3.000 tahun, Api Ambisi",
+        "result3": "Jiwa Tua -- ~35.000 tahun, Kebijaksanaan Kuno",
+        "result4": "Transenden -- ~100.000+ tahun, Melampaui Dunia",
+        "socialProof": "1.490+ jiwa menemukan usianya"
+    },
+    "about": {
+        "toggle": "Tentang Tes Usia Jiwa",
+        "heading1": "Cara Kerja Tes Usia Jiwa",
+        "text1": "Tes ini menyajikan 12 pertanyaan tentang pandangan dunia, nilai, dan insting Anda. Setiap pertanyaan menawarkan 4 jawaban.",
+        "heading2": "Memahami Tingkat Usia Jiwa",
+        "text2": "Konsep usia jiwa berasal dari filosofi spiritual. Tes ini untuk hiburan dan refleksi diri."
     }
 }

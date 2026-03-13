@@ -1,16 +1,16 @@
 {
     "meta": {
-        "title": "Test d'\u00c2ge de l'\u00c2me | DopaBrain",
-        "description": "D\u00e9couvrez le v\u00e9ritable \u00e2ge de votre \u00e2me ! R\u00e9pondez \u00e0 12 questions profondes pour savoir combien de vies votre \u00e2me a v\u00e9cues."
+        "title": "Quel âge a votre âme ? Test gratuit | DopaBrain",
+        "description": "Découvrez le véritable âge de votre âme avec 12 questions spirituelles profondes ! Test gratuit, résultats instantanés."
     },
     "a11y": {
         "skip": "Aller au contenu"
     },
     "app": {
-        "title": "Test d'\u00c2ge de l'\u00c2me",
-        "subtitle": "Quel \u00e2ge a votre \u00e2me ?",
-        "description": "R\u00e9pondez \u00e0 12 questions profondes pour d\u00e9couvrir le v\u00e9ritable \u00e2ge de votre \u00e2me. \u00cates-vous une \u00e2me nouvelle ou un \u00eatre transcendant ancien ?",
-        "start": "D\u00e9couvrir l'\u00e2ge de mon \u00e2me"
+        "title": "Quel âge a votre âme ? - Test d’Âge de l’Âme",
+        "subtitle": "Quel âge a votre âme ?",
+        "description": "Répondez à 12 questions profondes pour découvrir le véritable âge de votre âme. Êtes-vous une âme nouvelle ou un être transcendant ancien ?",
+        "start": "Découvrir l’âge de mon âme - Gratuit"
     },
     "quiz": {
         "progress": "{current} / {total}"
@@ -19,143 +19,157 @@
         "q1": {
             "text": "Qu'est-ce qui vous attire dans un nouveau lieu ?",
             "a": "L'excitation et l'aventure",
-            "b": "Rencontrer de nouvelles personnes et s'int\u00e9grer",
+            "b": "Rencontrer de nouvelles personnes et s'intégrer",
             "c": "Comprendre la culture locale en profondeur",
-            "d": "Ressentir une \u00e9trange sensation d'y \u00eatre d\u00e9j\u00e0 venu"
+            "d": "Ressentir une étrange sensation d'y être déjà venu"
         },
         "q2": {
-            "text": "Comment g\u00e9rez-vous les conflits ?",
-            "a": "Combattre ou fuir \u2014 pur instinct",
-            "b": "Essayer de gagner en suivant les r\u00e8gles",
-            "c": "Chercher un compromis qui consid\u00e8re toutes les parties",
-            "d": "Observer en silence, sachant que \u00e7a se r\u00e9soudra"
+            "text": "Comment gérez-vous les conflits ?",
+            "a": "Combattre ou fuir — pur instinct",
+            "b": "Essayer de gagner en suivant les règles",
+            "c": "Chercher un compromis qui considère toutes les parties",
+            "d": "Observer en silence, sachant que ça se résoudra"
         },
         "q3": {
             "text": "Qu'est-ce qui compte le plus dans la vie ?",
-            "a": "S'amuser et vivre de nouvelles exp\u00e9riences",
-            "b": "Construire une carri\u00e8re r\u00e9ussie",
+            "a": "S'amuser et vivre de nouvelles expériences",
+            "b": "Construire une carrière réussie",
             "c": "Des relations profondes et la croissance personnelle",
-            "d": "La paix int\u00e9rieure et comprendre l'univers"
+            "d": "La paix intérieure et comprendre l'univers"
         },
         "q4": {
             "text": "Un enfant demande 'Pourquoi existons-nous ?'",
             "a": "Pour s'amuser !",
-            "b": "Pour faire quelque chose de nous-m\u00eames",
+            "b": "Pour faire quelque chose de nous-mêmes",
             "c": "Pour apprendre et aimer",
-            "d": "C'est le beau myst\u00e8re, non ?"
+            "d": "C'est le beau mystère, non ?"
         },
         "q5": {
-            "text": "Quelle \u00e9poque vous fascine le plus ?",
-            "a": "Le futur \u2014 technologie et progr\u00e8s",
-            "b": "Le pr\u00e9sent \u2014 profiter du moment",
-            "c": "La Renaissance \u2014 art et \u00e9veil",
-            "d": "Les civilisations anciennes \u2014 sagesse intemporelle"
+            "text": "Quelle époque vous fascine le plus ?",
+            "a": "Le futur — technologie et progrès",
+            "b": "Le présent — profiter du moment",
+            "c": "La Renaissance — art et éveil",
+            "d": "Les civilisations anciennes — sagesse intemporelle"
         },
         "q6": {
-            "text": "Comment vous sentez-vous face \u00e0 la mort ?",
+            "text": "Comment vous sentez-vous face à la mort ?",
             "a": "Je n'y pense pas",
-            "b": "\u00c7a me motive \u00e0 accomplir davantage",
+            "b": "Ça me motive à accomplir davantage",
             "c": "C'est une transition naturelle",
             "d": "On dirait rentrer chez soi"
         },
         "q7": {
             "text": "Quel type de musique vous touche ?",
-            "a": "Des chansons entra\u00eenantes pleines d'\u00e9nergie",
-            "b": "Des tubes populaires que tout le monde conna\u00eet",
-            "c": "Des compositions complexes avec profondeur \u00e9motionnelle",
+            "a": "Des chansons entraînantes pleines d'énergie",
+            "b": "Des tubes populaires que tout le monde connaît",
+            "c": "Des compositions complexes avec profondeur émotionnelle",
             "d": "Instruments anciens, sons de la nature, silence"
         },
         "q8": {
             "text": "En rencontrant quelqu'un de nouveau, vous remarquez d'abord...",
-            "a": "\u00c0 quel point ils semblent amusants",
+            "a": "À quel point ils semblent amusants",
             "b": "Leur statut social ou apparence",
-            "c": "Leur \u00e9nergie \u00e9motionnelle et authenticit\u00e9",
-            "d": "Leurs yeux \u2014 la fen\u00eatre de l'\u00e2me"
+            "c": "Leur énergie émotionnelle et authenticité",
+            "d": "Leurs yeux — la fenêtre de l'âme"
         },
         "q9": {
-            "text": "Votre week-end id\u00e9al ressemble \u00e0...",
-            "a": "F\u00eate, aventure, plans spontan\u00e9s",
-            "b": "Productif \u2014 objectifs, sport, r\u00e9seautage",
-            "c": "Temps de qualit\u00e9 avec des amis proches, r\u00e9flexion",
-            "d": "Solitude dans la nature, m\u00e9ditation, observer les \u00e9toiles"
+            "text": "Votre week-end idéal ressemble à...",
+            "a": "Fête, aventure, plans spontanés",
+            "b": "Productif — objectifs, sport, réseautage",
+            "c": "Temps de qualité avec des amis proches, réflexion",
+            "d": "Solitude dans la nature, méditation, observer les étoiles"
         },
         "q10": {
-            "text": "Comment voyez-vous les r\u00e8gles et l'autorit\u00e9 ?",
-            "a": "Les r\u00e8gles sont ennuyeuses, je fais ce que je veux",
-            "b": "Les r\u00e8gles cr\u00e9ent l'ordre et le succ\u00e8s",
+            "text": "Comment voyez-vous les règles et l'autorité ?",
+            "a": "Les règles sont ennuyeuses, je fais ce que je veux",
+            "b": "Les règles créent l'ordre et le succès",
             "c": "Je suis ma propre boussole morale",
-            "d": "Les r\u00e8gles sont des constructions humaines ; la v\u00e9rit\u00e9 est int\u00e9rieure"
+            "d": "Les règles sont des constructions humaines ; la vérité est intérieure"
         },
         "q11": {
-            "text": "Vous faites un r\u00eave tr\u00e8s r\u00e9aliste. Vous pensez...",
-            "a": "C'\u00e9tait bizarre ! Passons",
-            "b": "Je me demande ce que \u00e7a signifie pour mes objectifs",
-            "c": "Il me montre quelque chose sur mon monde int\u00e9rieur",
-            "d": "Mon \u00e2me se souvient d'autres vies"
+            "text": "Vous faites un rêve très réaliste. Vous pensez...",
+            "a": "C'était bizarre ! Passons",
+            "b": "Je me demande ce que ça signifie pour mes objectifs",
+            "c": "Il me montre quelque chose sur mon monde intérieur",
+            "d": "Mon âme se souvient d'autres vies"
         },
         "q12": {
             "text": "Quelle est votre relation avec le temps ?",
-            "a": "YOLO \u2014 vivre l'instant",
-            "b": "Le temps c'est de l'argent \u2014 utilisez-le sagement",
-            "c": "Le temps est cyclique \u2014 ce qui part revient",
-            "d": "Le temps est une illusion \u2014 tous les moments existent simultan\u00e9ment"
+            "a": "YOLO — vivre l'instant",
+            "b": "Le temps c'est de l'argent — utilisez-le sagement",
+            "c": "Le temps est cyclique — ce qui part revient",
+            "d": "Le temps est une illusion — tous les moments existent simultanément"
         }
     },
     "tiers": {
         "infant": {
-            "name": "\u00c2me Enfant",
-            "emoji": "\uD83D\uDC76",
+            "name": "Âme Enfant",
+            "emoji": "👶",
             "age": "~500 ans",
-            "desc": "Votre \u00e2me est fra\u00eeche et nouvelle ! Vous vivez la vie avec une pure excitation et \u00e9merveillement. Tout est une aventure, et vous plongez dans le monde avec une curiosit\u00e9 intr\u00e9pide."
+            "desc": "Votre âme est fraîche et nouvelle ! Vous vivez la vie avec une pure excitation et émerveillement. Tout est une aventure, et vous plongez dans le monde avec une curiosité intrépide."
         },
         "young": {
-            "name": "\u00c2me Jeune",
-            "emoji": "\u26A1",
+            "name": "Âme Jeune",
+            "emoji": "⚡",
             "age": "~3 000 ans",
-            "desc": "Votre \u00e2me est ambitieuse et d\u00e9termin\u00e9e. Vous \u00eates ici pour prouver votre valeur et laisser votre marque dans le monde. Le succ\u00e8s, les accomplissements et la reconnaissance alimentent votre feu."
+            "desc": "Votre âme est ambitieuse et déterminée. Vous êtes ici pour prouver votre valeur et laisser votre marque dans le monde. Le succès, les accomplissements et la reconnaissance alimentent votre feu."
         },
         "mature": {
-            "name": "\u00c2me Mature",
-            "emoji": "\uD83C\uDF3F",
+            "name": "Âme Mature",
+            "emoji": "🌿",
             "age": "~10 000 ans",
-            "desc": "Votre \u00e2me a v\u00e9cu de nombreuses vies. Vous recherchez des connexions profondes, comprenez des \u00e9motions complexes et valorisez la croissance personnelle plus que le succ\u00e8s mat\u00e9riel."
+            "desc": "Votre âme a vécu de nombreuses vies. Vous recherchez des connexions profondes, comprenez des émotions complexes et valorisez la croissance personnelle plus que le succès matériel."
         },
         "old": {
-            "name": "\u00c2me Ancienne",
-            "emoji": "\uD83E\uDD89",
+            "name": "Âme Ancienne",
+            "emoji": "🦉",
             "age": "~35 000 ans",
-            "desc": "Votre \u00e2me porte une sagesse ancestrale. Vous voyez la vue d'ensemble, valorisez la paix plus que l'ambition et sentez souvent que vous n'appartenez pas tout \u00e0 fait \u00e0 ce monde moderne."
+            "desc": "Votre âme porte une sagesse ancestrale. Vous voyez la vue d'ensemble, valorisez la paix plus que l'ambition et sentez souvent que vous n'appartenez pas tout à fait à ce monde moderne."
         },
         "transcendent": {
-            "name": "\u00c2me Transcendante",
-            "emoji": "\u2728",
+            "name": "Âme Transcendante",
+            "emoji": "✨",
             "age": "~100 000+ ans",
-            "desc": "Votre \u00e2me approche de la fin de son voyage terrestre. Vous existez entre les mondes, voyez \u00e0 travers les illusions et irradiez un calme que les autres peuvent ressentir."
+            "desc": "Votre âme approche de la fin de son voyage terrestre. Vous existez entre les mondes, voyez à travers les illusions et irradiez un calme que les autres peuvent ressentir."
         }
     },
     "result": {
-        "title": "L'\u00e2ge de votre \u00e2me",
+        "title": "L'âge de votre âme",
         "years": "ans",
-        "timeline": "Chronologie de l'\u00e2ge de l'\u00e2me",
+        "timeline": "Chronologie de l'âge de l'âme",
         "you": "VOUS",
         "retake": "Refaire le test",
-        "moreTests": "D\u00e9couvrir plus de tests",
-        "percentileStat": "Seulement <strong>{percent}%</strong> des gens partagent ce niveau d'\u00e2ge de l'\u00e2me"
+        "moreTests": "Découvrir plus de tests",
+        "percentileStat": "Seulement <strong>{percent}%</strong> des gens partagent ce niveau d'âge de l'âme"
     },
     "related": {
-        "mentalAge": "\u00c2ge Mental",
-        "emotionalAge": "\u00c2ge \u00c9motionnel",
+        "mentalAge": "Âge Mental",
+        "emotionalAge": "Âge Émotionnel",
         "auraReading": "Lecture d'Aura",
-        "pastLife": "Vie Ant\u00e9rieure"
+        "pastLife": "Vie Antérieure"
     },
     "share": {
-        "title": "Partagez l'\u00e2ge de votre \u00e2me",
-        "text": "Mon \u00e2me a {age} ans ! Je suis une \u00ab{tier}\u00bb \uD83D\uDD2E D\u00e9couvrez l'\u00e2ge de votre \u00e2me :",
+        "title": "Partagez l'âge de votre âme",
+        "text": "Mon âme a {age} ans ! Je suis une «{tier}» 🔮 Découvrez l'âge de votre âme :",
         "twitter": "Partager sur X",
         "copyUrl": "Copier le lien",
-        "copied": "Copi\u00e9 !"
+        "copied": "Copié !"
     },
     "nav": {
         "back": "DopaBrain Accueil"
+    },
+    "engage": {
+        "result1": "Âme Enfant -- ~500 ans, Émerveillement Pur",
+        "result2": "Âme Jeune -- ~3 000 ans, Feu Ambitieux",
+        "result3": "Vieille Âme -- ~35 000 ans, Sagesse Ancestrale",
+        "result4": "Transcendante -- ~100 000+ ans, Au-delà des Mondes",
+        "socialProof": "1 490+ âmes ont découvert leur âge"
+    },
+    "about": {
+        "toggle": "À propos du Test d’Âge de l’Âme",
+        "heading1": "Comment fonctionne le test",
+        "text1": "Le test présente 12 questions sur votre vision du monde, vos valeurs et vos instincts. Chaque question propose 4 réponses.",
+        "heading2": "Comprendre les niveaux d’âge de l’âme",
+        "text2": "Le concept d’âge de l’âme provient de la philosophie spirituelle. Ce test est destiné au divertissement et à l’introspection."
     }
 }

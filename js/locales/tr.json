@@ -1,161 +1,175 @@
 {
     "meta": {
-        "title": "Ruh Ya\u015f\u0131 Testi | DopaBrain",
-        "description": "Ruhunuzun ger\u00e7ek ya\u015f\u0131n\u0131 ke\u015ffedin! 12 derin soruyu cevaplay\u0131n ve ruhunuzun ka\u00e7 ya\u015fam ge\u00e7irdi\u011fini \u00f6\u011frenin."
+        "title": "Ruhunuz Kaç Yaşında? Ücretsiz Test | DopaBrain",
+        "description": "12 derin ruhani soruyla ruhunuzun gerçek yaşını keşfedin! Ücretsiz test, anlık sonuçlar."
     },
     "a11y": {
-        "skip": "\u0130\u00e7eri\u011fe ge\u00e7"
+        "skip": "İçeriğe geç"
     },
     "app": {
-        "title": "Ruh Ya\u015f\u0131 Testi",
-        "subtitle": "Ruhunuz ka\u00e7 ya\u015f\u0131nda?",
-        "description": "12 derin soruyu cevaplayarak ruhunuzun ger\u00e7ek ya\u015f\u0131n\u0131 ke\u015ffedin. Yeni bir ruh musunuz yoksa kadim a\u015fk\u0131n bir varl\u0131k m\u0131?",
-        "start": "Ruh Ya\u015f\u0131m\u0131 Ke\u015ffet"
+        "title": "Ruhunuz Kaç Yaşında? - Ruh Yaşı Testi",
+        "subtitle": "Ruhunuz kaç yaşında?",
+        "description": "12 derin soruyu cevaplayarak ruhunuzun gerçek yaşını keşfedin. Yeni bir ruh musunuz yoksa kadim aşkın bir varlık mı?",
+        "start": "Ruh Yaşımı Keşfet - Ücretsiz"
     },
     "quiz": {
         "progress": "{current} / {total}"
     },
     "questions": {
         "q1": {
-            "text": "Yeni bir yere sizi ne \u00e7eker?",
+            "text": "Yeni bir yere sizi ne çeker?",
             "a": "Heyecan ve macera",
-            "b": "Yeni insanlarla tan\u0131\u015fmak ve uyum sa\u011flamak",
-            "c": "Yerel k\u00fclt\u00fcr\u00fc derinlemesine anlamak",
-            "d": "Daha \u00f6nce orada bulunmu\u015f gibi tuhaf bir his"
+            "b": "Yeni insanlarla tanışmak ve uyum sağlamak",
+            "c": "Yerel kültürü derinlemesine anlamak",
+            "d": "Daha önce orada bulunmuş gibi tuhaf bir his"
         },
         "q2": {
-            "text": "\u00c7at\u0131\u015fmay\u0131 nas\u0131l y\u00f6netirsiniz?",
-            "a": "Sava\u015f ya da ka\u00e7 \u2014 saf i\u00e7g\u00fcd\u00fc",
-            "b": "Kurallara uyarak kazanmaya \u00e7al\u0131\u015fmak",
-            "c": "T\u00fcm taraflar\u0131 d\u00fc\u015f\u00fcnen bir uzla\u015fma aramak",
-            "d": "Sessizce g\u00f6zlemlemek, kendi kendine \u00e7\u00f6z\u00fclece\u011fini bilerek"
+            "text": "Çatışmayı nasıl yönetirsiniz?",
+            "a": "Savaş ya da kaç — saf içgüdü",
+            "b": "Kurallara uyarak kazanmaya çalışmak",
+            "c": "Tüm tarafları düşünen bir uzlaşma aramak",
+            "d": "Sessizce gözlemlemek, kendi kendine çözüleceğini bilerek"
         },
         "q3": {
-            "text": "Hayatta en \u00f6nemli olan nedir?",
-            "a": "E\u011flenmek ve yeni deneyimler",
-            "b": "Ba\u015far\u0131l\u0131 bir kariyer kurmak",
-            "c": "Derin ili\u015fkiler ve ki\u015fisel geli\u015fim",
-            "d": "\u0130\u00e7 huzur ve evreni anlamak"
+            "text": "Hayatta en önemli olan nedir?",
+            "a": "Eğlenmek ve yeni deneyimler",
+            "b": "Başarılı bir kariyer kurmak",
+            "c": "Derin ilişkiler ve kişisel gelişim",
+            "d": "İç huzur ve evreni anlamak"
         },
         "q4": {
-            "text": "Bir \u00e7ocuk 'Neden var\u0131z?' diye soruyor",
-            "a": "E\u011flenmek i\u00e7in!",
-            "b": "Kendimizden bir \u015feyler yapmak i\u00e7in",
-            "c": "\u00d6\u011frenmek ve sevmek i\u00e7in",
-            "d": "Bu g\u00fczel gizem de\u011fil mi?"
+            "text": "Bir çocuk 'Neden varız?' diye soruyor",
+            "a": "Eğlenmek için!",
+            "b": "Kendimizden bir şeyler yapmak için",
+            "c": "Öğrenmek ve sevmek için",
+            "d": "Bu güzel gizem değil mi?"
         },
         "q5": {
-            "text": "Hangi d\u00f6nem sizi en \u00e7ok cezbediyor?",
-            "a": "Gelecek \u2014 teknoloji ve ilerleme",
-            "b": "\u015eimdi \u2014 an\u0131 en iyi \u015fekilde de\u011ferlendirmek",
-            "c": "R\u00f6nesans \u2014 sanat ve uyan\u0131\u015f",
-            "d": "Antik uygarl\u0131klar \u2014 zamans\u0131z bilgelik"
+            "text": "Hangi dönem sizi en çok cezbediyor?",
+            "a": "Gelecek — teknoloji ve ilerleme",
+            "b": "Şimdi — anı en iyi şekilde değerlendirmek",
+            "c": "Rönesans — sanat ve uyanış",
+            "d": "Antik uygarlıklar — zamansız bilgelik"
         },
         "q6": {
-            "text": "\u00d6l\u00fcm hakk\u0131nda ne d\u00fc\u015f\u00fcn\u00fcyorsunuz?",
-            "a": "D\u00fc\u015f\u00fcnm\u00fcyorum",
-            "b": "Daha fazlas\u0131n\u0131 ba\u015farmam i\u00e7in motive ediyor",
-            "c": "Do\u011fal bir ge\u00e7i\u015f",
-            "d": "Eve d\u00f6nmek gibi hissettiriyor"
+            "text": "Ölüm hakkında ne düşünüyorsunuz?",
+            "a": "Düşünmüyorum",
+            "b": "Daha fazlasını başarmam için motive ediyor",
+            "c": "Doğal bir geçiş",
+            "d": "Eve dönmek gibi hissettiriyor"
         },
         "q7": {
-            "text": "Ne t\u00fcr m\u00fczik sizi etkiler?",
-            "a": "Co\u015fkulu, enerji dolu \u015fark\u0131lar",
-            "b": "Herkesin bildi\u011fi pop\u00fcler hitler",
-            "c": "Duygusal derinli\u011fi olan karma\u015f\u0131k besteler",
-            "d": "Kadim enstr\u00fcmanlar, do\u011fa sesleri, sessizlik"
+            "text": "Ne tür müzik sizi etkiler?",
+            "a": "Coşkulu, enerji dolu şarkılar",
+            "b": "Herkesin bildiği popüler hitler",
+            "c": "Duygusal derinliği olan karmaşık besteler",
+            "d": "Kadim enstrümanlar, doğa sesleri, sessizlik"
         },
         "q8": {
-            "text": "Yeni biriyle tan\u0131\u015f\u0131rken ilk fark etti\u011finiz...",
-            "a": "Ne kadar e\u011flenceli g\u00f6r\u00fcnd\u00fckleri",
-            "b": "Sosyal stat\u00fcleri veya g\u00f6r\u00fcn\u00fc\u015fleri",
+            "text": "Yeni biriyle tanışırken ilk fark ettiğiniz...",
+            "a": "Ne kadar eğlenceli göründükleri",
+            "b": "Sosyal statüleri veya görünüşleri",
             "c": "Duygusal enerjileri ve otantiklikleri",
-            "d": "G\u00f6zleri \u2014 ruhun penceresi"
+            "d": "Gözleri — ruhun penceresi"
         },
         "q9": {
-            "text": "\u0130deal hafta sonunuz nas\u0131l g\u00f6r\u00fcn\u00fcyor?",
-            "a": "Parti, macera, anl\u0131k planlar",
-            "b": "Verimli \u2014 hedefler, spor, networking",
-            "c": "Yak\u0131n arkada\u015flarla kaliteli zaman, d\u00fc\u015f\u00fcnme",
-            "d": "Do\u011fada yaln\u0131zl\u0131k, meditasyon, y\u0131ld\u0131z seyretme"
+            "text": "İdeal hafta sonunuz nasıl görünüyor?",
+            "a": "Parti, macera, anlık planlar",
+            "b": "Verimli — hedefler, spor, networking",
+            "c": "Yakın arkadaşlarla kaliteli zaman, düşünme",
+            "d": "Doğada yalnızlık, meditasyon, yıldız seyretme"
         },
         "q10": {
-            "text": "Kurallar ve otorite hakk\u0131nda ne d\u00fc\u015f\u00fcn\u00fcyorsunuz?",
-            "a": "Kurallar s\u0131k\u0131c\u0131, istedi\u011fimi yapar\u0131m",
-            "b": "Kurallar d\u00fczen ve ba\u015far\u0131 yarat\u0131r",
-            "c": "Kendi ahlaki pusulamdan tak\u0131p ederim",
-            "d": "Kurallar insan yap\u0131m\u0131; ger\u00e7ek i\u00e7seldir"
+            "text": "Kurallar ve otorite hakkında ne düşünüyorsunuz?",
+            "a": "Kurallar sıkıcı, istediğimi yaparım",
+            "b": "Kurallar düzen ve başarı yaratır",
+            "c": "Kendi ahlaki pusulamdan takıp ederim",
+            "d": "Kurallar insan yapımı; gerçek içseldir"
         },
         "q11": {
-            "text": "Canl\u0131 bir r\u00fcya g\u00f6rd\u00fcn\u00fcz. D\u00fc\u015f\u00fcnceniz...",
+            "text": "Canlı bir rüya gördünüz. Düşünceniz...",
             "a": "Garip! Devam edelim",
-            "b": "Hedeflerim i\u00e7in ne anlama geldi\u011fini merak ediyorum",
-            "c": "\u0130\u00e7 d\u00fcnyam hakk\u0131nda bana bir \u015fey g\u00f6steriyor",
-            "d": "Ruhum di\u011fer ya\u015famlar\u0131 hat\u0131rl\u0131yor"
+            "b": "Hedeflerim için ne anlama geldiğini merak ediyorum",
+            "c": "İç dünyam hakkında bana bir şey gösteriyor",
+            "d": "Ruhum diğer yaşamları hatırlıyor"
         },
         "q12": {
-            "text": "Zamanla ili\u015fkiniz nas\u0131l?",
-            "a": "YOLO \u2014 an\u0131 ya\u015fa",
-            "b": "Zaman paradır \u2014 ak\u0131ll\u0131ca kullan",
-            "c": "Zaman d\u00f6ng\u00fcseldir \u2014 ne giderse d\u00f6ner",
-            "d": "Zaman bir yan\u0131lsamad\u0131r \u2014 t\u00fcm anlar ayn\u0131 anda vard\u0131r"
+            "text": "Zamanla ilişkiniz nasıl?",
+            "a": "YOLO — anı yaşa",
+            "b": "Zaman paradır — akıllıca kullan",
+            "c": "Zaman döngüseldir — ne giderse döner",
+            "d": "Zaman bir yanılsamadır — tüm anlar aynı anda vardır"
         }
     },
     "tiers": {
         "infant": {
             "name": "Bebek Ruh",
-            "emoji": "\uD83D\uDC76",
-            "age": "~500 y\u0131l",
-            "desc": "Ruhunuz taze ve yeni! Hayat\u0131 saf heyecan ve merakla deneyimliyorsunuz. Her \u015fey bir macera ve korkusuz merakla d\u00fcnyaya dal\u0131yorsunuz."
+            "emoji": "👶",
+            "age": "~500 yıl",
+            "desc": "Ruhunuz taze ve yeni! Hayatı saf heyecan ve merakla deneyimliyorsunuz. Her şey bir macera ve korkusuz merakla dünyaya dalıyorsunuz."
         },
         "young": {
-            "name": "Gen\u00e7 Ruh",
-            "emoji": "\u26A1",
-            "age": "~3.000 y\u0131l",
-            "desc": "Ruhunuz h\u0131rsl\u0131 ve kararl\u0131. Kendinizi kan\u0131tlamak ve d\u00fcnyada iz b\u0131rakmak i\u00e7in buradasınız. Ba\u015far\u0131, kazanım ve tan\u0131nma ate\u015finizi k\u00f6r\u00fckler."
+            "name": "Genç Ruh",
+            "emoji": "⚡",
+            "age": "~3.000 yıl",
+            "desc": "Ruhunuz hırslı ve kararlı. Kendinizi kanıtlamak ve dünyada iz bırakmak için buradasınız. Başarı, kazanım ve tanınma ateşinizi körükler."
         },
         "mature": {
             "name": "Olgun Ruh",
-            "emoji": "\uD83C\uDF3F",
-            "age": "~10.000 y\u0131l",
-            "desc": "Ruhunuz pek \u00e7ok ya\u015fam ge\u00e7irmi\u015f. Derin ba\u011flant\u0131lar ar\u0131yorsunuz, karma\u015f\u0131k duygular\u0131 anl\u0131yorsunuz ve maddi ba\u015far\u0131dan \u00e7ok ki\u015fisel geli\u015fime de\u011fer veriyorsunuz."
+            "emoji": "🌿",
+            "age": "~10.000 yıl",
+            "desc": "Ruhunuz pek çok yaşam geçirmiş. Derin bağlantılar arıyorsunuz, karmaşık duyguları anlıyorsunuz ve maddi başarıdan çok kişisel gelişime değer veriyorsunuz."
         },
         "old": {
-            "name": "Ya\u015fl\u0131 Ruh",
-            "emoji": "\uD83E\uDD89",
-            "age": "~35.000 y\u0131l",
-            "desc": "Ruhunuz kadim bilgelik ta\u015f\u0131yor. B\u00fcy\u00fck resmi g\u00f6r\u00fcyorsunuz, h\u0131rstan \u00e7ok huzura de\u011fer veriyorsunuz ve bu modern d\u00fcnyaya tam olarak ait hissetmiyorsunuz."
+            "name": "Yaşlı Ruh",
+            "emoji": "🦉",
+            "age": "~35.000 yıl",
+            "desc": "Ruhunuz kadim bilgelik taşıyor. Büyük resmi görüyorsunuz, hırstan çok huzura değer veriyorsunuz ve bu modern dünyaya tam olarak ait hissetmiyorsunuz."
         },
         "transcendent": {
-            "name": "A\u015fk\u0131n Ruh",
-            "emoji": "\u2728",
-            "age": "~100.000+ y\u0131l",
-            "desc": "Ruhunuz d\u00fcnyadaki yolculu\u011funun sonuna yakla\u015f\u0131yor. D\u00fcnyalar aras\u0131nda var oluyorsunuz, yan\u0131lsamalar\u0131n \u00f6tesini g\u00f6r\u00fcyorsunuz ve ba\u015fkalar\u0131n\u0131n hissedebilece\u011fi bir huzur yay\u0131yorsunuz."
+            "name": "Aşkın Ruh",
+            "emoji": "✨",
+            "age": "~100.000+ yıl",
+            "desc": "Ruhunuz dünyadaki yolculuğunun sonuna yaklaşıyor. Dünyalar arasında var oluyorsunuz, yanılsamaların ötesini görüyorsunuz ve başkalarının hissedebileceği bir huzur yayıyorsunuz."
         }
     },
     "result": {
-        "title": "Ruh Ya\u015f\u0131n\u0131z",
-        "years": "ya\u015f\u0131nda",
-        "timeline": "Ruh Ya\u015f\u0131 Zaman \u00c7izelgesi",
-        "you": "S\u0130Z",
+        "title": "Ruh Yaşınız",
+        "years": "yaşında",
+        "timeline": "Ruh Yaşı Zaman Çizelgesi",
+        "you": "SİZ",
         "retake": "Tekrar Yap",
         "moreTests": "Daha Fazla Test",
-        "percentileStat": "Sadece <strong>{percent}%</strong> ki\u015fi ayn\u0131 ruh ya\u015f\u0131 seviyesini ald\u0131"
+        "percentileStat": "Sadece <strong>{percent}%</strong> kişi aynı ruh yaşı seviyesini aldı"
     },
     "related": {
-        "mentalAge": "Zihinsel Ya\u015f",
-        "emotionalAge": "Duygusal Ya\u015f",
+        "mentalAge": "Zihinsel Yaş",
+        "emotionalAge": "Duygusal Yaş",
         "auraReading": "Aura Okuma",
-        "pastLife": "Ge\u00e7mi\u015f Ya\u015fam"
+        "pastLife": "Geçmiş Yaşam"
     },
     "share": {
-        "title": "Ruh Ya\u015f\u0131n\u0131z\u0131 Payla\u015f\u0131n",
-        "text": "Ruhum {age} ya\u015f\u0131nda! Ben \"{tier}\" \uD83D\uDD2E Ruhunun ya\u015f\u0131n\u0131 ke\u015ffet:",
-        "twitter": "X'te Payla\u015f",
+        "title": "Ruh Yaşınızı Paylaşın",
+        "text": "Ruhum {age} yaşında! Ben \"{tier}\" 🔮 Ruhunun yaşını keşfet:",
+        "twitter": "X'te Paylaş",
         "copyUrl": "Linki Kopyala",
-        "copied": "Kopyaland\u0131!"
+        "copied": "Kopyalandı!"
     },
     "nav": {
         "back": "DopaBrain Ana Sayfa"
+    },
+    "engage": {
+        "result1": "Bebek Ruh -- ~500 yıl, Saf Merak",
+        "result2": "Genç Ruh -- ~3.000 yıl, Hırslı Ateş",
+        "result3": "Yaşlı Ruh -- ~35.000 yıl, Kadim Bilgelik",
+        "result4": "Aşkın -- ~100.000+ yıl, Dünyaların Ötesinde",
+        "socialProof": "1.490+ kişi ruh yaşını keşfetti"
+    },
+    "about": {
+        "toggle": "Ruh Yaşı Testi Hakkında",
+        "heading1": "Ruh Yaşı Testi Nasıl Çalışır",
+        "text1": "Test, dünya görüşünüz, değerleriniz ve içgüdüleriniz hakkında 12 düşündürücü soru sunar.",
+        "heading2": "Ruh Yaşı Seviyelerini Anlamak",
+        "text2": "Ruh yaşı kavramı ruhani felsefeden gelir. Bu test eğlence ve öz-yansıtma içindir."
     }
 }

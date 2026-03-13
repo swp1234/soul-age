@@ -1,16 +1,16 @@
 {
     "meta": {
-        "title": "Seelenalter-Test | DopaBrain",
-        "description": "Entdecke das wahre Alter deiner Seele! Beantworte 12 tiefgr\u00fcndige Fragen, um herauszufinden, wie viele Leben deine Seele gelebt hat."
+        "title": "Wie alt ist deine Seele? Kostenloser Test | DopaBrain",
+        "description": "Entdecke das wahre Alter deiner Seele mit 12 tiefen spirituellen Fragen! Kostenloser Test, sofortige Ergebnisse."
     },
     "a11y": {
         "skip": "Zum Inhalt springen"
     },
     "app": {
-        "title": "Seelenalter-Test",
+        "title": "Wie alt ist deine Seele? - Seelenalter-Test",
         "subtitle": "Wie alt ist deine Seele?",
-        "description": "Beantworte 12 tiefgr\u00fcndige Fragen, um das wahre Alter deiner Seele zu entdecken. Bist du eine neue Seele oder ein uraltes transzendentes Wesen?",
-        "start": "Mein Seelenalter entdecken"
+        "description": "Beantworte 12 tiefgründige Fragen, um das wahre Alter deiner Seele zu entdecken. Bist du eine neue Seele oder ein uraltes transzendentes Wesen?",
+        "start": "Mein Seelenalter entdecken - Kostenlos"
     },
     "quiz": {
         "progress": "{current} / {total}"
@@ -19,68 +19,68 @@
         "q1": {
             "text": "Was zieht dich an einem neuen Ort an?",
             "a": "Die Aufregung und das Abenteuer",
-            "b": "Neue Leute kennenlernen und dazugeh\u00f6ren",
-            "c": "Die lokale Kultur tiefgr\u00fcndig verstehen",
-            "d": "Ein seltsames Gef\u00fchl, schon einmal dort gewesen zu sein"
+            "b": "Neue Leute kennenlernen und dazugehören",
+            "c": "Die lokale Kultur tiefgründig verstehen",
+            "d": "Ein seltsames Gefühl, schon einmal dort gewesen zu sein"
         },
         "q2": {
             "text": "Wie gehst du mit Konflikten um?",
-            "a": "Kampf oder Flucht \u2014 reiner Instinkt",
+            "a": "Kampf oder Flucht — reiner Instinkt",
             "b": "Versuchen, nach den Regeln zu gewinnen",
-            "c": "Einen Kompromiss suchen, der alle Seiten ber\u00fccksichtigt",
-            "d": "Still beobachten, wissend, dass es sich von selbst l\u00f6st"
+            "c": "Einen Kompromiss suchen, der alle Seiten berücksichtigt",
+            "d": "Still beobachten, wissend, dass es sich von selbst löst"
         },
         "q3": {
             "text": "Was ist das Wichtigste im Leben?",
-            "a": "Spa\u00df haben und neue Erfahrungen",
+            "a": "Spaß haben und neue Erfahrungen",
             "b": "Eine erfolgreiche Karriere aufbauen",
-            "c": "Tiefe Beziehungen und pers\u00f6nliches Wachstum",
+            "c": "Tiefe Beziehungen und persönliches Wachstum",
             "d": "Innerer Frieden und das Universum verstehen"
         },
         "q4": {
             "text": "Ein Kind fragt: 'Warum existieren wir?'",
-            "a": "Um Spa\u00df zu haben!",
+            "a": "Um Spaß zu haben!",
             "b": "Um etwas aus uns zu machen",
             "c": "Um zu lernen und zu lieben",
-            "d": "Das ist das sch\u00f6ne Geheimnis, oder?"
+            "d": "Das ist das schöne Geheimnis, oder?"
         },
         "q5": {
-            "text": "Welche \u00c4ra fasziniert dich am meisten?",
-            "a": "Die Zukunft \u2014 Technologie und Fortschritt",
-            "b": "Die Gegenwart \u2014 das Beste aus dem Jetzt machen",
-            "c": "Die Renaissance \u2014 Kunst und Erwachen",
-            "d": "Antike Zivilisationen \u2014 zeitlose Weisheit"
+            "text": "Welche Ära fasziniert dich am meisten?",
+            "a": "Die Zukunft — Technologie und Fortschritt",
+            "b": "Die Gegenwart — das Beste aus dem Jetzt machen",
+            "c": "Die Renaissance — Kunst und Erwachen",
+            "d": "Antike Zivilisationen — zeitlose Weisheit"
         },
         "q6": {
-            "text": "Wie f\u00fchlst du dich \u00fcber den Tod?",
-            "a": "Ich denke nicht dar\u00fcber nach",
+            "text": "Wie fühlst du dich über den Tod?",
+            "a": "Ich denke nicht darüber nach",
             "b": "Es motiviert mich, mehr zu erreichen",
-            "c": "Es ist ein nat\u00fcrlicher \u00dcbergang",
-            "d": "Es f\u00fchlt sich an wie nach Hause kommen"
+            "c": "Es ist ein natürlicher Übergang",
+            "d": "Es fühlt sich an wie nach Hause kommen"
         },
         "q7": {
             "text": "Welche Art von Musik bewegt dich?",
-            "a": "Fr\u00f6hliche, energiegeladene Songs",
+            "a": "Fröhliche, energiegeladene Songs",
             "b": "Beliebte Hits, die jeder kennt",
             "c": "Komplexe Kompositionen mit emotionaler Tiefe",
-            "d": "Antike Instrumente, Naturkl\u00e4nge, Stille"
+            "d": "Antike Instrumente, Naturklänge, Stille"
         },
         "q8": {
             "text": "Wenn du jemand Neues triffst, bemerkst du zuerst...",
             "a": "Wie lustig sie wirken",
             "b": "Ihren sozialen Status oder ihr Aussehen",
-            "c": "Ihre emotionale Energie und Authentizit\u00e4t",
-            "d": "Ihre Augen \u2014 das Fenster zur Seele"
+            "c": "Ihre emotionale Energie und Authentizität",
+            "d": "Ihre Augen — das Fenster zur Seele"
         },
         "q9": {
             "text": "Dein ideales Wochenende sieht aus wie...",
-            "a": "Party, Abenteuer, spontane Pl\u00e4ne",
-            "b": "Produktiv \u2014 Ziele, Sport, Networking",
-            "c": "Qualit\u00e4tszeit mit engen Freunden, Reflexion",
+            "a": "Party, Abenteuer, spontane Pläne",
+            "b": "Produktiv — Ziele, Sport, Networking",
+            "c": "Qualitätszeit mit engen Freunden, Reflexion",
             "d": "Einsamkeit in der Natur, Meditation, Sterne beobachten"
         },
         "q10": {
-            "text": "Wie stehst du zu Regeln und Autorit\u00e4t?",
+            "text": "Wie stehst du zu Regeln und Autorität?",
             "a": "Regeln sind langweilig, ich mache was ich will",
             "b": "Regeln schaffen Ordnung und Erfolg",
             "c": "Ich folge meinem eigenen moralischen Kompass",
@@ -89,48 +89,48 @@
         "q11": {
             "text": "Du hast einen lebhaften Traum. Du denkst...",
             "a": "Das war komisch! Weiter geht's",
-            "b": "Was bedeutet das f\u00fcr meine Ziele?",
-            "c": "Er zeigt mir etwas \u00fcber meine innere Welt",
+            "b": "Was bedeutet das für meine Ziele?",
+            "c": "Er zeigt mir etwas über meine innere Welt",
             "d": "Meine Seele erinnert sich an andere Leben"
         },
         "q12": {
             "text": "Wie ist deine Beziehung zur Zeit?",
-            "a": "YOLO \u2014 lebe den Moment",
-            "b": "Zeit ist Geld \u2014 nutze sie weise",
-            "c": "Zeit ist zyklisch \u2014 alles kommt zur\u00fcck",
-            "d": "Zeit ist eine Illusion \u2014 alle Momente existieren gleichzeitig"
+            "a": "YOLO — lebe den Moment",
+            "b": "Zeit ist Geld — nutze sie weise",
+            "c": "Zeit ist zyklisch — alles kommt zurück",
+            "d": "Zeit ist eine Illusion — alle Momente existieren gleichzeitig"
         }
     },
     "tiers": {
         "infant": {
-            "name": "S\u00e4uglingsseele",
-            "emoji": "\uD83D\uDC76",
+            "name": "Säuglingsseele",
+            "emoji": "👶",
             "age": "~500 Jahre",
             "desc": "Deine Seele ist frisch und neu! Du erlebst das Leben mit reiner Aufregung und Staunen. Alles ist ein Abenteuer, und du tauchst furchtlos neugierig in die Welt ein."
         },
         "young": {
             "name": "Junge Seele",
-            "emoji": "\u26A1",
+            "emoji": "⚡",
             "age": "~3.000 Jahre",
             "desc": "Deine Seele ist ehrgeizig und zielstrebig. Du bist hier, um dich zu beweisen und deine Spuren in der Welt zu hinterlassen. Erfolg, Leistung und Anerkennung treiben dich an."
         },
         "mature": {
             "name": "Reife Seele",
-            "emoji": "\uD83C\uDF3F",
+            "emoji": "🌿",
             "age": "~10.000 Jahre",
-            "desc": "Deine Seele hat viele Leben gelebt. Du suchst tiefe Verbindungen, verstehst komplexe Emotionen und sch\u00e4tzt pers\u00f6nliches Wachstum mehr als materiellen Erfolg."
+            "desc": "Deine Seele hat viele Leben gelebt. Du suchst tiefe Verbindungen, verstehst komplexe Emotionen und schätzt persönliches Wachstum mehr als materiellen Erfolg."
         },
         "old": {
             "name": "Alte Seele",
-            "emoji": "\uD83E\uDD89",
+            "emoji": "🦉",
             "age": "~35.000 Jahre",
-            "desc": "Deine Seele tr\u00e4gt uralte Weisheit. Du siehst das gro\u00dfe Ganze, sch\u00e4tzt Frieden mehr als Ehrgeiz und f\u00fchlst oft, dass du nicht ganz in diese moderne Welt geh\u00f6rst."
+            "desc": "Deine Seele trägt uralte Weisheit. Du siehst das große Ganze, schätzt Frieden mehr als Ehrgeiz und fühlst oft, dass du nicht ganz in diese moderne Welt gehörst."
         },
         "transcendent": {
             "name": "Transzendente Seele",
-            "emoji": "\u2728",
+            "emoji": "✨",
             "age": "~100.000+ Jahre",
-            "desc": "Deine Seele n\u00e4hert sich dem Ende ihrer irdischen Reise. Du existierst zwischen Welten, siehst durch Illusionen hindurch und strahlst eine Ruhe aus, die andere sp\u00fcren k\u00f6nnen."
+            "desc": "Deine Seele nähert sich dem Ende ihrer irdischen Reise. Du existierst zwischen Welten, siehst durch Illusionen hindurch und strahlst eine Ruhe aus, die andere spüren können."
         }
     },
     "result": {
@@ -146,16 +146,30 @@
         "mentalAge": "Mentales Alter",
         "emotionalAge": "Emotionales Alter",
         "auraReading": "Aura-Lesung",
-        "pastLife": "Fr\u00fcheres Leben"
+        "pastLife": "Früheres Leben"
     },
     "share": {
         "title": "Teile dein Seelenalter",
-        "text": "Meine Seele ist {age} Jahre alt! Ich bin eine \"{tier}\" \uD83D\uDD2E Entdecke dein Seelenalter:",
+        "text": "Meine Seele ist {age} Jahre alt! Ich bin eine \"{tier}\" 🔮 Entdecke dein Seelenalter:",
         "twitter": "Auf X teilen",
         "copyUrl": "Link kopieren",
         "copied": "Kopiert!"
     },
     "nav": {
         "back": "DopaBrain Startseite"
+    },
+    "engage": {
+        "result1": "Säuglingsseele -- ~500 Jahre, Reines Staunen",
+        "result2": "Junge Seele -- ~3.000 Jahre, Ehrgeiziges Feuer",
+        "result3": "Alte Seele -- ~35.000 Jahre, Uralte Weisheit",
+        "result4": "Transzendent -- ~100.000+ Jahre, Jenseits der Welten",
+        "socialProof": "1.490+ Seelen entdeckten ihr Alter"
+    },
+    "about": {
+        "toggle": "Über den Seelenalter-Test",
+        "heading1": "Wie der Test funktioniert",
+        "text1": "Der Test präsentiert 12 nachdenkliche Fragen über Ihre Weltsicht, Werte und Instinkte. Jede Frage bietet 4 Antworten verschiedener Reifegrade.",
+        "heading2": "Die Seelenalter-Stufen verstehen",
+        "text2": "Das Konzept des Seelenalters stammt aus der spirituellen Philosophie. Dieser Test dient der Unterhaltung und Selbstreflexion."
     }
 }

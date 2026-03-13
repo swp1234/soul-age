@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title data-i18n="meta.title">Soul Age Test | DopaBrain</title>
-    <meta name="description" data-i18n="meta.description" content="Discover your soul's true age! Take this mystical test to find out how many lifetimes your soul has lived.">
+    <title data-i18n="meta.title">How Old Is Your Soul? Free Soul Age Test | DopaBrain</title>
+    <meta name="description" data-i18n="meta.description" content="Discover your soul's true age with 12 deep spiritual questions! Are you an Infant Soul (~500 yrs), Old Soul (~35K yrs), or Transcendent (~100K+ yrs)? Free test, instant results.">
     <meta name="robots" content="max-image-preview:large">
 
     <meta property="og:title" content="How Old Is Your Soul? | DopaBrain">
@@ -66,6 +66,53 @@
     }
 }
     </script>
+    <!-- BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://dopabrain.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Tests", "item": "https://dopabrain.com/portal/" },
+            { "@type": "ListItem", "position": 3, "name": "Spiritual Tests", "item": "https://dopabrain.com/portal/" },
+            { "@type": "ListItem", "position": 4, "name": "Soul Age Test", "item": "https://dopabrain.com/soul-age/" }
+        ]
+    }
+    </script>
+    <!-- FAQPage -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is a soul age test?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A soul age test is a spiritual personality quiz that estimates how many lifetimes your soul has experienced. Through 12 deep questions about your worldview, values, and instincts, it categorizes your soul into one of 5 tiers from Infant Soul (~500 years) to Transcendent Soul (~100,000+ years)." }
+            },
+            {
+                "@type": "Question",
+                "name": "What are the 5 soul age tiers?",
+                "acceptedAnswer": { "@type": "Answer", "text": "The 5 tiers are: Infant Soul (~500 years, adventurous and curious), Young Soul (~3,000 years, ambitious and driven), Mature Soul (~10,000 years, emotionally deep), Old Soul (~35,000 years, wise and peaceful), and Transcendent Soul (~100,000+ years, existing between worlds)." }
+            },
+            {
+                "@type": "Question",
+                "name": "How long does the soul age test take?",
+                "acceptedAnswer": { "@type": "Answer", "text": "The soul age test takes about 2-3 minutes. You answer 12 thought-provoking questions about life, death, time, and consciousness. Each question has 4 options reflecting different levels of soul maturity." }
+            },
+            {
+                "@type": "Question",
+                "name": "Is the soul age test scientifically accurate?",
+                "acceptedAnswer": { "@type": "Answer", "text": "The soul age test is designed for entertainment and spiritual self-reflection, not scientific diagnosis. It draws from philosophical concepts about soul evolution and reincarnation to offer fun insights into your personality and worldview." }
+            },
+            {
+                "@type": "Question",
+                "name": "Can my soul age change if I retake the test?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes! Your responses may shift based on your current mindset and life experiences. Retaking the test at different times can reveal different facets of your spiritual personality that you may not have been aware of before." }
+            }
+        ]
+    }
+    </script>
 
     <link rel="manifest" href="manifest.json">
     <link rel="icon" href="icon-192.svg" type="image/svg+xml">
@@ -101,7 +148,7 @@
 
     <main id="main-content">
         <header>
-            <h1 class="app-title" data-i18n="app.title">Soul Age Test</h1>
+            <h1 class="app-title" data-i18n="app.title">How Old Is Your Soul? - Soul Age Test</h1>
             <p class="app-subtitle" data-i18n="app.subtitle">How old is your soul?</p>
         </header>
 
@@ -113,7 +160,21 @@
                         <div class="orb-inner">&#128302;</div>
                     </div>
                     <p class="start-desc" data-i18n="app.description">Answer 12 deep questions to discover your soul's true age. Are you a fresh new soul or an ancient transcendent being?</p>
-                    <button class="btn btn-start" id="startBtn" data-i18n="app.start">Discover My Soul Age</button>
+
+                    <!-- Result Preview Carousel -->
+                    <div class="result-carousel" aria-live="polite">
+                        <div class="carousel-track">
+                            <div class="carousel-item" data-i18n="engage.result1">Infant Soul -- ~500 years, Pure Wonder</div>
+                            <div class="carousel-item" data-i18n="engage.result2">Young Soul -- ~3,000 years, Ambitious Fire</div>
+                            <div class="carousel-item" data-i18n="engage.result3">Old Soul -- ~35,000 years, Ancient Wisdom</div>
+                            <div class="carousel-item" data-i18n="engage.result4">Transcendent -- ~100K+ years, Beyond Worlds</div>
+                        </div>
+                    </div>
+
+                    <!-- Social Proof Badge -->
+                    <div class="social-proof-badge" data-i18n="engage.socialProof">1,490+ souls discovered their age</div>
+
+                    <button class="btn btn-start btn-pulse" id="startBtn" data-i18n="app.start">Discover My Soul Age - Free</button>
                 </div>
             </section>
 
@@ -189,6 +250,19 @@
             </section>
         </div>
     </main>
+
+    <!-- About Section -->
+    <section class="about-section collapsible-section" id="about-section">
+      <details>
+        <summary data-i18n="about.toggle">About the Soul Age Test</summary>
+        <div class="about-content">
+          <h2 data-i18n="about.heading1">How the Soul Age Test Works</h2>
+          <p data-i18n="about.text1">The Soul Age Test presents 12 thought-provoking questions about your worldview, values, and instincts. Each question offers 4 responses representing different levels of soul maturity, from the adventurous Infant Soul to the enlightened Transcendent Soul. Your answers reveal which of the 5 soul age tiers best matches your spiritual personality.</p>
+          <h2 data-i18n="about.heading2">Understanding Soul Age Tiers</h2>
+          <p data-i18n="about.text2">The concept of soul age comes from spiritual philosophy suggesting that souls evolve through multiple lifetimes. Younger souls seek excitement and material success, while older souls gravitate toward wisdom, peace, and inner understanding. This test is for entertainment and self-reflection purposes.</p>
+        </div>
+      </details>
+    </section>
 
     <footer>
         <a href="/portal/" data-i18n="nav.back">DopaBrain Home</a>

@@ -1,16 +1,16 @@
 {
     "meta": {
-        "title": "Soul Age Test | DopaBrain",
-        "description": "Discover your soul's true age! Answer 12 deep questions to find out how many lifetimes your soul has lived."
+        "title": "How Old Is Your Soul? Free Soul Age Test | DopaBrain",
+        "description": "Discover your soul's true age with 12 deep spiritual questions! Are you an Infant Soul (~500 yrs), Old Soul (~35K yrs), or Transcendent (~100K+ yrs)? Free test, instant results."
     },
     "a11y": {
         "skip": "Skip to content"
     },
     "app": {
-        "title": "Soul Age Test",
+        "title": "How Old Is Your Soul? - Soul Age Test",
         "subtitle": "How old is your soul?",
         "description": "Answer 12 deep questions to discover your soul's true age. Are you a fresh new soul or an ancient transcendent being?",
-        "start": "Discover My Soul Age"
+        "start": "Discover My Soul Age - Free"
     },
     "quiz": {
         "progress": "{current} / {total}"
@@ -154,6 +154,20 @@
         "twitter": "Share on X",
         "copyUrl": "Copy Link",
         "copied": "Copied!"
+    },
+    "engage": {
+        "result1": "Infant Soul -- ~500 years, Pure Wonder",
+        "result2": "Young Soul -- ~3,000 years, Ambitious Fire",
+        "result3": "Old Soul -- ~35,000 years, Ancient Wisdom",
+        "result4": "Transcendent -- ~100K+ years, Beyond Worlds",
+        "socialProof": "1,490+ souls discovered their age"
+    },
+    "about": {
+        "toggle": "About the Soul Age Test",
+        "heading1": "How the Soul Age Test Works",
+        "text1": "The Soul Age Test presents 12 thought-provoking questions about your worldview, values, and instincts. Each question offers 4 responses representing different levels of soul maturity, from the adventurous Infant Soul to the enlightened Transcendent Soul. Your answers reveal which of the 5 soul age tiers best matches your spiritual personality.",
+        "heading2": "Understanding Soul Age Tiers",
+        "text2": "The concept of soul age comes from spiritual philosophy suggesting that souls evolve through multiple lifetimes. Younger souls seek excitement and material success, while older souls gravitate toward wisdom, peace, and inner understanding. This test is for entertainment and self-reflection purposes."
     },
     "nav": {
         "back": "DopaBrain Home"
