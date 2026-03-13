@@ -138,7 +138,15 @@
         "years": "tahun",
         "timeline": "Garis Waktu Usia Jiwa",
         "you": "KAMU",
-        "retake": "Ulangi Tes"
+        "retake": "Ulangi Tes",
+        "moreTests": "Coba Tes Lainnya",
+        "percentileStat": "Hanya <strong>{percent}%</strong> orang yang mendapat tingkat usia jiwa yang sama"
+    },
+    "related": {
+        "mentalAge": "Usia Mental",
+        "emotionalAge": "Usia Emosional",
+        "auraReading": "Pembacaan Aura",
+        "pastLife": "Kehidupan Sebelumnya"
     },
     "share": {
         "title": "Bagikan Usia Jiwamu",

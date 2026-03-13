@@ -138,7 +138,15 @@
         "years": "a\u00f1os",
         "timeline": "L\u00ednea de Tiempo del Alma",
         "you": "T\u00da",
-        "retake": "Repetir Test"
+        "retake": "Repetir Test",
+        "moreTests": "Explora M\u00e1s Tests",
+        "percentileStat": "Solo el <strong>{percent}%</strong> de las personas comparten este nivel de edad del alma"
+    },
+    "related": {
+        "mentalAge": "Edad Mental",
+        "emotionalAge": "Edad Emocional",
+        "auraReading": "Lectura de Aura",
+        "pastLife": "Vida Pasada"
     },
     "share": {
         "title": "Comparte la Edad de tu Alma",

@@ -499,6 +499,14 @@
         // Timeline
         renderTimeline(tier);
 
+        // Percentile stat
+        var percentile = Math.floor(Math.random() * 15) + 3;
+        var percentileEl = $('percentileStat');
+        if (percentileEl) {
+            var pText = t('result.percentileStat', 'Only <strong>{percent}%</strong> of people share this soul age tier');
+            percentileEl.innerHTML = pText.replace('{percent}', percentile);
+        }
+
         // GA4 event
         if (typeof gtag === 'function') {
             gtag('event', 'quiz_complete', {

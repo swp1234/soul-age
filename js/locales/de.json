@@ -138,7 +138,15 @@
         "years": "Jahre alt",
         "timeline": "Seelenalter-Zeitleiste",
         "you": "DU",
-        "retake": "Erneut testen"
+        "retake": "Erneut testen",
+        "moreTests": "Mehr Tests entdecken",
+        "percentileStat": "Nur <strong>{percent}%</strong> der Menschen teilen diese Seelenalter-Stufe"
+    },
+    "related": {
+        "mentalAge": "Mentales Alter",
+        "emotionalAge": "Emotionales Alter",
+        "auraReading": "Aura-Lesung",
+        "pastLife": "Fr\u00fcheres Leben"
     },
     "share": {
         "title": "Teile dein Seelenalter",

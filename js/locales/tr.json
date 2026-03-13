@@ -138,7 +138,15 @@
         "years": "ya\u015f\u0131nda",
         "timeline": "Ruh Ya\u015f\u0131 Zaman \u00c7izelgesi",
         "you": "S\u0130Z",
-        "retake": "Tekrar Yap"
+        "retake": "Tekrar Yap",
+        "moreTests": "Daha Fazla Test",
+        "percentileStat": "Sadece <strong>{percent}%</strong> ki\u015fi ayn\u0131 ruh ya\u015f\u0131 seviyesini ald\u0131"
+    },
+    "related": {
+        "mentalAge": "Zihinsel Ya\u015f",
+        "emotionalAge": "Duygusal Ya\u015f",
+        "auraReading": "Aura Okuma",
+        "pastLife": "Ge\u00e7mi\u015f Ya\u015fam"
     },
     "share": {
         "title": "Ruh Ya\u015f\u0131n\u0131z\u0131 Payla\u015f\u0131n",

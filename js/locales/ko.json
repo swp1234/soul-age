@@ -138,7 +138,15 @@
         "years": "\uc0b4",
         "timeline": "\uc601\ud63c \ub098\uc774 \ud0c0\uc784\ub77c\uc778",
         "you": "\ub098",
-        "retake": "\ub2e4\uc2dc \ud558\uae30"
+        "retake": "\ub2e4\uc2dc \ud558\uae30",
+        "moreTests": "\ub2e4\ub978 \ud14c\uc2a4\ud2b8\ub3c4 \ud574\ubcf4\uc138\uc694",
+        "percentileStat": "\ucc38\uac00\uc790 \uc911 <strong>{percent}%</strong>\ub9cc \uac19\uc740 \uc601\ud63c \ub098\uc774 \ub4f1\uae09\uc744 \ubc1b\uc558\uc5b4\uc694"
+    },
+    "related": {
+        "mentalAge": "\uc815\uc2e0 \ub098\uc774",
+        "emotionalAge": "\uac10\uc815 \ub098\uc774",
+        "auraReading": "\uc624\ub77c \ub9ac\ub529",
+        "pastLife": "\uc804\uc0dd \ud14c\uc2a4\ud2b8"
     },
     "share": {
         "title": "\uc601\ud63c \ub098\uc774 \uacf5\uc720\ud558\uae30",

@@ -138,7 +138,15 @@
         "years": "\u6b73",
         "timeline": "\u9b42\u306e\u5e74\u9f62\u30bf\u30a4\u30e0\u30e9\u30a4\u30f3",
         "you": "\u3042\u306a\u305f",
-        "retake": "\u3082\u3046\u4e00\u5ea6"
+        "retake": "\u3082\u3046\u4e00\u5ea6",
+        "moreTests": "\u4ed6\u306e\u30c6\u30b9\u30c8\u3082\u8a66\u3059",
+        "percentileStat": "\u53c2\u52a0\u8005\u306e\u3046\u3061 <strong>{percent}%</strong> \u3060\u3051\u304c\u540c\u3058\u9b42\u306e\u5e74\u9f62\u30c6\u30a3\u30a2\u3067\u3057\u305f"
+    },
+    "related": {
+        "mentalAge": "\u7cbe\u795e\u5e74\u9f62",
+        "emotionalAge": "\u611f\u60c5\u5e74\u9f62",
+        "auraReading": "\u30aa\u30fc\u30e9\u30ea\u30fc\u30c7\u30a3\u30f3\u30b0",
+        "pastLife": "\u524d\u4e16\u8a3a\u65ad"
     },
     "share": {
         "title": "\u9b42\u306e\u5e74\u9f62\u3092\u30b7\u30a7\u30a2",

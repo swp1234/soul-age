@@ -138,7 +138,15 @@
         "years": "anos",
         "timeline": "Linha do Tempo da Alma",
         "you": "VOC\u00ca",
-        "retake": "Refazer Teste"
+        "retake": "Refazer Teste",
+        "moreTests": "Explore Mais Testes",
+        "percentileStat": "Apenas <strong>{percent}%</strong> das pessoas compartilham este n\u00edvel de idade da alma"
+    },
+    "related": {
+        "mentalAge": "Idade Mental",
+        "emotionalAge": "Idade Emocional",
+        "auraReading": "Leitura de Aura",
+        "pastLife": "Vida Passada"
     },
     "share": {
         "title": "Compartilhe a Idade da Sua Alma",

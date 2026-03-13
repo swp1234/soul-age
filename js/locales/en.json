@@ -138,7 +138,15 @@
         "years": "years old",
         "timeline": "Soul Age Timeline",
         "you": "YOU",
-        "retake": "Retake Test"
+        "retake": "Retake Test",
+        "moreTests": "Explore More Tests",
+        "percentileStat": "Only <strong>{percent}%</strong> of people share this soul age tier"
+    },
+    "related": {
+        "mentalAge": "Mental Age",
+        "emotionalAge": "Emotional Age",
+        "auraReading": "Aura Reading",
+        "pastLife": "Past Life"
     },
     "share": {
         "title": "Share Your Soul Age",

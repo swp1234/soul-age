@@ -138,7 +138,15 @@
         "years": "ans",
         "timeline": "Chronologie de l'\u00e2ge de l'\u00e2me",
         "you": "VOUS",
-        "retake": "Refaire le test"
+        "retake": "Refaire le test",
+        "moreTests": "D\u00e9couvrir plus de tests",
+        "percentileStat": "Seulement <strong>{percent}%</strong> des gens partagent ce niveau d'\u00e2ge de l'\u00e2me"
+    },
+    "related": {
+        "mentalAge": "\u00c2ge Mental",
+        "emotionalAge": "\u00c2ge \u00c9motionnel",
+        "auraReading": "Lecture d'Aura",
+        "pastLife": "Vie Ant\u00e9rieure"
     },
     "share": {
         "title": "Partagez l'\u00e2ge de votre \u00e2me",
