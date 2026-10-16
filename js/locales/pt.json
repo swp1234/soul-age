@@ -1,175 +1,178 @@
 {
-    "meta": {
-        "title": "Quantos anos tem a sua alma? Teste gratuito | DopaBrain",
-        "description": "Descubra a verdadeira idade da sua alma com 12 perguntas espirituais profundas! Teste gratuito, resultados instantâneos."
+  "meta": {
+    "title": "Quantos anos tem a sua alma? Teste gratuito | DopaBrain",
+    "description": "Descubra a verdadeira idade da sua alma com 12 perguntas espirituais profundas! Teste gratuito, resultados instantâneos."
+  },
+  "a11y": {
+    "skip": "Pular para o conteúdo"
+  },
+  "app": {
+    "title": "Quantos anos tem a sua alma? - Teste de Idade da Alma",
+    "subtitle": "Quantos anos tem a sua alma?",
+    "description": "Responda 12 perguntas profundas para descobrir a verdadeira idade da sua alma. Você é uma alma nova ou um ser transcendente antigo?",
+    "start": "Descobrir minha idade da alma - Grátis"
+  },
+  "quiz": {
+    "progress": "{current} / {total}"
+  },
+  "questions": {
+    "q1": {
+      "text": "O que te atrai em um lugar novo?",
+      "a": "A emoção e a aventura",
+      "b": "Conhecer pessoas novas e se encaixar",
+      "c": "Entender profundamente a cultura local",
+      "d": "Sentir uma estranha sensação de já ter estado lá"
     },
-    "a11y": {
-        "skip": "Pular para o conteúdo"
+    "q2": {
+      "text": "Como você lida com conflitos?",
+      "a": "Lutar ou fugir — puro instinto",
+      "b": "Tentar vencer seguindo as regras",
+      "c": "Buscar um compromisso que considere todos os lados",
+      "d": "Observar silenciosamente, sabendo que se resolverá"
     },
-    "app": {
-        "title": "Quantos anos tem a sua alma? - Teste de Idade da Alma",
-        "subtitle": "Quantos anos tem a sua alma?",
-        "description": "Responda 12 perguntas profundas para descobrir a verdadeira idade da sua alma. Você é uma alma nova ou um ser transcendente antigo?",
-        "start": "Descobrir minha idade da alma - Grátis"
+    "q3": {
+      "text": "O que mais importa na vida?",
+      "a": "Diversão e novas experiências",
+      "b": "Construir uma carreira de sucesso",
+      "c": "Relacionamentos profundos e crescimento pessoal",
+      "d": "Paz interior e compreensão do universo"
     },
-    "quiz": {
-        "progress": "{current} / {total}"
+    "q4": {
+      "text": "Uma criança pergunta 'Por que existimos?'",
+      "a": "Para se divertir!",
+      "b": "Para fazer algo de nós mesmos",
+      "c": "Para aprender e amar",
+      "d": "Esse é o belo mistério, não é?"
     },
-    "questions": {
-        "q1": {
-            "text": "O que te atrai em um lugar novo?",
-            "a": "A emoção e a aventura",
-            "b": "Conhecer pessoas novas e se encaixar",
-            "c": "Entender profundamente a cultura local",
-            "d": "Sentir uma estranha sensação de já ter estado lá"
-        },
-        "q2": {
-            "text": "Como você lida com conflitos?",
-            "a": "Lutar ou fugir — puro instinto",
-            "b": "Tentar vencer seguindo as regras",
-            "c": "Buscar um compromisso que considere todos os lados",
-            "d": "Observar silenciosamente, sabendo que se resolverá"
-        },
-        "q3": {
-            "text": "O que mais importa na vida?",
-            "a": "Diversão e novas experiências",
-            "b": "Construir uma carreira de sucesso",
-            "c": "Relacionamentos profundos e crescimento pessoal",
-            "d": "Paz interior e compreensão do universo"
-        },
-        "q4": {
-            "text": "Uma criança pergunta 'Por que existimos?'",
-            "a": "Para se divertir!",
-            "b": "Para fazer algo de nós mesmos",
-            "c": "Para aprender e amar",
-            "d": "Esse é o belo mistério, não é?"
-        },
-        "q5": {
-            "text": "Qual era mais te fascina?",
-            "a": "O futuro — tecnologia e progresso",
-            "b": "O presente — aproveitar o agora",
-            "c": "O Renascimento — arte e despertar",
-            "d": "Civilizações antigas — sabedoria atemporal"
-        },
-        "q6": {
-            "text": "Como você se sente sobre a morte?",
-            "a": "Não penso nisso",
-            "b": "Me motiva a conquistar mais",
-            "c": "É uma transição natural",
-            "d": "Parece voltar para casa"
-        },
-        "q7": {
-            "text": "Que tipo de música te emociona?",
-            "a": "Músicas animadas e cheias de energia",
-            "b": "Hits populares que todos conhecem",
-            "c": "Composições complexas com profundidade emocional",
-            "d": "Instrumentos antigos, sons da natureza, silêncio"
-        },
-        "q8": {
-            "text": "Ao conhecer alguém novo, você primeiro nota...",
-            "a": "Quão divertida a pessoa parece",
-            "b": "Seu status social ou aparência",
-            "c": "Sua energia emocional e autenticidade",
-            "d": "Seus olhos — a janela da alma"
-        },
-        "q9": {
-            "text": "Seu fim de semana ideal é...",
-            "a": "Festa, aventura, planos espontâneos",
-            "b": "Produtivo — metas, academia, networking",
-            "c": "Tempo de qualidade com amigos próximos, reflexão",
-            "d": "Solidão na natureza, meditação, observar estrelas"
-        },
-        "q10": {
-            "text": "Como você se sente sobre regras e autoridade?",
-            "a": "Regras são chatas, faço o que quero",
-            "b": "Regras criam ordem e sucesso",
-            "c": "Sigo minha própria bússola moral",
-            "d": "Regras são construções humanas; a verdade é interna"
-        },
-        "q11": {
-            "text": "Você tem um sonho vívido. Você pensa...",
-            "a": "Que estranho! Seguindo em frente",
-            "b": "O que isso significa para meus objetivos?",
-            "c": "Está me mostrando algo sobre meu mundo interior",
-            "d": "Minha alma está lembrando de outras vidas"
-        },
-        "q12": {
-            "text": "Qual é sua relação com o tempo?",
-            "a": "YOLO — viva o momento",
-            "b": "Tempo é dinheiro — use com sabedoria",
-            "c": "O tempo é cíclico — o que vai, volta",
-            "d": "O tempo é uma ilusão — todos os momentos existem ao mesmo tempo"
-        }
+    "q5": {
+      "text": "Qual era mais te fascina?",
+      "a": "O futuro — tecnologia e progresso",
+      "b": "O presente — aproveitar o agora",
+      "c": "O Renascimento — arte e despertar",
+      "d": "Civilizações antigas — sabedoria atemporal"
     },
-    "tiers": {
-        "infant": {
-            "name": "Alma Infantil",
-            "emoji": "👶",
-            "age": "~500 anos",
-            "desc": "Sua alma é fresca e nova! Você experimenta a vida com pura emoção e encanto. Tudo é uma aventura e você mergulha no mundo com curiosidade destemida."
-        },
-        "young": {
-            "name": "Alma Jovem",
-            "emoji": "⚡",
-            "age": "~3,000 anos",
-            "desc": "Sua alma é ambiciosa e determinada. Você está aqui para provar seu valor e deixar sua marca no mundo. Sucesso, conquistas e reconhecimento alimentam seu fogo."
-        },
-        "mature": {
-            "name": "Alma Madura",
-            "emoji": "🌿",
-            "age": "~10,000 anos",
-            "desc": "Sua alma viveu muitas vidas. Você busca conexões profundas, compreende emoções complexas e valoriza o crescimento pessoal acima do sucesso material."
-        },
-        "old": {
-            "name": "Alma Velha",
-            "emoji": "🦉",
-            "age": "~35,000 anos",
-            "desc": "Sua alma carrega sabedoria antiga. Você vê o quadro geral, valoriza a paz acima da ambição e frequentemente sente que não pertence totalmente a este mundo moderno."
-        },
-        "transcendent": {
-            "name": "Alma Transcendente",
-            "emoji": "✨",
-            "age": "~100,000+ anos",
-            "desc": "Sua alma está perto do fim de sua jornada terrena. Você existe entre mundos, vê através das ilusões e irradia uma calma que outros podem sentir."
-        }
+    "q6": {
+      "text": "Como você se sente sobre a morte?",
+      "a": "Não penso nisso",
+      "b": "Me motiva a conquistar mais",
+      "c": "É uma transição natural",
+      "d": "Parece voltar para casa"
     },
-    "result": {
-        "title": "A Idade da Sua Alma",
-        "years": "anos",
-        "timeline": "Linha do Tempo da Alma",
-        "you": "VOCÊ",
-        "retake": "Refazer Teste",
-        "moreTests": "Explore Mais Testes",
-        "percentileStat": "Apenas <strong>{percent}%</strong> das pessoas compartilham este nível de idade da alma"
+    "q7": {
+      "text": "Que tipo de música te emociona?",
+      "a": "Músicas animadas e cheias de energia",
+      "b": "Hits populares que todos conhecem",
+      "c": "Composições complexas com profundidade emocional",
+      "d": "Instrumentos antigos, sons da natureza, silêncio"
     },
-    "related": {
-        "mentalAge": "Idade Mental",
-        "emotionalAge": "Idade Emocional",
-        "auraReading": "Leitura de Aura",
-        "pastLife": "Vida Passada"
+    "q8": {
+      "text": "Ao conhecer alguém novo, você primeiro nota...",
+      "a": "Quão divertida a pessoa parece",
+      "b": "Seu status social ou aparência",
+      "c": "Sua energia emocional e autenticidade",
+      "d": "Seus olhos — a janela da alma"
     },
-    "share": {
-        "title": "Compartilhe a Idade da Sua Alma",
-        "text": "Minha alma tem {age} anos! Sou uma \"{tier}\" 🔮 Descubra a idade da sua alma:",
-        "twitter": "Compartilhar no X",
-        "copyUrl": "Copiar Link",
-        "copied": "Copiado!"
+    "q9": {
+      "text": "Seu fim de semana ideal é...",
+      "a": "Festa, aventura, planos espontâneos",
+      "b": "Produtivo — metas, academia, networking",
+      "c": "Tempo de qualidade com amigos próximos, reflexão",
+      "d": "Solidão na natureza, meditação, observar estrelas"
     },
-    "nav": {
-        "back": "DopaBrain Início"
+    "q10": {
+      "text": "Como você se sente sobre regras e autoridade?",
+      "a": "Regras são chatas, faço o que quero",
+      "b": "Regras criam ordem e sucesso",
+      "c": "Sigo minha própria bússola moral",
+      "d": "Regras são construções humanas; a verdade é interna"
     },
-    "engage": {
-        "result1": "Alma Infantil -- ~500 anos, Maravilha Pura",
-        "result2": "Alma Jovem -- ~3.000 anos, Fogo Ambicioso",
-        "result3": "Alma Velha -- ~35.000 anos, Sabedoria Ancestral",
-        "result4": "Transcendental -- ~100.000+ anos, Além dos Mundos",
-        "socialProof": "1.490+ almas descobriram sua idade"
+    "q11": {
+      "text": "Você tem um sonho vívido. Você pensa...",
+      "a": "Que estranho! Seguindo em frente",
+      "b": "O que isso significa para meus objetivos?",
+      "c": "Está me mostrando algo sobre meu mundo interior",
+      "d": "Minha alma está lembrando de outras vidas"
     },
-    "about": {
-        "toggle": "Sobre o Teste de Idade da Alma",
-        "heading1": "Como funciona o teste",
-        "text1": "O teste apresenta 12 perguntas sobre sua visão de mundo, valores e instintos. Cada pergunta oferece 4 respostas representando diferentes níveis de maturidade da alma.",
-        "heading2": "Entendendo os níveis",
-        "text2": "O conceito de idade da alma vem da filosofia espiritual. Este teste é para entretenimento e autorreflexo."
+    "q12": {
+      "text": "Qual é sua relação com o tempo?",
+      "a": "YOLO — viva o momento",
+      "b": "Tempo é dinheiro — use com sabedoria",
+      "c": "O tempo é cíclico — o que vai, volta",
+      "d": "O tempo é uma ilusão — todos os momentos existem ao mesmo tempo"
     }
+  },
+  "tiers": {
+    "infant": {
+      "name": "Alma Infantil",
+      "emoji": "👶",
+      "age": "~500 anos",
+      "desc": "Sua alma é fresca e nova! Você experimenta a vida com pura emoção e encanto. Tudo é uma aventura e você mergulha no mundo com curiosidade destemida."
+    },
+    "young": {
+      "name": "Alma Jovem",
+      "emoji": "⚡",
+      "age": "~3,000 anos",
+      "desc": "Sua alma é ambiciosa e determinada. Você está aqui para provar seu valor e deixar sua marca no mundo. Sucesso, conquistas e reconhecimento alimentam seu fogo."
+    },
+    "mature": {
+      "name": "Alma Madura",
+      "emoji": "🌿",
+      "age": "~10,000 anos",
+      "desc": "Sua alma viveu muitas vidas. Você busca conexões profundas, compreende emoções complexas e valoriza o crescimento pessoal acima do sucesso material."
+    },
+    "old": {
+      "name": "Alma Velha",
+      "emoji": "🦉",
+      "age": "~35,000 anos",
+      "desc": "Sua alma carrega sabedoria antiga. Você vê o quadro geral, valoriza a paz acima da ambição e frequentemente sente que não pertence totalmente a este mundo moderno."
+    },
+    "transcendent": {
+      "name": "Alma Transcendente",
+      "emoji": "✨",
+      "age": "~100,000+ anos",
+      "desc": "Sua alma está perto do fim de sua jornada terrena. Você existe entre mundos, vê através das ilusões e irradia uma calma que outros podem sentir."
+    }
+  },
+  "result": {
+    "title": "A Idade da Sua Alma",
+    "years": "anos",
+    "timeline": "Linha do Tempo da Alma",
+    "you": "VOCÊ",
+    "retake": "Refazer Teste",
+    "moreTests": "Explore Mais Testes",
+    "percentileStat": "Apenas <strong>{percent}%</strong> das pessoas compartilham este nível de idade da alma"
+  },
+  "related": {
+    "mentalAge": "Idade Mental",
+    "emotionalAge": "Idade Emocional",
+    "auraReading": "Leitura de Aura",
+    "pastLife": "Vida Passada",
+    "futureSelf": "Eu do Futuro",
+    "shadowWork": "Trabalho de Sombra",
+    "dailyTarot": "Tarot Diário"
+  },
+  "share": {
+    "title": "Compartilhe a Idade da Sua Alma",
+    "text": "Minha alma tem {age} anos! Sou uma \"{tier}\" 🔮 Descubra a idade da sua alma:",
+    "twitter": "Compartilhar no X",
+    "copyUrl": "Copiar Link",
+    "copied": "Copiado!"
+  },
+  "nav": {
+    "back": "DopaBrain Início"
+  },
+  "engage": {
+    "result1": "Alma Infantil -- ~500 anos, Maravilha Pura",
+    "result2": "Alma Jovem -- ~3.000 anos, Fogo Ambicioso",
+    "result3": "Alma Velha -- ~35.000 anos, Sabedoria Ancestral",
+    "result4": "Transcendental -- ~100.000+ anos, Além dos Mundos",
+    "socialProof": "1.490+ almas descobriram sua idade"
+  },
+  "about": {
+    "toggle": "Sobre o Teste de Idade da Alma",
+    "heading1": "Como funciona o teste",
+    "text1": "O teste apresenta 12 perguntas sobre sua visão de mundo, valores e instintos. Cada pergunta oferece 4 respostas representando diferentes níveis de maturidade da alma.",
+    "heading2": "Entendendo os níveis",
+    "text2": "O conceito de idade da alma vem da filosofia espiritual. Este teste é para entretenimento e autorreflexo."
+  }
 }

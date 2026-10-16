@@ -1,175 +1,178 @@
 {
-    "meta": {
-        "title": "Quel âge a votre âme ? Test gratuit | DopaBrain",
-        "description": "Découvrez le véritable âge de votre âme avec 12 questions spirituelles profondes ! Test gratuit, résultats instantanés."
+  "meta": {
+    "title": "Quel âge a votre âme ? Test gratuit | DopaBrain",
+    "description": "Découvrez le véritable âge de votre âme avec 12 questions spirituelles profondes ! Test gratuit, résultats instantanés."
+  },
+  "a11y": {
+    "skip": "Aller au contenu"
+  },
+  "app": {
+    "title": "Quel âge a votre âme ? - Test d’Âge de l’Âme",
+    "subtitle": "Quel âge a votre âme ?",
+    "description": "Répondez à 12 questions profondes pour découvrir le véritable âge de votre âme. Êtes-vous une âme nouvelle ou un être transcendant ancien ?",
+    "start": "Découvrir l’âge de mon âme - Gratuit"
+  },
+  "quiz": {
+    "progress": "{current} / {total}"
+  },
+  "questions": {
+    "q1": {
+      "text": "Qu'est-ce qui vous attire dans un nouveau lieu ?",
+      "a": "L'excitation et l'aventure",
+      "b": "Rencontrer de nouvelles personnes et s'intégrer",
+      "c": "Comprendre la culture locale en profondeur",
+      "d": "Ressentir une étrange sensation d'y être déjà venu"
     },
-    "a11y": {
-        "skip": "Aller au contenu"
+    "q2": {
+      "text": "Comment gérez-vous les conflits ?",
+      "a": "Combattre ou fuir — pur instinct",
+      "b": "Essayer de gagner en suivant les règles",
+      "c": "Chercher un compromis qui considère toutes les parties",
+      "d": "Observer en silence, sachant que ça se résoudra"
     },
-    "app": {
-        "title": "Quel âge a votre âme ? - Test d’Âge de l’Âme",
-        "subtitle": "Quel âge a votre âme ?",
-        "description": "Répondez à 12 questions profondes pour découvrir le véritable âge de votre âme. Êtes-vous une âme nouvelle ou un être transcendant ancien ?",
-        "start": "Découvrir l’âge de mon âme - Gratuit"
+    "q3": {
+      "text": "Qu'est-ce qui compte le plus dans la vie ?",
+      "a": "S'amuser et vivre de nouvelles expériences",
+      "b": "Construire une carrière réussie",
+      "c": "Des relations profondes et la croissance personnelle",
+      "d": "La paix intérieure et comprendre l'univers"
     },
-    "quiz": {
-        "progress": "{current} / {total}"
+    "q4": {
+      "text": "Un enfant demande 'Pourquoi existons-nous ?'",
+      "a": "Pour s'amuser !",
+      "b": "Pour faire quelque chose de nous-mêmes",
+      "c": "Pour apprendre et aimer",
+      "d": "C'est le beau mystère, non ?"
     },
-    "questions": {
-        "q1": {
-            "text": "Qu'est-ce qui vous attire dans un nouveau lieu ?",
-            "a": "L'excitation et l'aventure",
-            "b": "Rencontrer de nouvelles personnes et s'intégrer",
-            "c": "Comprendre la culture locale en profondeur",
-            "d": "Ressentir une étrange sensation d'y être déjà venu"
-        },
-        "q2": {
-            "text": "Comment gérez-vous les conflits ?",
-            "a": "Combattre ou fuir — pur instinct",
-            "b": "Essayer de gagner en suivant les règles",
-            "c": "Chercher un compromis qui considère toutes les parties",
-            "d": "Observer en silence, sachant que ça se résoudra"
-        },
-        "q3": {
-            "text": "Qu'est-ce qui compte le plus dans la vie ?",
-            "a": "S'amuser et vivre de nouvelles expériences",
-            "b": "Construire une carrière réussie",
-            "c": "Des relations profondes et la croissance personnelle",
-            "d": "La paix intérieure et comprendre l'univers"
-        },
-        "q4": {
-            "text": "Un enfant demande 'Pourquoi existons-nous ?'",
-            "a": "Pour s'amuser !",
-            "b": "Pour faire quelque chose de nous-mêmes",
-            "c": "Pour apprendre et aimer",
-            "d": "C'est le beau mystère, non ?"
-        },
-        "q5": {
-            "text": "Quelle époque vous fascine le plus ?",
-            "a": "Le futur — technologie et progrès",
-            "b": "Le présent — profiter du moment",
-            "c": "La Renaissance — art et éveil",
-            "d": "Les civilisations anciennes — sagesse intemporelle"
-        },
-        "q6": {
-            "text": "Comment vous sentez-vous face à la mort ?",
-            "a": "Je n'y pense pas",
-            "b": "Ça me motive à accomplir davantage",
-            "c": "C'est une transition naturelle",
-            "d": "On dirait rentrer chez soi"
-        },
-        "q7": {
-            "text": "Quel type de musique vous touche ?",
-            "a": "Des chansons entraînantes pleines d'énergie",
-            "b": "Des tubes populaires que tout le monde connaît",
-            "c": "Des compositions complexes avec profondeur émotionnelle",
-            "d": "Instruments anciens, sons de la nature, silence"
-        },
-        "q8": {
-            "text": "En rencontrant quelqu'un de nouveau, vous remarquez d'abord...",
-            "a": "À quel point ils semblent amusants",
-            "b": "Leur statut social ou apparence",
-            "c": "Leur énergie émotionnelle et authenticité",
-            "d": "Leurs yeux — la fenêtre de l'âme"
-        },
-        "q9": {
-            "text": "Votre week-end idéal ressemble à...",
-            "a": "Fête, aventure, plans spontanés",
-            "b": "Productif — objectifs, sport, réseautage",
-            "c": "Temps de qualité avec des amis proches, réflexion",
-            "d": "Solitude dans la nature, méditation, observer les étoiles"
-        },
-        "q10": {
-            "text": "Comment voyez-vous les règles et l'autorité ?",
-            "a": "Les règles sont ennuyeuses, je fais ce que je veux",
-            "b": "Les règles créent l'ordre et le succès",
-            "c": "Je suis ma propre boussole morale",
-            "d": "Les règles sont des constructions humaines ; la vérité est intérieure"
-        },
-        "q11": {
-            "text": "Vous faites un rêve très réaliste. Vous pensez...",
-            "a": "C'était bizarre ! Passons",
-            "b": "Je me demande ce que ça signifie pour mes objectifs",
-            "c": "Il me montre quelque chose sur mon monde intérieur",
-            "d": "Mon âme se souvient d'autres vies"
-        },
-        "q12": {
-            "text": "Quelle est votre relation avec le temps ?",
-            "a": "YOLO — vivre l'instant",
-            "b": "Le temps c'est de l'argent — utilisez-le sagement",
-            "c": "Le temps est cyclique — ce qui part revient",
-            "d": "Le temps est une illusion — tous les moments existent simultanément"
-        }
+    "q5": {
+      "text": "Quelle époque vous fascine le plus ?",
+      "a": "Le futur — technologie et progrès",
+      "b": "Le présent — profiter du moment",
+      "c": "La Renaissance — art et éveil",
+      "d": "Les civilisations anciennes — sagesse intemporelle"
     },
-    "tiers": {
-        "infant": {
-            "name": "Âme Enfant",
-            "emoji": "👶",
-            "age": "~500 ans",
-            "desc": "Votre âme est fraîche et nouvelle ! Vous vivez la vie avec une pure excitation et émerveillement. Tout est une aventure, et vous plongez dans le monde avec une curiosité intrépide."
-        },
-        "young": {
-            "name": "Âme Jeune",
-            "emoji": "⚡",
-            "age": "~3 000 ans",
-            "desc": "Votre âme est ambitieuse et déterminée. Vous êtes ici pour prouver votre valeur et laisser votre marque dans le monde. Le succès, les accomplissements et la reconnaissance alimentent votre feu."
-        },
-        "mature": {
-            "name": "Âme Mature",
-            "emoji": "🌿",
-            "age": "~10 000 ans",
-            "desc": "Votre âme a vécu de nombreuses vies. Vous recherchez des connexions profondes, comprenez des émotions complexes et valorisez la croissance personnelle plus que le succès matériel."
-        },
-        "old": {
-            "name": "Âme Ancienne",
-            "emoji": "🦉",
-            "age": "~35 000 ans",
-            "desc": "Votre âme porte une sagesse ancestrale. Vous voyez la vue d'ensemble, valorisez la paix plus que l'ambition et sentez souvent que vous n'appartenez pas tout à fait à ce monde moderne."
-        },
-        "transcendent": {
-            "name": "Âme Transcendante",
-            "emoji": "✨",
-            "age": "~100 000+ ans",
-            "desc": "Votre âme approche de la fin de son voyage terrestre. Vous existez entre les mondes, voyez à travers les illusions et irradiez un calme que les autres peuvent ressentir."
-        }
+    "q6": {
+      "text": "Comment vous sentez-vous face à la mort ?",
+      "a": "Je n'y pense pas",
+      "b": "Ça me motive à accomplir davantage",
+      "c": "C'est une transition naturelle",
+      "d": "On dirait rentrer chez soi"
     },
-    "result": {
-        "title": "L'âge de votre âme",
-        "years": "ans",
-        "timeline": "Chronologie de l'âge de l'âme",
-        "you": "VOUS",
-        "retake": "Refaire le test",
-        "moreTests": "Découvrir plus de tests",
-        "percentileStat": "Seulement <strong>{percent}%</strong> des gens partagent ce niveau d'âge de l'âme"
+    "q7": {
+      "text": "Quel type de musique vous touche ?",
+      "a": "Des chansons entraînantes pleines d'énergie",
+      "b": "Des tubes populaires que tout le monde connaît",
+      "c": "Des compositions complexes avec profondeur émotionnelle",
+      "d": "Instruments anciens, sons de la nature, silence"
     },
-    "related": {
-        "mentalAge": "Âge Mental",
-        "emotionalAge": "Âge Émotionnel",
-        "auraReading": "Lecture d'Aura",
-        "pastLife": "Vie Antérieure"
+    "q8": {
+      "text": "En rencontrant quelqu'un de nouveau, vous remarquez d'abord...",
+      "a": "À quel point ils semblent amusants",
+      "b": "Leur statut social ou apparence",
+      "c": "Leur énergie émotionnelle et authenticité",
+      "d": "Leurs yeux — la fenêtre de l'âme"
     },
-    "share": {
-        "title": "Partagez l'âge de votre âme",
-        "text": "Mon âme a {age} ans ! Je suis une «{tier}» 🔮 Découvrez l'âge de votre âme :",
-        "twitter": "Partager sur X",
-        "copyUrl": "Copier le lien",
-        "copied": "Copié !"
+    "q9": {
+      "text": "Votre week-end idéal ressemble à...",
+      "a": "Fête, aventure, plans spontanés",
+      "b": "Productif — objectifs, sport, réseautage",
+      "c": "Temps de qualité avec des amis proches, réflexion",
+      "d": "Solitude dans la nature, méditation, observer les étoiles"
     },
-    "nav": {
-        "back": "DopaBrain Accueil"
+    "q10": {
+      "text": "Comment voyez-vous les règles et l'autorité ?",
+      "a": "Les règles sont ennuyeuses, je fais ce que je veux",
+      "b": "Les règles créent l'ordre et le succès",
+      "c": "Je suis ma propre boussole morale",
+      "d": "Les règles sont des constructions humaines ; la vérité est intérieure"
     },
-    "engage": {
-        "result1": "Âme Enfant -- ~500 ans, Émerveillement Pur",
-        "result2": "Âme Jeune -- ~3 000 ans, Feu Ambitieux",
-        "result3": "Vieille Âme -- ~35 000 ans, Sagesse Ancestrale",
-        "result4": "Transcendante -- ~100 000+ ans, Au-delà des Mondes",
-        "socialProof": "1 490+ âmes ont découvert leur âge"
+    "q11": {
+      "text": "Vous faites un rêve très réaliste. Vous pensez...",
+      "a": "C'était bizarre ! Passons",
+      "b": "Je me demande ce que ça signifie pour mes objectifs",
+      "c": "Il me montre quelque chose sur mon monde intérieur",
+      "d": "Mon âme se souvient d'autres vies"
     },
-    "about": {
-        "toggle": "À propos du Test d’Âge de l’Âme",
-        "heading1": "Comment fonctionne le test",
-        "text1": "Le test présente 12 questions sur votre vision du monde, vos valeurs et vos instincts. Chaque question propose 4 réponses.",
-        "heading2": "Comprendre les niveaux d’âge de l’âme",
-        "text2": "Le concept d’âge de l’âme provient de la philosophie spirituelle. Ce test est destiné au divertissement et à l’introspection."
+    "q12": {
+      "text": "Quelle est votre relation avec le temps ?",
+      "a": "YOLO — vivre l'instant",
+      "b": "Le temps c'est de l'argent — utilisez-le sagement",
+      "c": "Le temps est cyclique — ce qui part revient",
+      "d": "Le temps est une illusion — tous les moments existent simultanément"
     }
+  },
+  "tiers": {
+    "infant": {
+      "name": "Âme Enfant",
+      "emoji": "👶",
+      "age": "~500 ans",
+      "desc": "Votre âme est fraîche et nouvelle ! Vous vivez la vie avec une pure excitation et émerveillement. Tout est une aventure, et vous plongez dans le monde avec une curiosité intrépide."
+    },
+    "young": {
+      "name": "Âme Jeune",
+      "emoji": "⚡",
+      "age": "~3 000 ans",
+      "desc": "Votre âme est ambitieuse et déterminée. Vous êtes ici pour prouver votre valeur et laisser votre marque dans le monde. Le succès, les accomplissements et la reconnaissance alimentent votre feu."
+    },
+    "mature": {
+      "name": "Âme Mature",
+      "emoji": "🌿",
+      "age": "~10 000 ans",
+      "desc": "Votre âme a vécu de nombreuses vies. Vous recherchez des connexions profondes, comprenez des émotions complexes et valorisez la croissance personnelle plus que le succès matériel."
+    },
+    "old": {
+      "name": "Âme Ancienne",
+      "emoji": "🦉",
+      "age": "~35 000 ans",
+      "desc": "Votre âme porte une sagesse ancestrale. Vous voyez la vue d'ensemble, valorisez la paix plus que l'ambition et sentez souvent que vous n'appartenez pas tout à fait à ce monde moderne."
+    },
+    "transcendent": {
+      "name": "Âme Transcendante",
+      "emoji": "✨",
+      "age": "~100 000+ ans",
+      "desc": "Votre âme approche de la fin de son voyage terrestre. Vous existez entre les mondes, voyez à travers les illusions et irradiez un calme que les autres peuvent ressentir."
+    }
+  },
+  "result": {
+    "title": "L'âge de votre âme",
+    "years": "ans",
+    "timeline": "Chronologie de l'âge de l'âme",
+    "you": "VOUS",
+    "retake": "Refaire le test",
+    "moreTests": "Découvrir plus de tests",
+    "percentileStat": "Seulement <strong>{percent}%</strong> des gens partagent ce niveau d'âge de l'âme"
+  },
+  "related": {
+    "mentalAge": "Âge Mental",
+    "emotionalAge": "Âge Émotionnel",
+    "auraReading": "Lecture d'Aura",
+    "pastLife": "Vie Antérieure",
+    "futureSelf": "Moi du Futur",
+    "shadowWork": "Travail de l’Ombre",
+    "dailyTarot": "Tarot du Jour"
+  },
+  "share": {
+    "title": "Partagez l'âge de votre âme",
+    "text": "Mon âme a {age} ans ! Je suis une «{tier}» 🔮 Découvrez l'âge de votre âme :",
+    "twitter": "Partager sur X",
+    "copyUrl": "Copier le lien",
+    "copied": "Copié !"
+  },
+  "nav": {
+    "back": "DopaBrain Accueil"
+  },
+  "engage": {
+    "result1": "Âme Enfant -- ~500 ans, Émerveillement Pur",
+    "result2": "Âme Jeune -- ~3 000 ans, Feu Ambitieux",
+    "result3": "Vieille Âme -- ~35 000 ans, Sagesse Ancestrale",
+    "result4": "Transcendante -- ~100 000+ ans, Au-delà des Mondes",
+    "socialProof": "1 490+ âmes ont découvert leur âge"
+  },
+  "about": {
+    "toggle": "À propos du Test d’Âge de l’Âme",
+    "heading1": "Comment fonctionne le test",
+    "text1": "Le test présente 12 questions sur votre vision du monde, vos valeurs et vos instincts. Chaque question propose 4 réponses.",
+    "heading2": "Comprendre les niveaux d’âge de l’âme",
+    "text2": "Le concept d’âge de l’âme provient de la philosophie spirituelle. Ce test est destiné au divertissement et à l’introspection."
+  }
 }

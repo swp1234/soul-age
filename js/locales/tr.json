@@ -1,175 +1,178 @@
 {
-    "meta": {
-        "title": "Ruhunuz Kaç Yaşında? Ücretsiz Test | DopaBrain",
-        "description": "12 derin ruhani soruyla ruhunuzun gerçek yaşını keşfedin! Ücretsiz test, anlık sonuçlar."
+  "meta": {
+    "title": "Ruhunuz Kaç Yaşında? Ücretsiz Test | DopaBrain",
+    "description": "12 derin ruhani soruyla ruhunuzun gerçek yaşını keşfedin! Ücretsiz test, anlık sonuçlar."
+  },
+  "a11y": {
+    "skip": "İçeriğe geç"
+  },
+  "app": {
+    "title": "Ruhunuz Kaç Yaşında? - Ruh Yaşı Testi",
+    "subtitle": "Ruhunuz kaç yaşında?",
+    "description": "12 derin soruyu cevaplayarak ruhunuzun gerçek yaşını keşfedin. Yeni bir ruh musunuz yoksa kadim aşkın bir varlık mı?",
+    "start": "Ruh Yaşımı Keşfet - Ücretsiz"
+  },
+  "quiz": {
+    "progress": "{current} / {total}"
+  },
+  "questions": {
+    "q1": {
+      "text": "Yeni bir yere sizi ne çeker?",
+      "a": "Heyecan ve macera",
+      "b": "Yeni insanlarla tanışmak ve uyum sağlamak",
+      "c": "Yerel kültürü derinlemesine anlamak",
+      "d": "Daha önce orada bulunmuş gibi tuhaf bir his"
     },
-    "a11y": {
-        "skip": "İçeriğe geç"
+    "q2": {
+      "text": "Çatışmayı nasıl yönetirsiniz?",
+      "a": "Savaş ya da kaç — saf içgüdü",
+      "b": "Kurallara uyarak kazanmaya çalışmak",
+      "c": "Tüm tarafları düşünen bir uzlaşma aramak",
+      "d": "Sessizce gözlemlemek, kendi kendine çözüleceğini bilerek"
     },
-    "app": {
-        "title": "Ruhunuz Kaç Yaşında? - Ruh Yaşı Testi",
-        "subtitle": "Ruhunuz kaç yaşında?",
-        "description": "12 derin soruyu cevaplayarak ruhunuzun gerçek yaşını keşfedin. Yeni bir ruh musunuz yoksa kadim aşkın bir varlık mı?",
-        "start": "Ruh Yaşımı Keşfet - Ücretsiz"
+    "q3": {
+      "text": "Hayatta en önemli olan nedir?",
+      "a": "Eğlenmek ve yeni deneyimler",
+      "b": "Başarılı bir kariyer kurmak",
+      "c": "Derin ilişkiler ve kişisel gelişim",
+      "d": "İç huzur ve evreni anlamak"
     },
-    "quiz": {
-        "progress": "{current} / {total}"
+    "q4": {
+      "text": "Bir çocuk 'Neden varız?' diye soruyor",
+      "a": "Eğlenmek için!",
+      "b": "Kendimizden bir şeyler yapmak için",
+      "c": "Öğrenmek ve sevmek için",
+      "d": "Bu güzel gizem değil mi?"
     },
-    "questions": {
-        "q1": {
-            "text": "Yeni bir yere sizi ne çeker?",
-            "a": "Heyecan ve macera",
-            "b": "Yeni insanlarla tanışmak ve uyum sağlamak",
-            "c": "Yerel kültürü derinlemesine anlamak",
-            "d": "Daha önce orada bulunmuş gibi tuhaf bir his"
-        },
-        "q2": {
-            "text": "Çatışmayı nasıl yönetirsiniz?",
-            "a": "Savaş ya da kaç — saf içgüdü",
-            "b": "Kurallara uyarak kazanmaya çalışmak",
-            "c": "Tüm tarafları düşünen bir uzlaşma aramak",
-            "d": "Sessizce gözlemlemek, kendi kendine çözüleceğini bilerek"
-        },
-        "q3": {
-            "text": "Hayatta en önemli olan nedir?",
-            "a": "Eğlenmek ve yeni deneyimler",
-            "b": "Başarılı bir kariyer kurmak",
-            "c": "Derin ilişkiler ve kişisel gelişim",
-            "d": "İç huzur ve evreni anlamak"
-        },
-        "q4": {
-            "text": "Bir çocuk 'Neden varız?' diye soruyor",
-            "a": "Eğlenmek için!",
-            "b": "Kendimizden bir şeyler yapmak için",
-            "c": "Öğrenmek ve sevmek için",
-            "d": "Bu güzel gizem değil mi?"
-        },
-        "q5": {
-            "text": "Hangi dönem sizi en çok cezbediyor?",
-            "a": "Gelecek — teknoloji ve ilerleme",
-            "b": "Şimdi — anı en iyi şekilde değerlendirmek",
-            "c": "Rönesans — sanat ve uyanış",
-            "d": "Antik uygarlıklar — zamansız bilgelik"
-        },
-        "q6": {
-            "text": "Ölüm hakkında ne düşünüyorsunuz?",
-            "a": "Düşünmüyorum",
-            "b": "Daha fazlasını başarmam için motive ediyor",
-            "c": "Doğal bir geçiş",
-            "d": "Eve dönmek gibi hissettiriyor"
-        },
-        "q7": {
-            "text": "Ne tür müzik sizi etkiler?",
-            "a": "Coşkulu, enerji dolu şarkılar",
-            "b": "Herkesin bildiği popüler hitler",
-            "c": "Duygusal derinliği olan karmaşık besteler",
-            "d": "Kadim enstrümanlar, doğa sesleri, sessizlik"
-        },
-        "q8": {
-            "text": "Yeni biriyle tanışırken ilk fark ettiğiniz...",
-            "a": "Ne kadar eğlenceli göründükleri",
-            "b": "Sosyal statüleri veya görünüşleri",
-            "c": "Duygusal enerjileri ve otantiklikleri",
-            "d": "Gözleri — ruhun penceresi"
-        },
-        "q9": {
-            "text": "İdeal hafta sonunuz nasıl görünüyor?",
-            "a": "Parti, macera, anlık planlar",
-            "b": "Verimli — hedefler, spor, networking",
-            "c": "Yakın arkadaşlarla kaliteli zaman, düşünme",
-            "d": "Doğada yalnızlık, meditasyon, yıldız seyretme"
-        },
-        "q10": {
-            "text": "Kurallar ve otorite hakkında ne düşünüyorsunuz?",
-            "a": "Kurallar sıkıcı, istediğimi yaparım",
-            "b": "Kurallar düzen ve başarı yaratır",
-            "c": "Kendi ahlaki pusulamdan takıp ederim",
-            "d": "Kurallar insan yapımı; gerçek içseldir"
-        },
-        "q11": {
-            "text": "Canlı bir rüya gördünüz. Düşünceniz...",
-            "a": "Garip! Devam edelim",
-            "b": "Hedeflerim için ne anlama geldiğini merak ediyorum",
-            "c": "İç dünyam hakkında bana bir şey gösteriyor",
-            "d": "Ruhum diğer yaşamları hatırlıyor"
-        },
-        "q12": {
-            "text": "Zamanla ilişkiniz nasıl?",
-            "a": "YOLO — anı yaşa",
-            "b": "Zaman paradır — akıllıca kullan",
-            "c": "Zaman döngüseldir — ne giderse döner",
-            "d": "Zaman bir yanılsamadır — tüm anlar aynı anda vardır"
-        }
+    "q5": {
+      "text": "Hangi dönem sizi en çok cezbediyor?",
+      "a": "Gelecek — teknoloji ve ilerleme",
+      "b": "Şimdi — anı en iyi şekilde değerlendirmek",
+      "c": "Rönesans — sanat ve uyanış",
+      "d": "Antik uygarlıklar — zamansız bilgelik"
     },
-    "tiers": {
-        "infant": {
-            "name": "Bebek Ruh",
-            "emoji": "👶",
-            "age": "~500 yıl",
-            "desc": "Ruhunuz taze ve yeni! Hayatı saf heyecan ve merakla deneyimliyorsunuz. Her şey bir macera ve korkusuz merakla dünyaya dalıyorsunuz."
-        },
-        "young": {
-            "name": "Genç Ruh",
-            "emoji": "⚡",
-            "age": "~3.000 yıl",
-            "desc": "Ruhunuz hırslı ve kararlı. Kendinizi kanıtlamak ve dünyada iz bırakmak için buradasınız. Başarı, kazanım ve tanınma ateşinizi körükler."
-        },
-        "mature": {
-            "name": "Olgun Ruh",
-            "emoji": "🌿",
-            "age": "~10.000 yıl",
-            "desc": "Ruhunuz pek çok yaşam geçirmiş. Derin bağlantılar arıyorsunuz, karmaşık duyguları anlıyorsunuz ve maddi başarıdan çok kişisel gelişime değer veriyorsunuz."
-        },
-        "old": {
-            "name": "Yaşlı Ruh",
-            "emoji": "🦉",
-            "age": "~35.000 yıl",
-            "desc": "Ruhunuz kadim bilgelik taşıyor. Büyük resmi görüyorsunuz, hırstan çok huzura değer veriyorsunuz ve bu modern dünyaya tam olarak ait hissetmiyorsunuz."
-        },
-        "transcendent": {
-            "name": "Aşkın Ruh",
-            "emoji": "✨",
-            "age": "~100.000+ yıl",
-            "desc": "Ruhunuz dünyadaki yolculuğunun sonuna yaklaşıyor. Dünyalar arasında var oluyorsunuz, yanılsamaların ötesini görüyorsunuz ve başkalarının hissedebileceği bir huzur yayıyorsunuz."
-        }
+    "q6": {
+      "text": "Ölüm hakkında ne düşünüyorsunuz?",
+      "a": "Düşünmüyorum",
+      "b": "Daha fazlasını başarmam için motive ediyor",
+      "c": "Doğal bir geçiş",
+      "d": "Eve dönmek gibi hissettiriyor"
     },
-    "result": {
-        "title": "Ruh Yaşınız",
-        "years": "yaşında",
-        "timeline": "Ruh Yaşı Zaman Çizelgesi",
-        "you": "SİZ",
-        "retake": "Tekrar Yap",
-        "moreTests": "Daha Fazla Test",
-        "percentileStat": "Sadece <strong>{percent}%</strong> kişi aynı ruh yaşı seviyesini aldı"
+    "q7": {
+      "text": "Ne tür müzik sizi etkiler?",
+      "a": "Coşkulu, enerji dolu şarkılar",
+      "b": "Herkesin bildiği popüler hitler",
+      "c": "Duygusal derinliği olan karmaşık besteler",
+      "d": "Kadim enstrümanlar, doğa sesleri, sessizlik"
     },
-    "related": {
-        "mentalAge": "Zihinsel Yaş",
-        "emotionalAge": "Duygusal Yaş",
-        "auraReading": "Aura Okuma",
-        "pastLife": "Geçmiş Yaşam"
+    "q8": {
+      "text": "Yeni biriyle tanışırken ilk fark ettiğiniz...",
+      "a": "Ne kadar eğlenceli göründükleri",
+      "b": "Sosyal statüleri veya görünüşleri",
+      "c": "Duygusal enerjileri ve otantiklikleri",
+      "d": "Gözleri — ruhun penceresi"
     },
-    "share": {
-        "title": "Ruh Yaşınızı Paylaşın",
-        "text": "Ruhum {age} yaşında! Ben \"{tier}\" 🔮 Ruhunun yaşını keşfet:",
-        "twitter": "X'te Paylaş",
-        "copyUrl": "Linki Kopyala",
-        "copied": "Kopyalandı!"
+    "q9": {
+      "text": "İdeal hafta sonunuz nasıl görünüyor?",
+      "a": "Parti, macera, anlık planlar",
+      "b": "Verimli — hedefler, spor, networking",
+      "c": "Yakın arkadaşlarla kaliteli zaman, düşünme",
+      "d": "Doğada yalnızlık, meditasyon, yıldız seyretme"
     },
-    "nav": {
-        "back": "DopaBrain Ana Sayfa"
+    "q10": {
+      "text": "Kurallar ve otorite hakkında ne düşünüyorsunuz?",
+      "a": "Kurallar sıkıcı, istediğimi yaparım",
+      "b": "Kurallar düzen ve başarı yaratır",
+      "c": "Kendi ahlaki pusulamdan takıp ederim",
+      "d": "Kurallar insan yapımı; gerçek içseldir"
     },
-    "engage": {
-        "result1": "Bebek Ruh -- ~500 yıl, Saf Merak",
-        "result2": "Genç Ruh -- ~3.000 yıl, Hırslı Ateş",
-        "result3": "Yaşlı Ruh -- ~35.000 yıl, Kadim Bilgelik",
-        "result4": "Aşkın -- ~100.000+ yıl, Dünyaların Ötesinde",
-        "socialProof": "1.490+ kişi ruh yaşını keşfetti"
+    "q11": {
+      "text": "Canlı bir rüya gördünüz. Düşünceniz...",
+      "a": "Garip! Devam edelim",
+      "b": "Hedeflerim için ne anlama geldiğini merak ediyorum",
+      "c": "İç dünyam hakkında bana bir şey gösteriyor",
+      "d": "Ruhum diğer yaşamları hatırlıyor"
     },
-    "about": {
-        "toggle": "Ruh Yaşı Testi Hakkında",
-        "heading1": "Ruh Yaşı Testi Nasıl Çalışır",
-        "text1": "Test, dünya görüşünüz, değerleriniz ve içgüdüleriniz hakkında 12 düşündürücü soru sunar.",
-        "heading2": "Ruh Yaşı Seviyelerini Anlamak",
-        "text2": "Ruh yaşı kavramı ruhani felsefeden gelir. Bu test eğlence ve öz-yansıtma içindir."
+    "q12": {
+      "text": "Zamanla ilişkiniz nasıl?",
+      "a": "YOLO — anı yaşa",
+      "b": "Zaman paradır — akıllıca kullan",
+      "c": "Zaman döngüseldir — ne giderse döner",
+      "d": "Zaman bir yanılsamadır — tüm anlar aynı anda vardır"
     }
+  },
+  "tiers": {
+    "infant": {
+      "name": "Bebek Ruh",
+      "emoji": "👶",
+      "age": "~500 yıl",
+      "desc": "Ruhunuz taze ve yeni! Hayatı saf heyecan ve merakla deneyimliyorsunuz. Her şey bir macera ve korkusuz merakla dünyaya dalıyorsunuz."
+    },
+    "young": {
+      "name": "Genç Ruh",
+      "emoji": "⚡",
+      "age": "~3.000 yıl",
+      "desc": "Ruhunuz hırslı ve kararlı. Kendinizi kanıtlamak ve dünyada iz bırakmak için buradasınız. Başarı, kazanım ve tanınma ateşinizi körükler."
+    },
+    "mature": {
+      "name": "Olgun Ruh",
+      "emoji": "🌿",
+      "age": "~10.000 yıl",
+      "desc": "Ruhunuz pek çok yaşam geçirmiş. Derin bağlantılar arıyorsunuz, karmaşık duyguları anlıyorsunuz ve maddi başarıdan çok kişisel gelişime değer veriyorsunuz."
+    },
+    "old": {
+      "name": "Yaşlı Ruh",
+      "emoji": "🦉",
+      "age": "~35.000 yıl",
+      "desc": "Ruhunuz kadim bilgelik taşıyor. Büyük resmi görüyorsunuz, hırstan çok huzura değer veriyorsunuz ve bu modern dünyaya tam olarak ait hissetmiyorsunuz."
+    },
+    "transcendent": {
+      "name": "Aşkın Ruh",
+      "emoji": "✨",
+      "age": "~100.000+ yıl",
+      "desc": "Ruhunuz dünyadaki yolculuğunun sonuna yaklaşıyor. Dünyalar arasında var oluyorsunuz, yanılsamaların ötesini görüyorsunuz ve başkalarının hissedebileceği bir huzur yayıyorsunuz."
+    }
+  },
+  "result": {
+    "title": "Ruh Yaşınız",
+    "years": "yaşında",
+    "timeline": "Ruh Yaşı Zaman Çizelgesi",
+    "you": "SİZ",
+    "retake": "Tekrar Yap",
+    "moreTests": "Daha Fazla Test",
+    "percentileStat": "Sadece <strong>{percent}%</strong> kişi aynı ruh yaşı seviyesini aldı"
+  },
+  "related": {
+    "mentalAge": "Zihinsel Yaş",
+    "emotionalAge": "Duygusal Yaş",
+    "auraReading": "Aura Okuma",
+    "pastLife": "Geçmiş Yaşam",
+    "futureSelf": "Gelecekteki Ben",
+    "shadowWork": "Gölge Çalışması",
+    "dailyTarot": "Günlük Tarot"
+  },
+  "share": {
+    "title": "Ruh Yaşınızı Paylaşın",
+    "text": "Ruhum {age} yaşında! Ben \"{tier}\" 🔮 Ruhunun yaşını keşfet:",
+    "twitter": "X'te Paylaş",
+    "copyUrl": "Linki Kopyala",
+    "copied": "Kopyalandı!"
+  },
+  "nav": {
+    "back": "DopaBrain Ana Sayfa"
+  },
+  "engage": {
+    "result1": "Bebek Ruh -- ~500 yıl, Saf Merak",
+    "result2": "Genç Ruh -- ~3.000 yıl, Hırslı Ateş",
+    "result3": "Yaşlı Ruh -- ~35.000 yıl, Kadim Bilgelik",
+    "result4": "Aşkın -- ~100.000+ yıl, Dünyaların Ötesinde",
+    "socialProof": "1.490+ kişi ruh yaşını keşfetti"
+  },
+  "about": {
+    "toggle": "Ruh Yaşı Testi Hakkında",
+    "heading1": "Ruh Yaşı Testi Nasıl Çalışır",
+    "text1": "Test, dünya görüşünüz, değerleriniz ve içgüdüleriniz hakkında 12 düşündürücü soru sunar.",
+    "heading2": "Ruh Yaşı Seviyelerini Anlamak",
+    "text2": "Ruh yaşı kavramı ruhani felsefeden gelir. Bu test eğlence ve öz-yansıtma içindir."
+  }
 }
