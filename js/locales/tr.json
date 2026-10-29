@@ -10,7 +10,8 @@
     "title": "Ruhunuz Kaç Yaşında? - Ruh Yaşı Testi",
     "subtitle": "Ruhunuz kaç yaşında?",
     "description": "12 derin soruyu cevaplayarak ruhunuzun gerçek yaşını keşfedin. Yeni bir ruh musunuz yoksa kadim aşkın bir varlık mı?",
-    "start": "Ruh Yaşımı Keşfet - Ücretsiz"
+    "start": "Ruh Yaşımı Keşfet - Ücretsiz",
+    "badge": "12 Derin Soru · Öz-Düşünüm · %100 Gizli"
   },
   "quiz": {
     "progress": "{current} / {total}"
@@ -140,7 +141,7 @@
     "you": "SİZ",
     "retake": "Tekrar Yap",
     "moreTests": "Daha Fazla Test",
-    "percentileStat": "Sadece <strong>{percent}%</strong> kişi aynı ruh yaşı seviyesini aldı"
+    "reflectionNote": "Arketipik ruh perspektiflerine dayalı eğitici öz-düşünüm. Klinik bir teşhis değildir."
   },
   "related": {
     "mentalAge": "Zihinsel Yaş",
@@ -165,8 +166,7 @@
     "result1": "Bebek Ruh -- ~500 yıl, Saf Merak",
     "result2": "Genç Ruh -- ~3.000 yıl, Hırslı Ateş",
     "result3": "Yaşlı Ruh -- ~35.000 yıl, Kadim Bilgelik",
-    "result4": "Aşkın -- ~100.000+ yıl, Dünyaların Ötesinde",
-    "socialProof": "1.490+ kişi ruh yaşını keşfetti"
+    "result4": "Aşkın -- ~100.000+ yıl, Dünyaların Ötesinde"
   },
   "about": {
     "toggle": "Ruh Yaşı Testi Hakkında",

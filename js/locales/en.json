@@ -10,7 +10,8 @@
     "title": "How Old Is Your Soul? - Soul Age Test",
     "subtitle": "How old is your soul?",
     "description": "Answer 12 deep questions to discover your soul's true age. Are you a fresh new soul or an ancient transcendent being?",
-    "start": "Discover My Soul Age - Free"
+    "start": "Discover My Soul Age - Free",
+    "badge": "12 Deep Questions · Self-Reflection · 100% Private"
   },
   "quiz": {
     "progress": "{current} / {total}"
@@ -140,7 +141,7 @@
     "you": "YOU",
     "retake": "Retake Test",
     "moreTests": "Explore More Tests",
-    "percentileStat": "Only <strong>{percent}%</strong> of people share this soul age tier"
+    "reflectionNote": "Educational self-reflection based on archetypal soul perspectives. Not a clinical diagnosis."
   },
   "related": {
     "mentalAge": "Mental Age",
@@ -162,8 +163,7 @@
     "result1": "Infant Soul -- ~500 years, Pure Wonder",
     "result2": "Young Soul -- ~3,000 years, Ambitious Fire",
     "result3": "Old Soul -- ~35,000 years, Ancient Wisdom",
-    "result4": "Transcendent -- ~100K+ years, Beyond Worlds",
-    "socialProof": "1,490+ souls discovered their age"
+    "result4": "Transcendent -- ~100K+ years, Beyond Worlds"
   },
   "about": {
     "toggle": "About the Soul Age Test",

@@ -10,7 +10,8 @@
     "title": "Quantos anos tem a sua alma? - Teste de Idade da Alma",
     "subtitle": "Quantos anos tem a sua alma?",
     "description": "Responda 12 perguntas profundas para descobrir a verdadeira idade da sua alma. Você é uma alma nova ou um ser transcendente antigo?",
-    "start": "Descobrir minha idade da alma - Grátis"
+    "start": "Descobrir minha idade da alma - Grátis",
+    "badge": "12 Perguntas Profundas · Auto-Reflexão · 100% Privado"
   },
   "quiz": {
     "progress": "{current} / {total}"
@@ -140,7 +141,7 @@
     "you": "VOCÊ",
     "retake": "Refazer Teste",
     "moreTests": "Explore Mais Testes",
-    "percentileStat": "Apenas <strong>{percent}%</strong> das pessoas compartilham este nível de idade da alma"
+    "reflectionNote": "Auto-reflexão educativa baseada em perspectivas arquetípicas. Não é um diagnóstico clínico."
   },
   "related": {
     "mentalAge": "Idade Mental",
@@ -165,8 +166,7 @@
     "result1": "Alma Infantil -- ~500 anos, Maravilha Pura",
     "result2": "Alma Jovem -- ~3.000 anos, Fogo Ambicioso",
     "result3": "Alma Velha -- ~35.000 anos, Sabedoria Ancestral",
-    "result4": "Transcendental -- ~100.000+ anos, Além dos Mundos",
-    "socialProof": "1.490+ almas descobriram sua idade"
+    "result4": "Transcendental -- ~100.000+ anos, Além dos Mundos"
   },
   "about": {
     "toggle": "Sobre o Teste de Idade da Alma",

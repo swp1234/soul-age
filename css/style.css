@@ -1037,6 +1037,7 @@ header {
 }
 
 /* ===== Percentile Stat ===== */
+.reflection-note,
 .percentile-stat {
   color: var(--text-muted);
   font-size: 0.9rem;
@@ -1385,6 +1386,7 @@ footer a:hover {
 }
 
 /* ===== ENGAGEMENT: Social Proof Badge ===== */
+.methodology-badge,
 .social-proof-badge {
     display: inline-flex;
     align-items: center;

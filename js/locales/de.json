@@ -10,7 +10,8 @@
     "title": "Wie alt ist deine Seele? - Seelenalter-Test",
     "subtitle": "Wie alt ist deine Seele?",
     "description": "Beantworte 12 tiefgründige Fragen, um das wahre Alter deiner Seele zu entdecken. Bist du eine neue Seele oder ein uraltes transzendentes Wesen?",
-    "start": "Mein Seelenalter entdecken - Kostenlos"
+    "start": "Mein Seelenalter entdecken - Kostenlos",
+    "badge": "12 Tiefgründige Fragen · Selbstreflexion · 100% Privat"
   },
   "quiz": {
     "progress": "{current} / {total}"
@@ -140,7 +141,7 @@
     "you": "DU",
     "retake": "Erneut testen",
     "moreTests": "Mehr Tests entdecken",
-    "percentileStat": "Nur <strong>{percent}%</strong> der Menschen teilen diese Seelenalter-Stufe"
+    "reflectionNote": "Pädagogische Selbstreflexion basierend auf archetypischen Seelenperspektiven. Keine klinische Diagnose."
   },
   "related": {
     "mentalAge": "Mentales Alter",
@@ -165,8 +166,7 @@
     "result1": "Säuglingsseele -- ~500 Jahre, Reines Staunen",
     "result2": "Junge Seele -- ~3.000 Jahre, Ehrgeiziges Feuer",
     "result3": "Alte Seele -- ~35.000 Jahre, Uralte Weisheit",
-    "result4": "Transzendent -- ~100.000+ Jahre, Jenseits der Welten",
-    "socialProof": "1.490+ Seelen entdeckten ihr Alter"
+    "result4": "Transzendent -- ~100.000+ Jahre, Jenseits der Welten"
   },
   "about": {
     "toggle": "Über den Seelenalter-Test",

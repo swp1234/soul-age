@@ -499,13 +499,12 @@
         // Timeline
         renderTimeline(tier);
 
-        // Percentile stat
-        var percentile = Math.floor(Math.random() * 15) + 3;
-        var percentileEl = $('percentileStat');
-        if (percentileEl) {
-            var pText = t('result.percentileStat', 'Only <strong>{percent}%</strong> of people share this soul age tier');
-            percentileEl.innerHTML = pText.replace('{percent}', percentile);
+                // Reflection note
+        var noteEl = $('reflectionNote');
+        if (noteEl) {
+            noteEl.textContent = t('result.reflectionNote', 'Educational self-reflection based on archetypal soul perspectives. Not a clinical diagnosis.');
         }
+        preserveLanguageLinks();
 
         // GA4 event
         if (typeof gtag === 'function') {
@@ -654,10 +653,25 @@
     }
 
     // --- Init ---
+    
+    // --- Preserve Language Links ---
+    function preserveLanguageLinks() {
+        var inst = getI18n();
+        var lang = (inst && inst.currentLang) || (new URLSearchParams(window.location.search).get('lang'));
+        if (!lang) return;
+        document.querySelectorAll('a[href^="/"]').forEach(function(a) {
+            var href = a.getAttribute('href');
+            if (href && !href.includes('lang=')) {
+                a.setAttribute('href', href + (href.includes('?') ? '&' : '?') + 'lang=' + encodeURIComponent(lang));
+            }
+        });
+    }
+
     function init() {
         initTheme();
         initLangSelector();
         bindEvents();
+        preserveLanguageLinks();
 
         var inst = getI18n();
         if (inst && typeof inst.loadTranslations === 'function') {

@@ -10,7 +10,8 @@
     "title": "Berapa Umur Jiwamu? - Tes Usia Jiwa",
     "subtitle": "Berapa usia jiwamu?",
     "description": "Jawab 12 pertanyaan mendalam untuk menemukan usia sejati jiwamu. Apakah kamu jiwa baru atau makhluk transenden kuno?",
-    "start": "Temukan Usia Jiwaku - Gratis"
+    "start": "Temukan Usia Jiwaku - Gratis",
+    "badge": "12 Pertanyaan Mendalam · Refleksi Diri · 100% Privat"
   },
   "quiz": {
     "progress": "{current} / {total}"
@@ -140,7 +141,7 @@
     "you": "KAMU",
     "retake": "Ulangi Tes",
     "moreTests": "Coba Tes Lainnya",
-    "percentileStat": "Hanya <strong>{percent}%</strong> orang yang mendapat tingkat usia jiwa yang sama"
+    "reflectionNote": "Refleksi diri edukatif berdasarkan perspektif arketipe jiwa. Bukan diagnosis klinis."
   },
   "related": {
     "mentalAge": "Usia Mental",
@@ -165,8 +166,7 @@
     "result1": "Jiwa Bayi -- ~500 tahun, Keajaiban Murni",
     "result2": "Jiwa Muda -- ~3.000 tahun, Api Ambisi",
     "result3": "Jiwa Tua -- ~35.000 tahun, Kebijaksanaan Kuno",
-    "result4": "Transenden -- ~100.000+ tahun, Melampaui Dunia",
-    "socialProof": "1.490+ jiwa menemukan usianya"
+    "result4": "Transenden -- ~100.000+ tahun, Melampaui Dunia"
   },
   "about": {
     "toggle": "Tentang Tes Usia Jiwa",

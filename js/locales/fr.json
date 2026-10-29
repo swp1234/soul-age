@@ -10,7 +10,8 @@
     "title": "Quel âge a votre âme ? - Test d’Âge de l’Âme",
     "subtitle": "Quel âge a votre âme ?",
     "description": "Répondez à 12 questions profondes pour découvrir le véritable âge de votre âme. Êtes-vous une âme nouvelle ou un être transcendant ancien ?",
-    "start": "Découvrir l’âge de mon âme - Gratuit"
+    "start": "Découvrir l’âge de mon âme - Gratuit",
+    "badge": "12 Questions Profondes · Auto-Réflexion · 100% Privé"
   },
   "quiz": {
     "progress": "{current} / {total}"
@@ -140,7 +141,7 @@
     "you": "VOUS",
     "retake": "Refaire le test",
     "moreTests": "Découvrir plus de tests",
-    "percentileStat": "Seulement <strong>{percent}%</strong> des gens partagent ce niveau d'âge de l'âme"
+    "reflectionNote": "Auto-réflexion éducative basée sur des perspectives archétypales. Pas un diagnostic clinique."
   },
   "related": {
     "mentalAge": "Âge Mental",
@@ -165,8 +166,7 @@
     "result1": "Âme Enfant -- ~500 ans, Émerveillement Pur",
     "result2": "Âme Jeune -- ~3 000 ans, Feu Ambitieux",
     "result3": "Vieille Âme -- ~35 000 ans, Sagesse Ancestrale",
-    "result4": "Transcendante -- ~100 000+ ans, Au-delà des Mondes",
-    "socialProof": "1 490+ âmes ont découvert leur âge"
+    "result4": "Transcendante -- ~100 000+ ans, Au-delà des Mondes"
   },
   "about": {
     "toggle": "À propos du Test d’Âge de l’Âme",
