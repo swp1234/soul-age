@@ -657,12 +657,28 @@
     // --- Preserve Language Links ---
     function preserveLanguageLinks() {
         var inst = getI18n();
-        var lang = (inst && inst.currentLang) || (new URLSearchParams(window.location.search).get('lang'));
+        var lang = (inst && inst.currentLang) || (new URLSearchParams(window.location.search).get('lang')) || 'ko';
         if (!lang) return;
         document.querySelectorAll('a[href^="/"]').forEach(function(a) {
-            var href = a.getAttribute('href');
-            if (href && !href.includes('lang=')) {
-                a.setAttribute('href', href + (href.includes('?') ? '&' : '?') + 'lang=' + encodeURIComponent(lang));
+            try {
+                var u = new URL(a.getAttribute('href'), window.location.origin);
+                u.searchParams.set('lang', lang);
+                u.searchParams.set('source', 'soul_age_result');
+                a.setAttribute('href', u.pathname + u.search);
+            } catch (e) {}
+
+            if (!a.dataset.trackedCta) {
+                a.dataset.trackedCta = 'true';
+                a.addEventListener('click', function() {
+                    if (typeof gtag === 'function') {
+                        gtag('event', 'content_cta_click', {
+                            cta_surface: 'soul_age_related',
+                            destination: a.getAttribute('href'),
+                            source: 'soul_age_result',
+                            lang: lang
+                        });
+                    }
+                });
             }
         });
     }
