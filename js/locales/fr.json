@@ -173,6 +173,18 @@
     "heading1": "Comment fonctionne le test",
     "text1": "Le test présente 12 questions sur votre vision du monde, vos valeurs et vos instincts. Chaque question propose 4 réponses.",
     "heading2": "Comprendre les niveaux d’âge de l’âme",
-    "text2": "Le concept d’âge de l’âme provient de la philosophie spirituelle. Ce test est destiné au divertissement et à l’introspection."
+    "text2": "Le concept d’âge de l’âme provient de la philosophie spirituelle. Ce test est destiné au divertissement et à l’introspection.",
+    "boundary": "Note éducative : Le test de l'âge de l'âme est un outil d'introspection inspiré de la psychologie transpersonnelle et ne constitue pas un diagnostic médical.",
+    "faqTitle": "Foire Aux Questions (FAQ)",
+    "faq1Q": "Q: Quels sont les 5 archétypes de l'âge de l'âme ?",
+    "faq1A": "A: Âme Nourrisson (survie), Âme Enfant (structure), Âme Jeune (ambition), Âme Mûre (empathie) et Âme Ancienne/Transcendante (sagesse universelle).",
+    "faq2Q": "Q: Comment les 12 questions évaluent-elles la maturité intérieure ?",
+    "faq2A": "A: Chaque situation teste vos réactions face à la solitude, au conflit et à l'empathie, révélant vos moteurs existentiels profonds.",
+    "faq3Q": "Q: L'âge de l'âme dépend-il de l'âge réel ou du QI ?",
+    "faq3A": "A: Non, aucunement. Il reflète une sensibilité existentielle distincte de l'âge biologique ou des aptitudes cognitives.",
+    "faq4Q": "Q: Mes réponses sont-elles enregistrées ?",
+    "faq4A": "A: Non, jamais. Toutes les données sont traitées exclusivement en local dans votre navigateur.",
+    "reviewDate": "Revue Éditoriale : Novembre 2026",
+    "reviewTeam": "Équipe Psychologie des Archétypes DopaBrain"
   }
 }

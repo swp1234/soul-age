@@ -173,6 +173,18 @@
     "heading1": "Wie der Test funktioniert",
     "text1": "Der Test präsentiert 12 nachdenkliche Fragen über Ihre Weltsicht, Werte und Instinkte. Jede Frage bietet 4 Antworten verschiedener Reifegrade.",
     "heading2": "Die Seelenalter-Stufen verstehen",
-    "text2": "Das Konzept des Seelenalters stammt aus der spirituellen Philosophie. Dieser Test dient der Unterhaltung und Selbstreflexion."
+    "text2": "Das Konzept des Seelenalters stammt aus der spirituellen Philosophie. Dieser Test dient der Unterhaltung und Selbstreflexion.",
+    "boundary": "Pädagogischer Hinweis: Der Seelenalter-Test ist ein Modell zur Selbstreflexion und ersetzt keine klinisch-psychologische Diagnostik.",
+    "faqTitle": "Häufig gestellte Fragen (FAQ)",
+    "faq1Q": "Q: Was sind die 5 Stufen des Seelenalters?",
+    "faq1A": "A: Säuglingsseele (Instinkt), Kindseele (Regeln), Junge Seele (Ehrgeiz), Reife Seele (Empathie) und Alte/Transzendente Seele (Weisheit & Gelassenheit).",
+    "faq2Q": "Q: Wie erfassen die 12 Fragen die innere Reife?",
+    "faq2A": "A: Situationen rund um Alleinsein, Konflikte und Werte enthüllen Ihre unbewussten psychologischen Entwicklungsprioritäten.",
+    "faq3Q": "Q: Hängt das Seelenalter mit dem biologischen Alter oder dem IQ zusammen?",
+    "faq3A": "A: Nein. Das Seelenalter beschreibt eine existenzielle Geisteshaltung unabhängig von Geburtsjahr oder kognitiver Leistungsfähigkeit.",
+    "faq4Q": "Q: Werden Antworten auf einem Server gespeichert?",
+    "faq4A": "A: Niemals. Die Auswertung läuft vollständig privat und lokal in Ihrem Webbrowser ab.",
+    "reviewDate": "Redaktionelle Prüfung: November 2026",
+    "reviewTeam": "DopaBrain Archetypen-Team"
   }
 }
