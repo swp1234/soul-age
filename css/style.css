@@ -67,9 +67,7 @@
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
-}
+html { scroll-behavior: smooth; overflow-x: hidden; max-width: 100%; }
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans KR', 'Noto Sans JP', 'Noto Sans SC', sans-serif;
@@ -517,8 +515,8 @@ header {
 }
 
 @keyframes cardSlideIn {
-  from { opacity: 0; transform: translateX(30px); }
-  to { opacity: 1; transform: translateX(0); }
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 .scenario-emoji {
@@ -1064,7 +1062,7 @@ header {
 
 .related-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 10px;
 }
 
@@ -1072,7 +1070,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 6px;
+  gap: 6px; min-width: 0; min-height: 48px; word-break: break-word;
   padding: 14px 8px;
   background: var(--glass-bg);
   border: 1px solid var(--border);

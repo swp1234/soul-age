@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title data-i18n="meta.title">How Old Is Your Soul? Free Soul Age Test | DopaBrain</title>
     <meta name="description" data-i18n="meta.description" content="Discover your soul's true age with 12 deep spiritual questions! Are you an Infant Soul (~500 yrs), Old Soul (~35K yrs), or Transcendent (~100K+ yrs)? Free test, instant results.">
-    <meta name="dateModified" content="2026-11-07">
+    <meta name="dateModified" content="2026-11-14">
     <meta name="robots" content="max-image-preview:large">
 
     <meta property="og:title" content="How Old Is Your Soul? | DopaBrain">
@@ -21,8 +21,8 @@
     <meta name="twitter:image" content="https://dopabrain.com/portal/img/og/soul-age.png">
 
     <link rel="canonical" href="https://dopabrain.com/soul-age/">
-    <link rel="alternate" hreflang="ko" href="https://dopabrain.com/soul-age/">
-    <link rel="alternate" hreflang="en" href="https://dopabrain.com/soul-age/?lang=en">
+    <link rel="alternate" hreflang="ko" href="https://dopabrain.com/soul-age/?lang=ko">
+    <link rel="alternate" hreflang="en" href="https://dopabrain.com/soul-age/">
     <link rel="alternate" hreflang="ja" href="https://dopabrain.com/soul-age/?lang=ja">
     <link rel="alternate" hreflang="zh" href="https://dopabrain.com/soul-age/?lang=zh">
     <link rel="alternate" hreflang="es" href="https://dopabrain.com/soul-age/?lang=es">
@@ -133,6 +133,19 @@
       ]
     }
     </script>
+    <script>
+    (function () {
+        var lang = new URLSearchParams(window.location.search).get('lang');
+        if (!lang) return;
+        var target = document.querySelector('link[rel="alternate"][hreflang="' + lang + '"]');
+        if (!target) return;
+        var canonical = document.querySelector('link[rel="canonical"]');
+        if (canonical) canonical.href = target.href;
+        var ogUrl = document.querySelector('meta[property="og:url"]');
+        if (ogUrl) ogUrl.content = target.href;
+        document.documentElement.lang = lang;
+    })();
+    </script>
 </head>
 <body>
     <a href="#main-content" class="skip-link" data-i18n="a11y.skip">Skip to content</a>
@@ -144,7 +157,7 @@
     </button>
 
     <div class="lang-selector">
-        <button class="lang-btn" id="langBtn" aria-label="Language">&#127760; <span id="currentLang">&#54620;&#44397;&#50612;</span></button>
+        <button class="lang-btn" id="langBtn" aria-label="Language">&#127760; <span id="currentLang">English</span></button>
         <div class="lang-dropdown" id="langDropdown" role="menu">
             <button class="lang-option" data-lang="ko" role="menuitem">&#127472;&#127479; &#54620;&#44397;&#50612;</button>
             <button class="lang-option" data-lang="en" role="menuitem">&#127482;&#127480; English</button>

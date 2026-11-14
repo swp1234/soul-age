@@ -301,6 +301,7 @@
                         if (currentLangLabel) {
                             currentLangLabel.textContent = langNames[lang] || lang;
                         }
+                        preserveLanguageLinks();
                         refreshCurrentView();
                     }).catch(function() {});
                 }
@@ -562,6 +563,12 @@
         });
     }
 
+    function getShareUrl() {
+        var inst = getI18n();
+        var lang = (inst && inst.currentLang) || (new URLSearchParams(window.location.search).get('lang')) || 'en';
+        return 'https://dopabrain.com/soul-age/' + (lang && lang !== 'en' ? '?lang=' + encodeURIComponent(lang) : '');
+    }
+
     // --- Share: Twitter ---
     function shareTwitter() {
         var tier = getTier(totalScore);
@@ -571,7 +578,7 @@
             age: formatAge(soulAge),
             tier: tierLabel
         });
-        var url = 'https://dopabrain.com/soul-age/';
+        var url = getShareUrl();
         window.open(
             'https://twitter.com/intent/tweet?text=' + encodeURIComponent(text) + '&url=' + encodeURIComponent(url),
             '_blank',
@@ -584,7 +591,7 @@
 
     // --- Share: Copy URL ---
     function copyUrl() {
-        var url = 'https://dopabrain.com/soul-age/';
+        var url = getShareUrl();
         if (navigator.clipboard && navigator.clipboard.writeText) {
             navigator.clipboard.writeText(url).then(function() {
                 showCopiedFeedback();
@@ -657,7 +664,7 @@
     // --- Preserve Language Links ---
     function preserveLanguageLinks() {
         var inst = getI18n();
-        var lang = (inst && inst.currentLang) || (new URLSearchParams(window.location.search).get('lang')) || 'ko';
+        var lang = (inst && inst.currentLang) || (new URLSearchParams(window.location.search).get('lang')) || 'en';
         if (!lang) return;
         document.querySelectorAll('a[href^="/"]').forEach(function(a) {
             try {
@@ -698,6 +705,7 @@
                 if (currentLangLabel) {
                     currentLangLabel.textContent = langNames[inst.currentLang] || inst.currentLang;
                 }
+                preserveLanguageLinks();
                 hideLoader();
             }).catch(function() {
                 hideLoader();

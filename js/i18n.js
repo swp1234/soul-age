@@ -33,16 +33,46 @@ class I18n {
         for (const k of keys) { if (v && v[k] !== undefined) v = v[k]; else return key; }
         return v;
     }
+    getSeoHref(lang) {
+        const alternateLinks = document.querySelectorAll('link[rel="alternate"][hreflang]');
+        const hrefMap = {};
+        alternateLinks.forEach(link => {
+            const hreflang = link.getAttribute('hreflang');
+            if (hreflang) hrefMap[hreflang] = link.href;
+        });
+        return hrefMap[lang] || hrefMap['x-default'] || (document.querySelector('link[rel="canonical"]') || {}).href || window.location.href;
+    }
+    syncSeoState(lang, updateHistory = false) {
+        const currentUrl = new URL(window.location.href);
+        const hasLangParam = currentUrl.searchParams.has('lang');
+        const targetHref = this.getSeoHref(updateHistory || hasLangParam ? lang : 'x-default');
+        if (targetHref) {
+            const canonical = document.querySelector('link[rel="canonical"]');
+            if (canonical) canonical.href = targetHref;
+            const ogUrl = document.querySelector('meta[property="og:url"]');
+            if (ogUrl) ogUrl.content = targetHref;
+        }
+        if (updateHistory && targetHref) {
+            const nextUrl = new URL(targetHref);
+            nextUrl.hash = currentUrl.hash;
+            if (currentUrl.pathname !== nextUrl.pathname || currentUrl.search !== nextUrl.search || currentUrl.hash !== nextUrl.hash) {
+                window.history.replaceState({}, '', nextUrl.pathname + nextUrl.search + nextUrl.hash);
+            }
+        }
+    }
     async setLanguage(lang) {
         if (!this.supportedLanguages.includes(lang)) return false;
         if (!this.translations[lang]) await this.loadTranslations(lang);
         this.currentLang = lang;
-        localStorage.setItem('app_language', lang);
+        try { localStorage.setItem('app_language', lang); } catch (e) {}
         document.documentElement.lang = lang;
         this.updateUI();
+        this.syncSeoState(lang, true);
         return true;
     }
     updateUI() {
+        document.documentElement.lang = this.currentLang;
+        this.syncSeoState(this.currentLang, false);
         document.querySelectorAll('[data-i18n]').forEach(el => {
             const val = this.t(el.getAttribute('data-i18n'));
             if (val !== el.getAttribute('data-i18n')) el.textContent = val;
