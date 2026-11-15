@@ -150,7 +150,10 @@
     "pastLife": "전생 테스트",
     "futureSelf": "10년 후의 나",
     "hspTest": "HSP 민감성 테스트",
-    "dailyTarot": "오늘의 타로"
+    "dailyTarot": "오늘의 타로",
+    "animalPersonality": "동물 성격 테스트",
+    "loveLanguage": "사랑의 언어",
+    "dreamFortune": "꿈 해몽 운세"
   },
   "share": {
     "title": "영혼 나이 공유하기",

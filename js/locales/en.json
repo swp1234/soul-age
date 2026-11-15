@@ -150,7 +150,10 @@
     "pastLife": "Past Life",
     "futureSelf": "Future Self",
     "hspTest": "HSP Sensitivity",
-    "dailyTarot": "Daily Tarot"
+    "dailyTarot": "Daily Tarot",
+    "animalPersonality": "Animal Personality",
+    "loveLanguage": "Love Language",
+    "dreamFortune": "Dream Fortune"
   },
   "share": {
     "title": "Share Your Soul Age",

@@ -150,7 +150,10 @@
     "pastLife": "Vie Antérieure",
     "futureSelf": "Moi du Futur",
     "hspTest": "Sensibilité HSP",
-    "dailyTarot": "Tarot du Jour"
+    "dailyTarot": "Tarot du Jour",
+    "animalPersonality": "Personnalité Animale",
+    "loveLanguage": "Langage Amour",
+    "dreamFortune": "Rêves"
   },
   "share": {
     "title": "Partagez l'âge de votre âme",

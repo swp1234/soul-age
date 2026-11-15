@@ -150,7 +150,10 @@
     "pastLife": "Прошлая жизнь",
     "futureSelf": "Будущее Я",
     "hspTest": "Тест на чувствительность",
-    "dailyTarot": "Таро дня"
+    "dailyTarot": "Таро дня",
+    "animalPersonality": "Животный психотип",
+    "loveLanguage": "Языки любви",
+    "dreamFortune": "Сонник"
   },
   "share": {
     "title": "Поделитесь возрастом души",

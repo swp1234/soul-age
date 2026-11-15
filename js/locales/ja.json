@@ -150,7 +150,10 @@
     "pastLife": "前世診断",
     "futureSelf": "10年後の自分",
     "hspTest": "HSP 繊細さ診断",
-    "dailyTarot": "今日のタロット"
+    "dailyTarot": "今日のタロット",
+    "animalPersonality": "動物性格診断",
+    "loveLanguage": "愛の言語",
+    "dreamFortune": "夢占い"
   },
   "share": {
     "title": "魂の年齢をシェア",
