@@ -198,6 +198,8 @@
     var retakeBtn = $('retakeBtn');
     var shareTwitterBtn = $('shareTwitter');
     var shareCopyBtn = $('shareCopy');
+    var downloadCardBtn = $('downloadCardBtn');
+    var quizCompleteTracked = false;
     var themeToggle = $('themeToggle');
     var themeIcon = $('themeIcon');
     var langBtn = $('langBtn');
@@ -330,11 +332,13 @@
         totalScore = 0;
         answers = [];
         isTransitioning = false;
+        quizCompleteTracked = false;
         showScreen(quizScreen);
         renderQuestion();
 
         if (typeof gtag === 'function') {
             gtag('event', 'quiz_start', { event_category: 'soul-age' });
+            gtag('event', 'test_start', { app_name: 'soul-age', content_type: 'soul_age_quiz' });
         }
     }
 
@@ -507,12 +511,16 @@
         }
         preserveLanguageLinks();
 
-        // GA4 event
-        if (typeof gtag === 'function') {
+        // GA4 event (clean telemetry without numeric score leak)
+        if (typeof gtag === 'function' && !quizCompleteTracked) {
+            quizCompleteTracked = true;
             gtag('event', 'quiz_complete', {
                 event_category: 'soul-age',
-                event_label: tier.key,
-                value: soulAge
+                event_label: tier.key
+            });
+            gtag('event', 'test_complete', {
+                app_name: 'soul-age',
+                result_type: tier.key
             });
         }
     }
@@ -566,7 +574,81 @@
     function getShareUrl() {
         var inst = getI18n();
         var lang = (inst && inst.currentLang) || (new URLSearchParams(window.location.search).get('lang')) || 'en';
-        return 'https://dopabrain.com/soul-age/' + (lang && lang !== 'en' ? '?lang=' + encodeURIComponent(lang) : '');
+        return 'https://dopabrain.com/soul-age/?lang=' + encodeURIComponent(lang) + '&utm_source=share';
+    }
+
+    function downloadStoryCard() {
+        var tier = getTier(totalScore);
+        var soulAge = calculateSoulAge(totalScore);
+        var tierLabel = t('tiers.' + tier.key + '.name', tier.key);
+        var tierDescText = t('tiers.' + tier.key + '.desc', '');
+        var yearsLabel = t('result.years', 'years old');
+        var canvas = document.createElement('canvas');
+        canvas.width = 1080;
+        canvas.height = 1920;
+        var ctx = canvas.getContext('2d');
+        var grad = ctx.createLinearGradient(0, 0, 1080, 1920);
+        grad.addColorStop(0, '#09061a');
+        grad.addColorStop(0.55, '#1e1038');
+        grad.addColorStop(1, '#0c0b22');
+        ctx.fillStyle = grad;
+        ctx.fillRect(0, 0, 1080, 1920);
+
+        ctx.fillStyle = 'rgba(139, 92, 246, 0.16)';
+        ctx.beginPath();
+        ctx.arc(540, 560, 320, 0, Math.PI * 2);
+        ctx.fill();
+
+        ctx.fillStyle = '#c4b5fd';
+        ctx.font = 'bold 34px sans-serif';
+        ctx.textAlign = 'center';
+        ctx.fillText('DOPABRAIN · SOUL AGE PROFILE', 540, 210);
+
+        ctx.font = '150px sans-serif';
+        ctx.fillText(tier.emoji || '🔮', 540, 490);
+
+        ctx.fillStyle = tier.color || '#a78bfa';
+        ctx.font = 'bold 116px sans-serif';
+        ctx.fillText(formatAge(soulAge) + ' ' + yearsLabel, 540, 660);
+
+        ctx.fillStyle = '#ffffff';
+        ctx.font = 'bold 54px sans-serif';
+        ctx.fillText(tierLabel, 540, 770);
+
+        ctx.fillStyle = '#cbd5e1';
+        ctx.font = '32px sans-serif';
+        var words = tierDescText.split(' '), line = '', y = 890;
+        for (var i = 0; i < words.length; i++) {
+            var test = line ? (line + ' ' + words[i]) : words[i];
+            if (ctx.measureText(test).width > 860 && line) {
+                ctx.fillText(line, 540, y);
+                line = words[i];
+                y += 48;
+                if (y > 1520) break;
+            } else {
+                line = test;
+            }
+        }
+        if (line && y <= 1560) ctx.fillText(line, 540, y);
+
+        ctx.fillStyle = '#94a3b8';
+        ctx.font = 'bold 30px sans-serif';
+        ctx.fillText('dopabrain.com/soul-age/', 540, 1760);
+
+        try {
+            var a = document.createElement('a');
+            a.download = 'soul-age-' + tier.key + '.png';
+            a.href = canvas.toDataURL('image/png');
+            a.click();
+        } catch (e) {}
+
+        if (typeof gtag === 'function') {
+            gtag('event', 'save_image', {
+                app_name: 'soul-age',
+                result_type: tier.key,
+                save_surface: 'result_story_1080x1920'
+            });
+        }
     }
 
     // --- Share: Twitter ---
@@ -657,11 +739,15 @@
         if (shareCopyBtn) {
             shareCopyBtn.addEventListener('click', copyUrl);
         }
+
+        if (downloadCardBtn) {
+            downloadCardBtn.addEventListener('click', downloadStoryCard);
+        }
     }
 
     // --- Init ---
     
-    // --- Preserve Language Links ---
+    // --- Preserve Language Links & Curated Reading ---
     function preserveLanguageLinks() {
         var inst = getI18n();
         var lang = (inst && inst.currentLang) || (new URLSearchParams(window.location.search).get('lang')) || 'en';
@@ -677,12 +763,43 @@
             if (!a.dataset.trackedCta) {
                 a.dataset.trackedCta = 'true';
                 a.addEventListener('click', function() {
+                    var activeLang = (getI18n() && getI18n().currentLang) || lang;
                     if (typeof gtag === 'function') {
                         gtag('event', 'content_cta_click', {
                             cta_surface: 'soul_age_related',
                             destination: a.getAttribute('href'),
                             source: 'soul_age_result',
-                            lang: lang
+                            lang: activeLang
+                        });
+                    }
+                });
+            }
+        });
+
+        var stores = { de: 'www.amazon.de', fr: 'www.amazon.fr', es: 'www.amazon.es', ja: 'www.amazon.co.jp', ko: 'www.amazon.com' };
+        var host = stores[lang] || 'www.amazon.com';
+        var curatedUrls = {
+            untetheredSoul: 'https://' + host + '/dp/1572245379?tag=dopabrain-20',
+            journeyOfSouls: 'https://' + host + '/dp/1567184855?tag=dopabrain-20'
+        };
+        document.querySelectorAll('#curated-resources-card .curated-item').forEach(function(link) {
+            var key = link.getAttribute('data-curated-key');
+            if (curatedUrls[key]) link.setAttribute('href', curatedUrls[key]);
+            if (!link.dataset.trackedCurated) {
+                link.dataset.trackedCurated = 'true';
+                link.addEventListener('click', function() {
+                    var activeLang = (getI18n() && getI18n().currentLang) || lang;
+                    if (typeof gtag === 'function') {
+                        gtag('event', 'curated_resource_click', {
+                            app_name: 'soul-age',
+                            resource_key: key,
+                            content_locale: activeLang,
+                            cta_surface: 'curated_resources'
+                        });
+                        gtag('event', 'content_cta_click', {
+                            cta_type: 'curated_book',
+                            destination: link.getAttribute('href'),
+                            source: 'soul_age'
                         });
                     }
                 });

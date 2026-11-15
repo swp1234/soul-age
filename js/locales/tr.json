@@ -150,14 +150,15 @@
     "pastLife": "Geçmiş Yaşam",
     "futureSelf": "Gelecekteki Ben",
     "hspTest": "HSP Hassasiyet",
-    "auraScore": "Aura Puanı"
+    "dailyTarot": "Günlük Tarot"
   },
   "share": {
     "title": "Ruh Yaşınızı Paylaşın",
     "text": "Ruhum {age} yaşında! Ben \"{tier}\" 🔮 Ruhunun yaşını keşfet:",
     "twitter": "X'te Paylaş",
     "copyUrl": "Linki Kopyala",
-    "copied": "Kopyalandı!"
+    "copied": "Kopyalandı!",
+    "downloadCard": "Sonuç Kartını Kaydet"
   },
   "nav": {
     "back": "DopaBrain Ana Sayfa"
@@ -186,5 +187,15 @@
     "faq4A": "A: Kesinlikle hayır. Tüm hesaplamalar güvenle sadece tarayıcınızda gerçekleşir.",
     "reviewDate": "Editöryal İnceleme: Kasım 2026",
     "reviewTeam": "DopaBrain Arketip Psikolojisi Ekibi"
+  },
+  "curated": {
+    "title": "Derin İçgörü İçin Önerilen Kitaplar",
+    "subtitle": "Bilinç, farkındalık ve yaşam amacını inceleyen klasik eserler.",
+    "book1Title": "Özgürleşen Ruh — Michael A. Singer",
+    "book1Desc": "İçsel farkındalık ve duygusal özgürlük üzerine sade bir başucu eseri",
+    "book2Title": "Ruhların Yolculuğu — Michael Newton",
+    "book2Desc": "Ruhsal olgunluk ve yaşam perspektifi üzerine felsefi vaka anlatıları",
+    "cta": "Kitabı İncele",
+    "disclosure": "Ortaklık bildirimi: Amazon İş Ortağı olarak uygun satın alımlardan gelir elde edebiliriz."
   }
 }

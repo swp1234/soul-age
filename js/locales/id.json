@@ -150,14 +150,15 @@
     "pastLife": "Kehidupan Sebelumnya",
     "futureSelf": "Diri Masa Depan",
     "hspTest": "Sensitivitas HSP",
-    "auraScore": "Skor Aura"
+    "dailyTarot": "Tarot Harian"
   },
   "share": {
     "title": "Bagikan Usia Jiwamu",
     "text": "Jiwaku berusia {age} tahun! Aku \"{tier}\" 🔮 Temukan usia jiwamu:",
     "twitter": "Bagikan di X",
     "copyUrl": "Salin Link",
-    "copied": "Tersalin!"
+    "copied": "Tersalin!",
+    "downloadCard": "Simpan Kartu Hasil"
   },
   "nav": {
     "back": "DopaBrain Beranda"
@@ -186,5 +187,15 @@
     "faq4A": "A: Tidak pernah. Seluruh pemrosesan dilakukan secara lokal dan privat di peramban Anda.",
     "reviewDate": "Tinjauan Redaksi: November 2026",
     "reviewTeam": "Tim Psikologi Arketipe DopaBrain"
+  },
+  "curated": {
+    "title": "Bacaan Pilihan untuk Refleksi Jiwa",
+    "subtitle": "Karya klasik seputar kesadaran diri, mindfulness, dan makna hidup.",
+    "book1Title": "The Untethered Soul — Michael A. Singer",
+    "book1Desc": "Eksplorasi jernih tentang kesadaran batin dan ketenangan emosional",
+    "book2Title": "Journey of Souls — Michael Newton",
+    "book2Desc": "Kisah filosofis mengenai kedewasaan jiwa dan perspektif kehidupan",
+    "cta": "Lihat Buku",
+    "disclosure": "Pengungkapan afiliasi: Sebagai Amazon Associate, DopaBrain dapat memperoleh komisi dari pembelian yang memenuhi syarat."
   }
 }

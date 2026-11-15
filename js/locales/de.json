@@ -150,14 +150,15 @@
     "pastLife": "Früheres Leben",
     "futureSelf": "Zukunfts-Ich",
     "hspTest": "HSP Hochsensibilität",
-    "auraScore": "Aura-Test"
+    "dailyTarot": "Tages-Tarot"
   },
   "share": {
     "title": "Teile dein Seelenalter",
     "text": "Meine Seele ist {age} Jahre alt! Ich bin eine \"{tier}\" 🔮 Entdecke dein Seelenalter:",
     "twitter": "Auf X teilen",
     "copyUrl": "Link kopieren",
-    "copied": "Kopiert!"
+    "copied": "Kopiert!",
+    "downloadCard": "Ergebniskarte Speichern"
   },
   "nav": {
     "back": "DopaBrain Startseite"
@@ -186,5 +187,15 @@
     "faq4A": "A: Niemals. Die Auswertung läuft vollständig privat und lokal in Ihrem Webbrowser ab.",
     "reviewDate": "Redaktionelle Prüfung: November 2026",
     "reviewTeam": "DopaBrain Archetypen-Team"
+  },
+  "curated": {
+    "title": "Buchempfehlungen zur Selbstreflexion",
+    "subtitle": "Klassiker über Bewusstsein, Achtsamkeit und persönliche Sinnfindung.",
+    "book1Title": "Die unbändige Seele — Michael A. Singer",
+    "book1Desc": "Klare Einführung in innere Achtsamkeit, Loslassen und emotionale Freiheit",
+    "book2Title": "Die Reisen der Seele — Michael Newton",
+    "book2Desc": "Philosophische Fallberichte über innere Reife und Lebensperspektiven",
+    "cta": "Buch ansehen",
+    "disclosure": "Affiliate-Hinweis: Als Amazon-Partner verdient DopaBrain an qualifizierten Verkäufen."
   }
 }

@@ -150,14 +150,15 @@
     "pastLife": "前世测试",
     "futureSelf": "未来的自己",
     "hspTest": "HSP 高敏感测试",
-    "auraScore": "气场能量测试"
+    "dailyTarot": "每日塔罗"
   },
   "share": {
     "title": "分享你的灵魂年龄",
     "text": "我的灵魂{age}岁！我是“{tier}” 🔮 来发现你的灵魂年龄：",
     "twitter": "分享到X",
     "copyUrl": "复制链接",
-    "copied": "已复制！"
+    "copied": "已复制！",
+    "downloadCard": "保存结果卡片"
   },
   "nav": {
     "back": "DopaBrain 首页"
@@ -186,5 +187,15 @@
     "faq4A": "A: 绝不。所有计算均在本地浏览器中即时完成，不会收集或上传至任何远程服务器。",
     "reviewDate": "内容审阅：2026年11月",
     "reviewTeam": "DopaBrain 原型心理学团队"
+  },
+  "curated": {
+    "title": "探索自我成长的推荐书单",
+    "subtitle": "围绕正念觉察、心灵成熟与生命意义的经典读物。",
+    "book1Title": "清醒地活（迈克尔·A·辛格）",
+    "book1Desc": "观察内在声音、练习情绪释怀与觉察成长的心灵经典",
+    "book2Title": "灵魂的旅程（迈克尔·牛顿）",
+    "book2Desc": "从超个人视角探讨生命阶段与灵魂成长故事的代表作",
+    "cta": "查看书籍",
+    "disclosure": "联盟披露：通过亚马逊联盟链接下单，我们可能会获得少额佣金支持。"
   }
 }

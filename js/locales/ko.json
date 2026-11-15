@@ -150,14 +150,15 @@
     "pastLife": "전생 테스트",
     "futureSelf": "10년 후의 나",
     "hspTest": "HSP 민감성 테스트",
-    "auraScore": "오라 점수 테스트"
+    "dailyTarot": "오늘의 타로"
   },
   "share": {
     "title": "영혼 나이 공유하기",
     "text": "내 영혼은 {age}살! 나는 \"{tier}\" 🔮 너도 알아봐:",
     "twitter": "X에 공유",
     "copyUrl": "링크 복사",
-    "copied": "복사됨!"
+    "copied": "복사됨!",
+    "downloadCard": "결과 카드 저장"
   },
   "engage": {
     "result1": "유아 영혼 -- ~500년, 순수한 경이로움",
@@ -186,5 +187,15 @@
   },
   "nav": {
     "back": "DopaBrain 홈"
+  },
+  "curated": {
+    "title": "내면의 성장을 위한 추천 도서",
+    "subtitle": "의식 성숙과 삶의 목적을 깊이 성찰하게 돕는 스테디셀러 인문·영성 도서입니다.",
+    "book1Title": "상처받지 않는 영혼 (마이클 A. 싱어)",
+    "book1Desc": "내면의 목소리를 관찰하고 집착을 내려놓는 의식 성장 고전",
+    "book2Title": "영혼들의 여행 (마이클 뉴턴)",
+    "book2Desc": "삶의 의미와 영적 성숙 단계를 다룬 초개인 심리학 사례집",
+    "cta": "도서 보기",
+    "disclosure": "이 링크는 Amazon 제휴 링크입니다. 구매 시 운영자에게 소정의 수수료가 지급될 수 있습니다."
   }
 }

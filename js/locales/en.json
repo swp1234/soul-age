@@ -150,14 +150,15 @@
     "pastLife": "Past Life",
     "futureSelf": "Future Self",
     "hspTest": "HSP Sensitivity",
-    "auraScore": "Aura Score"
+    "dailyTarot": "Daily Tarot"
   },
   "share": {
     "title": "Share Your Soul Age",
     "text": "My soul is {age} years old! I'm a \"{tier}\" 🔮 Discover your soul's age:",
     "twitter": "Share on X",
     "copyUrl": "Copy Link",
-    "copied": "Copied!"
+    "copied": "Copied!",
+    "downloadCard": "Save Story Card"
   },
   "engage": {
     "result1": "Infant Soul -- ~500 years, Pure Wonder",
@@ -186,5 +187,15 @@
   },
   "nav": {
     "back": "DopaBrain Home"
+  },
+  "curated": {
+    "title": "Curated Reading for Deeper Reflection",
+    "subtitle": "Classic works exploring consciousness, mindfulness, and life purpose.",
+    "book1Title": "The Untethered Soul — Michael A. Singer",
+    "book1Desc": "Lucid exploration of inner awareness, letting go, and emotional freedom",
+    "book2Title": "Journey of Souls — Michael Newton",
+    "book2Desc": "Philosophical case narratives exploring soul maturity and perspective",
+    "cta": "View Book",
+    "disclosure": "Affiliate disclosure: As an Amazon Associate, DopaBrain may earn from qualifying purchases."
   }
 }

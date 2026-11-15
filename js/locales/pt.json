@@ -150,14 +150,15 @@
     "pastLife": "Vida Passada",
     "futureSelf": "Eu do Futuro",
     "hspTest": "Sensibilidade HSP",
-    "auraScore": "Pontuação da Aura"
+    "dailyTarot": "Tarô Diário"
   },
   "share": {
     "title": "Compartilhe a Idade da Sua Alma",
     "text": "Minha alma tem {age} anos! Sou uma \"{tier}\" 🔮 Descubra a idade da sua alma:",
     "twitter": "Compartilhar no X",
     "copyUrl": "Copiar Link",
-    "copied": "Copiado!"
+    "copied": "Copiado!",
+    "downloadCard": "Salvar Cartão"
   },
   "nav": {
     "back": "DopaBrain Início"
@@ -186,5 +187,15 @@
     "faq4A": "A: De forma alguma. Todos os cálculos são executados com total privacidade no seu navegador.",
     "reviewDate": "Revisão Editorial: Novembro 2026",
     "reviewTeam": "Equipe de Psicologia Arquetípica DopaBrain"
+  },
+  "curated": {
+    "title": "Leituras para Reflexão Profunda",
+    "subtitle": "Obras clássicas sobre consciência, presença e propósito de vida.",
+    "book1Title": "A Alma Sem Limites — Michael A. Singer",
+    "book1Desc": "Exploração clara sobre presença interior, desapego e paz emocional",
+    "book2Title": "A Jornada das Almas — Michael Newton",
+    "book2Desc": "Relatos filosóficos sobre maturidade espiritual e sentido da vida",
+    "cta": "Ver Livro",
+    "disclosure": "Divulgação de afiliados: Como Associado da Amazon, o DopaBrain pode ganhar com compras qualificadas."
   }
 }

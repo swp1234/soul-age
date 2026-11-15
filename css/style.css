@@ -1464,3 +1464,85 @@ footer a:hover {
 .about-faq-q { display: block; font-size: 13px; font-weight: 600; color: var(--text); margin-bottom: 6px; }
 .about-faq-a { font-size: 12px !important; line-height: 1.6 !important; color: var(--text-dim) !important; margin: 0 !important; }
 .about-review-meta { font-size: 11px; color: var(--text-dim); opacity: 0.8; margin-top: 16px; padding-top: 12px; border-top: 1px solid var(--border); }
+
+.btn-download {
+  background: rgba(139, 92, 246, 0.14);
+  border: 1px solid rgba(139, 92, 246, 0.4);
+  color: var(--primary);
+}
+.btn-download:hover {
+  background: rgba(139, 92, 246, 0.24);
+}
+.curated-resources-card {
+  margin: 22px 0;
+  padding: 18px;
+  border-radius: 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  text-align: left;
+}
+.curated-resources-card h3 {
+  margin: 0 0 6px;
+  font-size: 16px;
+  color: var(--primary);
+}
+.curated-subtitle {
+  margin: 0 0 12px;
+  font-size: 13px;
+  color: var(--text-dim);
+  line-height: 1.5;
+}
+.curated-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.curated-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 14px;
+  min-height: 44px;
+  border-radius: 12px;
+  background: rgba(139, 92, 246, 0.08);
+  border: 1px solid var(--border);
+  color: var(--text);
+  text-decoration: none;
+  box-sizing: border-box;
+  transition: transform 0.2s, border-color 0.2s, background 0.2s;
+}
+.curated-item:hover {
+  border-color: var(--primary);
+  background: rgba(139, 92, 246, 0.16);
+  transform: translateY(-2px);
+}
+.curated-item-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+}
+.curated-item-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+.curated-item-desc {
+  font-size: 12px;
+  color: var(--text-dim);
+  line-height: 1.4;
+}
+.curated-item-cta {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--primary);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.curated-disclosure {
+  margin: 10px 0 0;
+  font-size: 11px;
+  color: var(--text-dim);
+  line-height: 1.4;
+}

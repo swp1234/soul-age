@@ -150,14 +150,15 @@
     "pastLife": "Vie Antérieure",
     "futureSelf": "Moi du Futur",
     "hspTest": "Sensibilité HSP",
-    "auraScore": "Score d'Aura"
+    "dailyTarot": "Tarot du Jour"
   },
   "share": {
     "title": "Partagez l'âge de votre âme",
     "text": "Mon âme a {age} ans ! Je suis une «{tier}» 🔮 Découvrez l'âge de votre âme :",
     "twitter": "Partager sur X",
     "copyUrl": "Copier le lien",
-    "copied": "Copié !"
+    "copied": "Copié !",
+    "downloadCard": "Enregistrer la Carte"
   },
   "nav": {
     "back": "DopaBrain Accueil"
@@ -186,5 +187,15 @@
     "faq4A": "A: Non, jamais. Toutes les données sont traitées exclusivement en local dans votre navigateur.",
     "reviewDate": "Revue Éditoriale : Novembre 2026",
     "reviewTeam": "Équipe Psychologie des Archétypes DopaBrain"
+  },
+  "curated": {
+    "title": "Lectures Recommandées pour l’Introspection",
+    "subtitle": "Ouvrages de référence sur la conscience intérieure, la pleine conscience et le sens de la vie.",
+    "book1Title": "L’Âme délivrée — Michael A. Singer",
+    "book1Desc": "Exploration limpide de la présence intérieure et de la liberté émotionnelle",
+    "book2Title": "Souvenirs de l’au-delà (Journey of Souls) — Michael Newton",
+    "book2Desc": "Récits philosophiques sur la maturité intérieure et le cheminement de vie",
+    "cta": "Voir le livre",
+    "disclosure": "Lien affilié : En tant que Partenaire Amazon, DopaBrain réalise un bénéfice sur les achats éligibles."
   }
 }

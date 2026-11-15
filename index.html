@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title data-i18n="meta.title">How Old Is Your Soul? Free Soul Age Test | DopaBrain</title>
     <meta name="description" data-i18n="meta.description" content="Discover your soul's true age with 12 deep spiritual questions! Are you an Infant Soul (~500 yrs), Old Soul (~35K yrs), or Transcendent (~100K+ yrs)? Free test, instant results.">
-    <meta name="dateModified" content="2026-11-14">
+    <meta name="dateModified" content="2026-11-15">
     <meta name="robots" content="max-image-preview:large">
 
     <meta property="og:title" content="How Old Is Your Soul? | DopaBrain">
@@ -244,12 +244,35 @@
                     <div class="share-section">
                         <h3 data-i18n="share.title">Share Your Soul Age</h3>
                         <div class="share-buttons">
+                            <button class="btn btn-share btn-download" id="downloadCardBtn" data-i18n="share.downloadCard">Save Story Card</button>
                             <button class="btn btn-share btn-twitter" id="shareTwitter" data-i18n="share.twitter">Share on X</button>
                             <button class="btn btn-share btn-copy" id="shareCopy" data-i18n="share.copyUrl">Copy Link</button>
                         </div>
                     </div>
 
                     <p class="reflection-note" id="reflectionNote" data-i18n="result.reflectionNote">Educational self-reflection based on archetypal soul perspectives. Not a clinical diagnosis.</p>
+
+                    <div class="curated-resources-card" id="curated-resources-card">
+                        <h3 data-i18n="curated.title">Curated Reading for Deeper Reflection</h3>
+                        <p class="curated-subtitle" data-i18n="curated.subtitle">Classic works exploring consciousness, mindfulness, and life purpose.</p>
+                        <div class="curated-list">
+                            <a href="https://www.amazon.com/dp/1572245379?tag=dopabrain-20" target="_blank" rel="noopener noreferrer sponsored" class="curated-item" data-curated-key="untetheredSoul">
+                                <div class="curated-item-meta">
+                                    <span class="curated-item-title" data-i18n="curated.book1Title">The Untethered Soul — Michael A. Singer</span>
+                                    <span class="curated-item-desc" data-i18n="curated.book1Desc">Lucid exploration of inner awareness, letting go, and emotional freedom</span>
+                                </div>
+                                <span class="curated-item-cta" data-i18n="curated.cta">View Book</span>
+                            </a>
+                            <a href="https://www.amazon.com/dp/1567184855?tag=dopabrain-20" target="_blank" rel="noopener noreferrer sponsored" class="curated-item" data-curated-key="journeyOfSouls">
+                                <div class="curated-item-meta">
+                                    <span class="curated-item-title" data-i18n="curated.book2Title">Journey of Souls — Michael Newton</span>
+                                    <span class="curated-item-desc" data-i18n="curated.book2Desc">Philosophical case narratives exploring soul maturity and perspective</span>
+                                </div>
+                                <span class="curated-item-cta" data-i18n="curated.cta">View Book</span>
+                            </a>
+                        </div>
+                        <p class="curated-disclosure" data-i18n="curated.disclosure">Affiliate disclosure: As an Amazon Associate, DopaBrain may earn from qualifying purchases.</p>
+                    </div>
 
                     <div class="related-tests">
                         <h3 data-i18n="result.moreTests">Explore More Tests</h3>
@@ -266,9 +289,9 @@
                                 <span class="related-emoji">&#127793;</span>
                                 <span class="related-name" data-i18n="related.hspTest">HSP Sensitivity</span>
                             </a>
-                            <a href="/aura-score/" class="related-card" style="--card-color: #f39c12">
-                                <span class="related-emoji">&#127775;</span>
-                                <span class="related-name" data-i18n="related.auraScore">Aura Score</span>
+                            <a href="/daily-tarot/" class="related-card" style="--card-color: #9b59b6">
+                                <span class="related-emoji">&#128302;</span>
+                                <span class="related-name" data-i18n="related.dailyTarot">Daily Tarot</span>
                             </a>
                         </div>
                     </div>
@@ -281,7 +304,7 @@
 
     <!-- About Section -->
     <section class="about-section collapsible-section" id="about-section">
-      <details>
+      <details open>
         <summary data-i18n="about.toggle">About the Soul Age Test</summary>
         <div class="about-content">
           <h2 data-i18n="about.heading1">How the Soul Age Test Works</h2>
