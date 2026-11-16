@@ -47,8 +47,6 @@ class I18n {
         const hasLangParam = currentUrl.searchParams.has('lang');
         const targetHref = this.getSeoHref(updateHistory || hasLangParam ? lang : 'x-default');
         if (targetHref) {
-            const canonical = document.querySelector('link[rel="canonical"]');
-            if (canonical) canonical.href = targetHref;
             const ogUrl = document.querySelector('meta[property="og:url"]');
             if (ogUrl) ogUrl.content = targetHref;
         }
