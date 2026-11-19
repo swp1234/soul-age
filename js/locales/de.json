@@ -200,5 +200,11 @@
     "book2Desc": "Philosophische Fallberichte über innere Reife und Lebensperspektiven",
     "cta": "Buch ansehen",
     "disclosure": "Affiliate-Hinweis: Als Amazon-Partner verdient DopaBrain an qualifizierten Verkäufen."
+  },
+  "nextStep": {
+    "label": "Empfohlener nächster Schritt",
+    "title": "Zukunfts-Ich in 10 Jahren",
+    "desc": "Verbinde deine Seelenperspektive mit langfristigen Prioritäten in 8 Fragen.",
+    "cta": "Zukunfts-Ich testen →"
   }
 }

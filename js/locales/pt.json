@@ -200,5 +200,11 @@
     "book2Desc": "Relatos filosóficos sobre maturidade espiritual e sentido da vida",
     "cta": "Ver Livro",
     "disclosure": "Divulgação de afiliados: Como Associado da Amazon, o DopaBrain pode ganhar com compras qualificadas."
+  },
+  "nextStep": {
+    "label": "Próximo passo recomendado",
+    "title": "Arquétipo do Eu Futuro",
+    "desc": "Conecte a idade da sua alma às suas prioridades e energia em 8 perguntas.",
+    "cta": "Explorar Eu Futuro →"
   }
 }

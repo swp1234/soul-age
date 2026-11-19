@@ -200,5 +200,11 @@
     "book2Desc": "Récits philosophiques sur la maturité intérieure et le cheminement de vie",
     "cta": "Voir le livre",
     "disclosure": "Lien affilié : En tant que Partenaire Amazon, DopaBrain réalise un bénéfice sur les achats éligibles."
+  },
+  "nextStep": {
+    "label": "Prochaine étape recommandée",
+    "title": "Archétype du Moi Futur (10 ans)",
+    "desc": "Reliez votre âge de l’âme à vos priorités long terme en 8 questions.",
+    "cta": "Explorer mon Moi Futur →"
   }
 }

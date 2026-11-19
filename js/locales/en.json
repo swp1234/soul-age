@@ -200,5 +200,11 @@
     "book2Desc": "Philosophical case narratives exploring soul maturity and perspective",
     "cta": "View Book",
     "disclosure": "Affiliate disclosure: As an Amazon Associate, DopaBrain may earn from qualifying purchases."
+  },
+  "nextStep": {
+    "label": "Recommended Next Step",
+    "title": "10-Year Future Self Archetype",
+    "desc": "Bridge your soul perspective with your long-term priorities and energy direction in 8 questions.",
+    "cta": "Explore Future Self →"
   }
 }

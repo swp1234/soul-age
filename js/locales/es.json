@@ -200,5 +200,11 @@
     "book2Desc": "Narrativas filosóficas sobre madurez existencial y perspectiva vital",
     "cta": "Ver Libro",
     "disclosure": "Divulgación de afiliados: Como Afiliado de Amazon, DopaBrain puede ganar ingresos por compras elegibles."
+  },
+  "nextStep": {
+    "label": "Siguiente paso recomendado",
+    "title": "Arquetipo de tu Yo Futuro",
+    "desc": "Conecta tu edad del alma con tus prioridades y energía a largo plazo en 8 preguntas.",
+    "cta": "Explorar Yo Futuro →"
   }
 }

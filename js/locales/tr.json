@@ -200,5 +200,11 @@
     "book2Desc": "Ruhsal olgunluk ve yaşam perspektifi üzerine felsefi vaka anlatıları",
     "cta": "Kitabı İncele",
     "disclosure": "Ortaklık bildirimi: Amazon İş Ortağı olarak uygun satın alımlardan gelir elde edebiliriz."
+  },
+  "nextStep": {
+    "label": "Önerilen Sonraki Adım",
+    "title": "10 Yıllık Gelecekteki Ben",
+    "desc": "Ruh yaşı içgörünü 8 soruda uzun vadeli önceliklerinle birleştir.",
+    "cta": "Gelecekteki Ben’i Keşfet →"
   }
 }
